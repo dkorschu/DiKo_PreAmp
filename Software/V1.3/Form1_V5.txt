@@ -1,0 +1,306 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Frequenzweiche_Test
+{
+    public partial class Form1 : Form
+    {
+        // Datei-Pfade zu den CSV-Dateien
+        private readonly string fgCsvFilePath1 = "fg_1.csv";
+        private readonly string digiCsvFilePath1 = "digi_1.csv";
+        private readonly string fgCsvFilePath2_SUB = "fg_2_SUB.csv";
+        private readonly string digiCsvFilePath2_SUB = "digi_2_SUB.csv";
+        private readonly string fgCsvFilePath2_KICK = "fg_2_KICK.csv";
+        private readonly string digiCsvFilePath2_KICK = "digi_2_KICK.csv";
+        private readonly string fgCsvFilePath3_KICK = "fg_3_KICK.csv";
+        private readonly string digiCsvFilePath3_KICK = "digi_3_KICK.csv";
+        private readonly string fgCsvFilePath3_MID = "fg_3_MID.csv";
+        private readonly string digiCsvFilePath3_MID = "digi_3_MID.csv";
+        private readonly string fgCsvFilePath4_MID = "fg_4_MID.csv";
+        private readonly string digiCsvFilePath4_MID = "digi_4_MID.csv";
+        private readonly string fgCsvFilePath4_HI = "fg_4_HI.csv";
+        private readonly string digiCsvFilePath4_HI = "digi_4_HI.csv";
+        private readonly string fgCsvFilePath5 = "fg_5.csv";
+        private readonly string digiCsvFilePath5 = "digi_5.csv";
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // ComboBox 1 - Auswahl für fg_1.csv und digi_1.csv
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedFrequency = comboBox1.SelectedItem?.ToString().Trim();
+
+            if (string.IsNullOrEmpty(selectedFrequency))
+            {
+                MessageBox.Show("Bitte wählen Sie eine Grenzfrequenz aus.", "Fehler");
+                return;
+            }
+
+            try
+            {
+                // Die Werte für fg_1.csv
+                var fgValues = GetFgValues(fgCsvFilePath1, selectedFrequency);
+
+                // Die Werte für digi_1.csv
+                var (closestValues, associatedValues) = GetClosestValues(digiCsvFilePath1, fgValues);
+
+                // Ergebnisse anzeigen
+                string message = $"Widerstandswerte für {selectedFrequency} Hz aus fg_1.csv:\n" +
+                                 $"R_1: {fgValues[0]:F2} Ω\nR_2: {fgValues[1]:F2} Ω\nR_3: {fgValues[2]:F2} Ω\nR_4: {fgValues[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_1.csv:\n" +
+                                 $"R_1: {closestValues[0]:F2} Ω (Wert: {associatedValues[0]})\n" +
+                                 $"R_2: {closestValues[1]:F2} Ω (Wert: {associatedValues[1]})\n" +
+                                 $"R_3: {closestValues[2]:F2} Ω (Wert: {associatedValues[2]})\n" +
+                                 $"R_4: {closestValues[3]:F2} Ω (Wert: {associatedValues[3]})";
+
+                MessageBox.Show(message, "Vergleich von Widerstandswerten für ComboBox1");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Fehler: {ex.Message}", "Fehler");
+            }
+        }
+
+        // ComboBox 2 - Auswahl für fg_2_SUB.csv, digi_2_SUB.csv, fg_2_KICK.csv und digi_2_KICK.csv
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedFrequency = comboBox2.SelectedItem?.ToString().Trim();
+
+            if (string.IsNullOrEmpty(selectedFrequency))
+            {
+                MessageBox.Show("Bitte wählen Sie eine Grenzfrequenz aus.", "Fehler");
+                return;
+            }
+
+            try
+            {
+                // Die Werte für fg_2_SUB.csv und digi_2_SUB.csv
+                var fgValuesSub = GetFgValues(fgCsvFilePath2_SUB, selectedFrequency);
+                var (closestValuesSub, associatedValuesSub) = GetClosestValues(digiCsvFilePath2_SUB, fgValuesSub);
+
+                // Die Werte für fg_2_KICK.csv und digi_2_KICK.csv
+                var fgValuesKick = GetFgValues(fgCsvFilePath2_KICK, selectedFrequency);
+                var (closestValuesKick, associatedValuesKick) = GetClosestValues(digiCsvFilePath2_KICK, fgValuesKick);
+
+                // Ergebnisse anzeigen
+                string message = $"Widerstandswerte für {selectedFrequency} Hz aus fg_2_SUB.csv:\n" +
+                                 $"R_5: {fgValuesSub[0]:F2} Ω\nR_6: {fgValuesSub[1]:F2} Ω\nR_7: {fgValuesSub[2]:F2} Ω\nR_8: {fgValuesSub[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_2_SUB.csv:\n" +
+                                 $"R_5: {closestValuesSub[0]:F2} Ω (Wert: {associatedValuesSub[0]})\n" +
+                                 $"R_6: {closestValuesSub[1]:F2} Ω (Wert: {associatedValuesSub[1]})\n" +
+                                 $"R_7: {closestValuesSub[2]:F2} Ω (Wert: {associatedValuesSub[2]})\n" +
+                                 $"R_8: {closestValuesSub[3]:F2} Ω (Wert: {associatedValuesSub[3]})\n\n" +
+                                 $"Widerstandswerte für {selectedFrequency} Hz aus fg_2_KICK.csv:\n" +
+                                 $"R_9: {fgValuesKick[0]:F2} Ω\nR_10: {fgValuesKick[1]:F2} Ω\nR_11: {fgValuesKick[2]:F2} Ω\nR_13: {fgValuesKick[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_2_KICK.csv:\n" +
+                                 $"R_9: {closestValuesKick[0]:F2} Ω (Wert: {associatedValuesKick[0]})\n" +
+                                 $"R_10: {closestValuesKick[1]:F2} Ω (Wert: {associatedValuesKick[1]})\n" +
+                                 $"R_11: {closestValuesKick[2]:F2} Ω (Wert: {associatedValuesKick[2]})\n" +
+                                 $"R_12: {closestValuesKick[3]:F2} Ω (Wert: {associatedValuesKick[3]})";
+
+                MessageBox.Show(message, "Vergleich von Widerstandswerten für ComboBox2 (SUB und KICK)");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Fehler: {ex.Message}", "Fehler");
+            }
+        }
+
+        // ComboBox 3 - Auswahl für fg_3_KICK.csv, digi_3_KICK.csv, fg_3_MID.csv und digi_3_KICK.csv
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedFrequency = comboBox3.SelectedItem?.ToString().Trim();
+
+            if (string.IsNullOrEmpty(selectedFrequency))
+            {
+                MessageBox.Show("Bitte wählen Sie eine Grenzfrequenz aus.", "Fehler");
+                return;
+            }
+
+            try
+            {
+                // Die Werte für fg_3_KICK.csv und digi_3_KICK.csv
+                var fgValuesKick3 = GetFgValues(fgCsvFilePath3_KICK, selectedFrequency);
+                var (closestValuesKick3, associatedValuesKick3) = GetClosestValues(digiCsvFilePath3_KICK, fgValuesKick3);
+
+                // Die Werte für fg_3_MID.csv und digi_3_MID.csv
+                var fgValuesMid3 = GetFgValues(fgCsvFilePath3_MID, selectedFrequency);
+                var (closestValuesMid3, associatedValuesMid3) = GetClosestValues(digiCsvFilePath3_MID, fgValuesMid3);
+
+                // Ergebnisse anzeigen
+                string message = $"Widerstandswerte für {selectedFrequency} Hz aus fg_3_KICK.csv:\n" +
+                                 $"R_1: {fgValuesKick3[0]:F2} Ω\nR_2: {fgValuesKick3[1]:F2} Ω\nR_3: {fgValuesKick3[2]:F2} Ω\nR_4: {fgValuesKick3[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_3_KICK.csv:\n" +
+                                 $"R_1: {closestValuesKick3[0]:F2} Ω (Wert: {associatedValuesKick3[0]})\n" +
+                                 $"R_2: {closestValuesKick3[1]:F2} Ω (Wert: {associatedValuesKick3[1]})\n" +
+                                 $"R_3: {closestValuesKick3[2]:F2} Ω (Wert: {associatedValuesKick3[2]})\n" +
+                                 $"R_4: {closestValuesKick3[3]:F2} Ω (Wert: {associatedValuesKick3[3]})\n\n" +
+                                 $"Widerstandswerte für {selectedFrequency} Hz aus fg_3_MID.csv:\n" +
+                                 $"R_5: {fgValuesMid3[0]:F2} Ω\nR_6: {fgValuesMid3[1]:F2} Ω\nR_7: {fgValuesMid3[2]:F2} Ω\nR_8: {fgValuesMid3[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_3_MID.csv:\n" +
+                                 $"R_5: {closestValuesMid3[0]:F2} Ω (Wert: {associatedValuesMid3[0]})\n" +
+                                 $"R_6: {closestValuesMid3[1]:F2} Ω (Wert: {associatedValuesMid3[1]})\n" +
+                                 $"R_7: {closestValuesMid3[2]:F2} Ω (Wert: {associatedValuesMid3[2]})\n" +
+                                 $"R_8: {closestValuesMid3[3]:F2} Ω (Wert: {associatedValuesMid3[3]})";
+
+                MessageBox.Show(message, "Vergleich von Widerstandswerten für ComboBox3 (KICK und MID)");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Fehler: {ex.Message}", "Fehler");
+            }
+        }
+        // ComboBox 4 - Auswahl für fg_4_MID.csv, digi_3_MID.csv, fg_4_HI.csv und digi_4_HI.csv
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedFrequency = comboBox4.SelectedItem?.ToString().Trim();
+
+            if (string.IsNullOrEmpty(selectedFrequency))
+            {
+                MessageBox.Show("Bitte wählen Sie eine Grenzfrequenz aus.", "Fehler");
+                return;
+            }
+
+            try
+            {
+                // Die Werte für fg_4_MID.csv und digi_4_MID.csv
+                var fgValuesMid4 = GetFgValues("fg_4_MID.csv", selectedFrequency);
+                var (closestValuesMid4, associatedValuesMid4) = GetClosestValues("digi_4_MID.csv", fgValuesMid4);
+
+                // Die Werte für fg_4_HI.csv und digi_4_HI.csv
+                var fgValuesHi4 = GetFgValues("fg_4_HI.csv", selectedFrequency);
+                var (closestValuesHi4, associatedValuesHi4) = GetClosestValues("digi_4_HI.csv", fgValuesHi4);
+
+                // Ergebnisse anzeigen
+                string message = $"Widerstandswerte für {selectedFrequency} Hz aus fg_4_MID.csv:\n" +
+                                 $"R_1: {fgValuesMid4[0]:F2} Ω\nR_2: {fgValuesMid4[1]:F2} Ω\nR_3: {fgValuesMid4[2]:F2} Ω\nR_4: {fgValuesMid4[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_4_MID.csv:\n" +
+                                 $"R_1: {closestValuesMid4[0]:F2} Ω (Wert: {associatedValuesMid4[0]})\n" +
+                                 $"R_2: {closestValuesMid4[1]:F2} Ω (Wert: {associatedValuesMid4[1]})\n" +
+                                 $"R_3: {closestValuesMid4[2]:F2} Ω (Wert: {associatedValuesMid4[2]})\n" +
+                                 $"R_4: {closestValuesMid4[3]:F2} Ω (Wert: {associatedValuesMid4[3]})\n\n" +
+                                 $"Widerstandswerte für {selectedFrequency} Hz aus fg_4_HI.csv:\n" +
+                                 $"R_1: {fgValuesHi4[0]:F2} Ω\nR_2: {fgValuesHi4[1]:F2} Ω\nR_3: {fgValuesHi4[2]:F2} Ω\nR_4: {fgValuesHi4[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_4_HI.csv:\n" +
+                                 $"R_1: {closestValuesHi4[0]:F2} Ω (Wert: {associatedValuesHi4[0]})\n" +
+                                 $"R_2: {closestValuesHi4[1]:F2} Ω (Wert: {associatedValuesHi4[1]})\n" +
+                                 $"R_3: {closestValuesHi4[2]:F2} Ω (Wert: {associatedValuesHi4[2]})\n" +
+                                 $"R_4: {closestValuesHi4[3]:F2} Ω (Wert: {associatedValuesHi4[3]})";
+
+                MessageBox.Show(message, "Vergleich von Widerstandswerten für ComboBox4 (MID und HI)");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Fehler: {ex.Message}", "Fehler");
+            }
+        }
+        // ComboBox 5 - Auswahl für fg_5.csv und digi_5.csv
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedFrequency = comboBox5.SelectedItem?.ToString().Trim();
+
+            if (string.IsNullOrEmpty(selectedFrequency))
+            {
+                MessageBox.Show("Bitte wählen Sie eine Grenzfrequenz aus.", "Fehler");
+                return;
+            }
+
+            try
+            {
+                // Die Werte für fg_5.csv (Änderung hier)
+                var fgValues = GetFgValues(fgCsvFilePath5, selectedFrequency);
+
+                // Die Werte für digi_5.csv (Änderung hier)
+                var (closestValues, associatedValues) = GetClosestValues(digiCsvFilePath5, fgValues);
+
+                // Ergebnisse anzeigen
+                string message = $"Widerstandswerte für {selectedFrequency} Hz aus fg_5.csv:\n" +
+                                 $"R_1: {fgValues[0]:F2} Ω\nR_2: {fgValues[1]:F2} Ω\nR_3: {fgValues[2]:F2} Ω\nR_4: {fgValues[3]:F2} Ω\n\n" +
+                                 $"Nächste Werte aus digi_5.csv:\n" +
+                                 $"R_1: {closestValues[0]:F2} Ω (Wert: {associatedValues[0]})\n" +
+                                 $"R_2: {closestValues[1]:F2} Ω (Wert: {associatedValues[1]})\n" +
+                                 $"R_3: {closestValues[2]:F2} Ω (Wert: {associatedValues[2]})\n" +
+                                 $"R_4: {closestValues[3]:F2} Ω (Wert: {associatedValues[3]})";
+
+                MessageBox.Show(message, "Vergleich von Widerstandswerten für ComboBox1");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Fehler: {ex.Message}", "Fehler");
+            }
+        }
+
+
+
+        // Holt Widerstandswerte aus einer fg-Datei für eine gegebene Grenzfrequenz
+        private double[] GetFgValues(string fgFilePath, string selectedFrequency)
+        {
+            var fgLines = File.ReadAllLines(fgFilePath);
+
+            var fgValues = fgLines.Skip(1) // Header überspringen
+                                   .Select(line => line.Split(';')) // Zeile aufteilen
+                                   .FirstOrDefault(fields => fields[0].Trim() == selectedFrequency); // Frequenz vergleichen
+
+            if (fgValues == null)
+            {
+                throw new Exception($"Keine Daten für {selectedFrequency} Hz in der Datei {Path.GetFileName(fgFilePath)} gefunden.");
+            }
+
+            // Widerstandswerte aus fg-Datei einlesen
+            double R_1 = ParseDouble(fgValues[1]);
+            double R_2 = ParseDouble(fgValues[2]);
+            double R_3 = ParseDouble(fgValues[3]);
+            double R_4 = ParseDouble(fgValues[4]);
+
+            return new double[] { R_1, R_2, R_3, R_4 };
+        }
+
+        // Konvertiert einen String in einen Double-Wert, gibt -1 zurück, falls der Wert ungültig ist
+        private double ParseDouble(string value)
+        {
+            return double.TryParse(value.Trim(), out double result) ? result : -1;
+        }
+
+        // Holt die nächstgelegenen Werte aus einer digi-Datei für die gegebenen R_1, R_2, R_3 und R_4
+        private (double[] closestValues, string[] associatedValues) GetClosestValues(string digiFilePath, double[] fgValues)
+        {
+            var digiLines = File.ReadAllLines(digiFilePath);
+
+            var digiData = digiLines.Skip(1) // Header überspringen
+                                     .Select(line => line.Split(';'))
+                                     .Select(fields => new
+                                     {
+                                         Wert = fields[0].Trim(),
+                                         R_1 = ParseDouble(fields[1]),
+                                         R_2 = ParseDouble(fields[2]),
+                                         R_3 = ParseDouble(fields[3]),
+                                         R_4 = ParseDouble(fields[4])
+                                     })
+                                     .Where(data => data.R_1 != -1 && data.R_2 != -1 && data.R_3 != -1 && data.R_4 != -1)
+                                     .ToList();
+
+            // Berechne die nächstgelegenen Werte für R_1, R_2, R_3 und R_4
+            double[] closestValues = new double[4];
+            string[] associatedValues = new string[4];
+
+            closestValues[0] = digiData.OrderBy(data => Math.Abs(data.R_1 - fgValues[0])).First().R_1;
+            associatedValues[0] = digiData.OrderBy(data => Math.Abs(data.R_1 - fgValues[0])).First().Wert;
+
+            closestValues[1] = digiData.OrderBy(data => Math.Abs(data.R_2 - fgValues[1])).First().R_2;
+            associatedValues[1] = digiData.OrderBy(data => Math.Abs(data.R_2 - fgValues[1])).First().Wert;
+
+            closestValues[2] = digiData.OrderBy(data => Math.Abs(data.R_3 - fgValues[2])).First().R_3;
+            associatedValues[2] = digiData.OrderBy(data => Math.Abs(data.R_3 - fgValues[2])).First().Wert;
+
+            closestValues[3] = digiData.OrderBy(data => Math.Abs(data.R_4 - fgValues[3])).First().R_4;
+            associatedValues[3] = digiData.OrderBy(data => Math.Abs(data.R_4 - fgValues[3])).First().Wert;
+
+            return (closestValues, associatedValues);
+        }
+    }
+}

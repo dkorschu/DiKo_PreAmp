@@ -1,0 +1,119 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Frequenzweiche_Test
+{
+    public partial class Form1 : Form
+    {
+        // Datei-Pfade zu den CSV-Dateien
+        private readonly string fgCsvFilePath = "fg_1.csv";
+        private readonly string digiCsvFilePath = "digi_1.csv";
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Die aktuell ausgewählte Grenzfrequenz
+                string selectedFrequency = comboBox2.SelectedItem?.ToString().Trim();
+
+                if (string.IsNullOrEmpty(selectedFrequency))
+                {
+                    MessageBox.Show("Bitte wählen Sie eine Grenzfrequenz aus.", "Fehler");
+                    return;
+                }
+
+                // CSV-Datei fg_1.csv einlesen
+                var fgLines = File.ReadAllLines(fgCsvFilePath);
+
+                // Passende Werte für die ausgewählte Frequenz finden
+                var fgValues = fgLines.Skip(1) // Header überspringen
+                                       .Select(line => line.Split(';')) // Zeile aufteilen
+                                       .FirstOrDefault(fields => fields[0].Trim() == selectedFrequency); // Frequenz vergleichen
+
+                if (fgValues != null)
+                {
+                    // Widerstandswerte aus fg_1.csv einlesen
+                    double R_1 = ParseDouble(fgValues[1]);
+                    double R_2 = ParseDouble(fgValues[2]);
+                    double R_3 = ParseDouble(fgValues[3]);
+                    double R_4 = ParseDouble(fgValues[4]);
+
+                    // CSV-Datei digi.csv einlesen und Vergleiche durchführen
+                    var digiLines = File.ReadAllLines(digiCsvFilePath);
+                    var (closestValues, associatedValues) = FindClosestValues(digiLines, R_1, R_2, R_3, R_4);
+
+                    // Ergebnisse anzeigen
+                    string message = $"Widerstandswerte für {selectedFrequency} Hz:\n" +
+                                     $"R_1: {R_1:F2} Ω\nR_2: {R_2:F2} Ω\nR_3: {R_3:F2} Ω\nR_4: {R_4:F2} Ω\n\n" +
+                                     $"Nächste Werte aus digi.csv:\n" +
+                                     $"R_1: {closestValues[0]:F2} Ω (Wert: {associatedValues[0]})\n" +
+                                     $"R_2: {closestValues[1]:F2} Ω (Wert: {associatedValues[1]})\n" +
+                                     $"R_3: {closestValues[2]:F2} Ω (Wert: {associatedValues[2]})\n" +
+                                     $"R_4: {closestValues[3]:F2} Ω (Wert: {associatedValues[3]})";
+
+                    MessageBox.Show(message, "Vergleich von Widerstandswerten");
+                }
+                else
+                {
+                    MessageBox.Show($"Keine Daten für {selectedFrequency} Hz gefunden.", "Fehler");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Fehler: {ex.Message}", "Fehler");
+            }
+        }
+
+        private double ParseDouble(string value)
+        {
+            // Versucht, den Wert als Double zu parsen, gibt -1 zurück bei Fehler
+            return double.TryParse(value.Trim(), out double result) ? result : -1;
+        }
+
+        private (double[] closestValues, string[] associatedValues) FindClosestValues(string[] digiLines, double R_1, double R_2, double R_3, double R_4)
+        {
+            // Arrays für die am nächsten liegenden Werte und deren zugehörige "wert"-Einträge
+            var closestValues = new double[4];
+            var associatedValues = new string[4];
+
+            var digiData = digiLines.Skip(1) // Header überspringen
+                                     .Select(line => line.Split(';'))
+                                     .Select(fields => new
+                                     {
+                                         Wert = fields[0].Trim(), // "wert" aus der ersten Spalte
+                                         R_1 = ParseDouble(fields[1]),
+                                         R_2 = ParseDouble(fields[2]),
+                                         R_3 = ParseDouble(fields[3]),
+                                         R_4 = ParseDouble(fields[4])
+                                     })
+                                     .Where(data => data.R_1 != -1 && data.R_2 != -1 && data.R_3 != -1 && data.R_4 != -1)
+                                     .ToList();
+
+            // Berechne die nächstgelegenen Werte und speichere auch den zugehörigen "wert"
+            var closestR1 = digiData.OrderBy(data => Math.Abs(data.R_1 - R_1)).First();
+            closestValues[0] = closestR1.R_1;
+            associatedValues[0] = closestR1.Wert;
+
+            var closestR2 = digiData.OrderBy(data => Math.Abs(data.R_2 - R_2)).First();
+            closestValues[1] = closestR2.R_2;
+            associatedValues[1] = closestR2.Wert;
+
+            var closestR3 = digiData.OrderBy(data => Math.Abs(data.R_3 - R_3)).First();
+            closestValues[2] = closestR3.R_3;
+            associatedValues[2] = closestR3.Wert;
+
+            var closestR4 = digiData.OrderBy(data => Math.Abs(data.R_4 - R_4)).First();
+            closestValues[3] = closestR4.R_4;
+            associatedValues[3] = closestR4.Wert;
+
+            return (closestValues, associatedValues);
+        }
+    }
+}
