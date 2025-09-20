@@ -1,0 +1,13 @@
+Change component parameters: Designator = "J2" ("J2"); Footprint = "Connector x14"; UniqueID = "\MYAHXBKI" ("\MYAHXBKI")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SFH11-PBPC-D07-ST-BK/Sullins%20Connector%20Solutions/view-part/851415/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Sullins Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SFH11-PBPC-D07-ST-BK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/SFH11-PBPC-D07-ST-BK/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SFH11-PBPC-D07-ST-BK/Sullins%20Connector%20Solutions/view-part/851415/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=Mic_AUX New Net Name=AUX_Mic
+Added Room: Name=Eingangsstufe

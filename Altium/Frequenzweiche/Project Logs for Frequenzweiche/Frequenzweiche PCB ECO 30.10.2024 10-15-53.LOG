@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ASEQ_Mitten Pin=J5-5
+Removed Pin From Net: NetName=Aux_Sum Pin=J5-6
+Removed Pin From Net: NetName=ASEQ_Kick Pin=J5-7
+Removed Pin From Net: NetName=Masse Pin=J5-8
+Added Pin To Net: NetName=Masse Pin=J5-5
+Added Pin To Net: NetName=ASEQ_Kick Pin=J5-6
+Added Pin To Net: NetName=Aux_Sum Pin=J5-7
+Added Pin To Net: NetName=ASEQ_Mitten Pin=J5-8
+Added Room: Name=Frequenzweiche

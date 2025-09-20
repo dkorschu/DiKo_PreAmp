@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=KST_1_1 / Line_Aux Pin=J5-2
+Removed Pin From Net: NetName=KST_1_2 Pin=J5-4
+Added Pin To Net: NetName=KST_1_2 Pin=J5-2
+Added Pin To Net: NetName=KST_1_1 / Line_Aux Pin=J5-4
+Added Room: Name=Frequenzweiche

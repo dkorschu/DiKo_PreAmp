@@ -1,0 +1,9 @@
+Change component parameters: Designator = "R156" ("R156"); Footprint = "Connector x3"; UniqueID = "\XYMLTYOR" ("\XYMLTYOR")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R170" ("R170"); Footprint = "Connector x3"; UniqueID = "\OORWDFVB" ("\OORWDFVB")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R185" ("R185"); Footprint = "Connector x3"; UniqueID = "\LFKMWQGY" ("\LFKMWQGY")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

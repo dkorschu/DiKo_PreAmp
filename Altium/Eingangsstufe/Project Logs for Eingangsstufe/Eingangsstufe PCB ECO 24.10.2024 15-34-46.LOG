@@ -1,0 +1,166 @@
+Added Component: Designator=C21(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C22(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C24(0805)
+Add component (AddParameter): Name = "Value"; Value = "470p"; VariantName = "[No Variations]"
+Added Component: Designator=C25(0805)
+Add component (AddParameter): Name = "Value"; Value = "3n"; VariantName = "[No Variations]"
+Added Component: Designator=C26(0805)
+Add component (AddParameter): Name = "Value"; Value = "3n"; VariantName = "[No Variations]"
+Added Component: Designator=C27(0805)
+Add component (AddParameter): Name = "Value"; Value = "20n"; VariantName = "[No Variations]"
+Added Component: Designator=C32(0805)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C33(0805)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=R34(0805)
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R35(0805)
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R37(0805)
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R38(0805)
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R42(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R43(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R45(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "47k lin"; VariantName = "[No Variations]"
+Added Component: Designator=R46(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "47k lin"; VariantName = "[No Variations]"
+Added Component: Designator=R47(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "220k log"; VariantName = "[No Variations]"
+Added Component: Designator=R48(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "220k log"; VariantName = "[No Variations]"
+Added Component: Designator=R49(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "220k log"; VariantName = "[No Variations]"
+Added Component: Designator=R50(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "220k log"; VariantName = "[No Variations]"
+Added Component: Designator=R51(0805)
+Add component (AddParameter): Name = "Value"; Value = "6.8k"; VariantName = "[No Variations]"
+Added Component: Designator=R107(0805)
+Add component (AddParameter): Name = "Value"; Value = "6.8k"; VariantName = "[No Variations]"
+Added Component: Designator=R108(0805)
+Add component (AddParameter): Name = "Value"; Value = "6.8k"; VariantName = "[No Variations]"
+Added Component: Designator=R113(0805)
+Add component (AddParameter): Name = "Value"; Value = "6.8k"; VariantName = "[No Variations]"
+Added Component: Designator=U4(DIP14 IC Socket)
+Add component (AddParameter): Name = "BW @ Acl(MHz)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=OPA4134&fileType=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mpds177g/mpds177g.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SBOS058"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Plastic Small Outline, Body 8.65 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "D0014A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "4040047-5/M, 06/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "OPA4134UA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubFamily"; Value = "Audio Operational Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vmax(V)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vmin(V)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vn at Flatband(Typ)(nV/rtHz)"; Value = "8"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=NetC22_2 Pin=C22-2
+Added Pin To Net: NetName=Masse Pin=C24-1
+Added Pin To Net: NetName=A02 Pin=C24-2
+Added Pin To Net: NetName=A04 Pin=C25-1
+Added Pin To Net: NetName=Masse Pin=C25-2
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=NetC26_2 Pin=C26-2
+Added Pin To Net: NetName=NetC27_1 Pin=C27-1
+Added Pin To Net: NetName=NetC27_2 Pin=C27-2
+Added Pin To Net: NetName=Masse Pin=C32-1
+Added Pin To Net: NetName=-18V Pin=C32-2
+Added Pin To Net: NetName=Masse Pin=C33-1
+Added Pin To Net: NetName=+18V Pin=C33-2
+Added Pin To Net: NetName=NetR34_1 Pin=R34-1
+Added Pin To Net: NetName=NetC21_1 Pin=R34-2
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetC22_1 Pin=R35-2
+Added Pin To Net: NetName=NetC20_2 Pin=R37-1
+Added Pin To Net: NetName=NetR34_1 Pin=R37-2
+Added Pin To Net: NetName=NetC21_2 Pin=R38-1
+Added Pin To Net: NetName=NetR35_1 Pin=R38-2
+Added Pin To Net: NetName=Masse Pin=R42-1
+Added Pin To Net: NetName=NetC21_2 Pin=R42-2
+Added Pin To Net: NetName=Masse Pin=R43-1
+Added Pin To Net: NetName=NetC22_2 Pin=R43-2
+Added Pin To Net: NetName=NetC20_2 Pin=R45-1
+Added Pin To Net: NetName=A01 Pin=R45-2
+Added Pin To Net: NetName=NetC21_1 Pin=R45-3
+Added Pin To Net: NetName=NetC21_2 Pin=R46-1
+Added Pin To Net: NetName=A03 Pin=R46-2
+Added Pin To Net: NetName=NetC22_1 Pin=R46-3
+Added Pin To Net: NetName=A02 Pin=R47-1
+Added Pin To Net: NetName=A02 Pin=R47-2
+Added Pin To Net: NetName=NetR47_3 Pin=R47-3
+Added Pin To Net: NetName=A02 Pin=R48-1
+Added Pin To Net: NetName=A02 Pin=R48-2
+Added Pin To Net: NetName=NetR48_3 Pin=R48-3
+Added Pin To Net: NetName=A04 Pin=R49-1
+Added Pin To Net: NetName=A04 Pin=R49-2
+Added Pin To Net: NetName=NetR49_3 Pin=R49-3
+Added Pin To Net: NetName=A04 Pin=R50-1
+Added Pin To Net: NetName=A04 Pin=R50-2
+Added Pin To Net: NetName=NetR50_3 Pin=R50-3
+Added Pin To Net: NetName=NetR49_3 Pin=R51-1
+Added Pin To Net: NetName=NetC27_1 Pin=R51-2
+Added Pin To Net: NetName=NetR50_3 Pin=R107-1
+Added Pin To Net: NetName=Masse Pin=R107-2
+Added Pin To Net: NetName=NetC26_2 Pin=R108-1
+Added Pin To Net: NetName=NetR47_3 Pin=R108-2
+Added Pin To Net: NetName=Masse Pin=R113-1
+Added Pin To Net: NetName=NetR48_3 Pin=R113-2
+Added Pin To Net: NetName=NetC26_1 Pin=U4-1
+Added Pin To Net: NetName=NetC26_1 Pin=U4-2
+Added Pin To Net: NetName=A01 Pin=U4-3
+Added Pin To Net: NetName=+18V Pin=U4-4
+Added Pin To Net: NetName=A02 Pin=U4-5
+Added Pin To Net: NetName=NetR34_1 Pin=U4-6
+Added Pin To Net: NetName=NetC21_1 Pin=U4-7
+Added Pin To Net: NetName=NetC22_1 Pin=U4-8
+Added Pin To Net: NetName=NetR35_1 Pin=U4-9
+Added Pin To Net: NetName=A04 Pin=U4-10
+Added Pin To Net: NetName=-18V Pin=U4-11
+Added Pin To Net: NetName=A03 Pin=U4-12
+Added Pin To Net: NetName=NetC27_2 Pin=U4-13
+Added Pin To Net: NetName=NetC27_2 Pin=U4-14
+Added Member To Class: ClassName=Eingangsstufe Member=Component C21 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C22 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C24 470p
+Added Member To Class: ClassName=Eingangsstufe Member=Component C25 3n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C26 3n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C27 20n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C32 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C33 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component R34 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R35 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R37 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R38 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R42 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R43 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R45 47k lin
+Added Member To Class: ClassName=Eingangsstufe Member=Component R46 47k lin
+Added Member To Class: ClassName=Eingangsstufe Member=Component R47 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R48 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R49 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R50 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R51 6.8k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R107 6.8k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R108 6.8k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R113 6.8k
+Added Member To Class: ClassName=Eingangsstufe Member=Component U4 OPA4134UA
+Added Room: Name=Eingangsstufe

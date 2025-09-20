@@ -1,0 +1,95 @@
+Change component parameters: Designator = "C124" ("C124"); Footprint = "0805"; UniqueID = "\SGNNJHIL" ("\SGNNJHIL")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C125" ("C125"); Footprint = "0805"; UniqueID = "\HLKEBPWR" ("\HLKEBPWR")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R119" ("R119"); Footprint = "0805"; UniqueID = "\OSWDXTBS" ("\OSWDXTBS")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R120" ("R120"); Footprint = "0805"; UniqueID = "\KTEZKAPL" ("\KTEZKAPL")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R131" ("R131"); Footprint = "0805"; UniqueID = "\ZYRUDEEZ" ("\ZYRUDEEZ")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R132" ("R132"); Footprint = "0805"; UniqueID = "\CHEWYSDI" ("\CHEWYSDI")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R133" ("R133"); Footprint = "0805"; UniqueID = "\ULEAZDKA" ("\ULEAZDKA")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R135" ("R135"); Footprint = "0805"; UniqueID = "\ZRQYPMRL" ("\ZRQYPMRL")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R136" ("R136"); Footprint = "0805"; UniqueID = "\KINBUKIH" ("\KINBUKIH")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R142" ("R142"); Footprint = "0805"; UniqueID = "\ZRZQFQNM" ("\ZRZQFQNM")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R143" ("R143"); Footprint = "0805"; UniqueID = "\YXNMTURN" ("\YXNMTURN")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "5k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S7" ("S7"); Footprint = "Connector x3"; UniqueID = "\DHBIMCIG" ("\DHBIMCIG")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "100SP1T1B4M2QE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U28" ("U28"); Footprint = "DIP14 IC Socket"; UniqueID = "\LQDBOHQM" ("\LQDBOHQM")
+Change component parameters (AddParameter): Name = "BW @ Acl(MHz)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MS-012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=OPA4134&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mpds177g/mpds177g.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBOS058"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "14-Pin Plastic Small Outline, Body 8.65 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "D0014A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4040047-5/M, 06/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "OPA4134UA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Audio Operational Amplifier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vmax(V)"; Value = "36"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vmin(V)"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vn at Flatband(Typ)(nV/rtHz)"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U30" ("U30"); Footprint = "DIP14 IC Socket"; UniqueID = "\IMDTYRFU" ("\IMDTYRFU")
+Change component parameters (AddParameter): Name = "BW @ Acl(MHz)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ClassName"; Value = "KST/AUX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MS-012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=OPA4134&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mpds177g/mpds177g.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBOS058"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "14-Pin Plastic Small Outline, Body 8.65 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "D0014A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4040047-5/M, 06/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "OPA4134UA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Audio Operational Amplifier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vmax(V)"; Value = "36"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vmin(V)"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vn at Flatband(Typ)(nV/rtHz)"; Value = "8"; VariantName = "[No Variations]"
+Added Class: Name=KST/AUX
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=Netzteil_2- Pin=J2-01
+Removed Pin From Net: NetName=Masse Pin=SW1-2
+Added Pin To Net: NetName=Masse Pin=J1-01
+Added Pin To Net: NetName=Masse Pin=J2-02
+Added Pin To Net: NetName=Netzteil_2- Pin=SW1-4
+Change Net Name : Old Net Name=Netzteil_2- New Net Name=NetC11_2
+Added Pin To Net: NetName=Netzteil_2- Pin=J2-01
+Added Pin To Net: NetName=Netzteil_2- Pin=SW1-3
+Added Net: Name=Netzteil_2-

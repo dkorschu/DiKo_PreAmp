@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VU_In Pin=R202-3
+Change Component Footprint: Designator=R202 Old Footprint=Connector x3 New Footprint=SMD Trimmer 3314G
+Added Pin To Net: NetName=VU_In Pin=R202-1
+Added Pin To Net: NetName=NetR202_3 Pin=R202-3
+Added Pin To Net: NetName=NetR202_3 Pin=R207-2
+Added Net: Name=NetR202_3
+Added Room: Name=Ausgangsstufe

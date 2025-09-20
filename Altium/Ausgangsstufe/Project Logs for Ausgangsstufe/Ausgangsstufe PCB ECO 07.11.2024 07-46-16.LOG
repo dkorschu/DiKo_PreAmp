@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetC163_1 Pin=U26-1
+Removed Pin From Net: NetName=NetC163_1 Pin=U26-2
+Removed Pin From Net: NetName=NetC145_1 Pin=U26-8
+Removed Pin From Net: NetName=NetC145_1 Pin=U26-9
+Added Pin To Net: NetName=NetC145_1 Pin=U26-1
+Added Pin To Net: NetName=NetC145_1 Pin=U26-2
+Added Pin To Net: NetName=NetC163_1 Pin=U26-8
+Added Pin To Net: NetName=NetC163_1 Pin=U26-9
+Added Member To Class: ClassName=Ausgangsstufe Member=Component U22 OPA4134UA
+Added Room: Name=Ausgangsstufe

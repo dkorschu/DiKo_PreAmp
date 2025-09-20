@@ -1,0 +1,20 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Ausgangsstufe.PcbDoc]
+   Generated File[Ausgangsstufe.GTO]
+   Generated File[Ausgangsstufe.GTS]
+   Generated File[Ausgangsstufe.GTL]
+   Generated File[Ausgangsstufe.GBL]
+   Generated File[Ausgangsstufe.GBS]
+   Generated File[Ausgangsstufe.GBO]
+   Generated File[Ausgangsstufe.GM1]
+   Generated File[Ausgangsstufe.GKO]
+   Generated File[Ausgangsstufe.RUL]
+   Generated File[Ausgangsstufe.EXTREP]
+   Generated File[Ausgangsstufe.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 15:11:45 On 14.11.2024

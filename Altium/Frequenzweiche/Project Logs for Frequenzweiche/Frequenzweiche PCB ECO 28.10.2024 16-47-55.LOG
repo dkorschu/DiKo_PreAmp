@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=Masse Pin=U16-11
+Added Pin To Net: NetName=Masse Pin=U16-13
+Change Net Name : Old Net Name=DP_10B New Net Name=DP_10A
+Added Pin To Net: NetName=DP_12A Pin=C56-2
+Added Pin To Net: NetName=DP_12A Pin=U8-12
+Added Pin To Net: NetName=DP_12A Pin=U16-11
+Added Net: Name=DP_12A
+Added Room: Name=Frequenzweiche

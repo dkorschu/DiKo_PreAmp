@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=DP_14W Pin=U17-11
+Removed Pin From Net: NetName=DP_14W Pin=U17-12
+Removed Pin From Net: NetName=DP_13W Pin=U17-13
+Removed Pin From Net: NetName=DP_13B Pin=U17-18
+Removed Pin From Net: NetName=DP_13W Pin=U17-19
+Removed Pin From Net: NetName=DP_13W Pin=U17-20
+Added Pin To Net: NetName=DP_13W Pin=U17-11
+Added Pin To Net: NetName=DP_13W Pin=U17-12
+Added Pin To Net: NetName=DP_13B Pin=U17-13
+Added Pin To Net: NetName=DP_13W Pin=U17-18
+Added Pin To Net: NetName=DP_14W Pin=U17-19
+Added Pin To Net: NetName=DP_14W Pin=U17-20
+Added Room: Name=Frequenzweiche

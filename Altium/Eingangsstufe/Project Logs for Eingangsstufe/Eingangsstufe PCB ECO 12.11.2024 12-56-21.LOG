@@ -1,0 +1,4 @@
+Change Component Comment : Designator=R21 Old Comment=50k lin New Comment=47k lin
+Change component parameters: Designator = "R21" ("R21"); Footprint = "Connector x3"; UniqueID = "\NSUYIVFF" ("\NSUYIVFF")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k lin"; VariantName = "[No Variations]"
+Added Room: Name=Eingangsstufe

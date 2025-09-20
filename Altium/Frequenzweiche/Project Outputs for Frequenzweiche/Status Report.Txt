@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Frequenzweiche.PcbDoc]
+   Generated File[Frequenzweiche.TXT]
+   Generated File[Frequenzweiche.LDP]
+   Generated File[Frequenzweiche.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:13:15 On 14.11.2024

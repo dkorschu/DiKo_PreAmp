@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetR153_1 Pin=S8-3
+Removed Pin From Net: NetName=NetR169_1 Pin=S9-3
+Removed Pin From Net: NetName=NetR179_1 Pin=S10-3
+Added Pin To Net: NetName=NetR153_1 Pin=S8-1
+Added Pin To Net: NetName=NetR169_1 Pin=S9-1
+Added Pin To Net: NetName=NetR179_1 Pin=S10-1
+Added Member To Class: ClassName=VU_Meter Member=Component U29 OPA4134UA
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

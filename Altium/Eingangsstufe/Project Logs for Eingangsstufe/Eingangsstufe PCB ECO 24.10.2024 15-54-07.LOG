@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetC20_2 Pin=R45-1
+Removed Pin From Net: NetName=NetC21_1 Pin=R45-3
+Added Pin To Net: NetName=NetC21_1 Pin=R45-1
+Added Pin To Net: NetName=NetC20_2 Pin=R45-3
+Added Room: Name=Eingangsstufe

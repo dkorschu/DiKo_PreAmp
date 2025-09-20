@@ -1,0 +1,112 @@
+Removed Pin From Net: NetName=NetC22_1 Pin=C22-1
+Change Component Designator: OldDesignator=J4 NewDesignator=J5
+Added Component: Designator=C37(0805)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C38(0805)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C39(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C40(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C41(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=J4(Connector x3)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52(0805)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R53(0805)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R54(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R55(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R56(0805)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R57(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=U6(DIP14 IC Socket)
+Add component (AddParameter): Name = "BW @ Acl(MHz)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=OPA4134&fileType=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mpds177g/mpds177g.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SBOS058"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Plastic Small Outline, Body 8.65 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "D0014A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "4040047-5/M, 06/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "OPA4134UA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubFamily"; Value = "Audio Operational Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vmax(V)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vmin(V)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vn at Flatband(Typ)(nV/rtHz)"; Value = "8"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Masse Pin=C37-1
+Added Pin To Net: NetName=-18V Pin=C37-2
+Added Pin To Net: NetName=Masse Pin=C38-1
+Added Pin To Net: NetName=+18V Pin=C38-2
+Added Pin To Net: NetName=NetC22_1 Pin=C41-2
+Added Pin To Net: NetName=Masse Pin=J4-2
+Added Pin To Net: NetName=Masse Pin=J4-3
+Added Pin To Net: NetName=Masse Pin=R54-1
+Added Pin To Net: NetName=Masse Pin=R55-2
+Added Pin To Net: NetName=Masse Pin=R57-2
+Added Pin To Net: NetName=+18V Pin=U6-4
+Added Pin To Net: NetName=Masse Pin=U6-5
+Added Pin To Net: NetName=-18V Pin=U6-11
+Change Net Name : Old Net Name=NetC22_1 New Net Name=NetC41_2
+Added Pin To Net: NetName=Effect_In Pin=C39-1
+Added Pin To Net: NetName=Effect_In Pin=J4-1
+Added Net: Name=Effect_In
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=NetC22_1 Pin=R53-2
+Added Pin To Net: NetName=NetC22_1 Pin=U6-7
+Added Net: Name=NetC22_1
+Added Pin To Net: NetName=NetC39_2 Pin=C39-2
+Added Pin To Net: NetName=NetC39_2 Pin=R54-2
+Added Pin To Net: NetName=NetC39_2 Pin=U6-3
+Added Net: Name=NetC39_2
+Added Pin To Net: NetName=NetC40_1 Pin=C40-1
+Added Pin To Net: NetName=NetC40_1 Pin=R52-2
+Added Pin To Net: NetName=NetC40_1 Pin=R55-1
+Added Net: Name=NetC40_1
+Added Pin To Net: NetName=NetC40_2 Pin=C40-2
+Added Pin To Net: NetName=NetC40_2 Pin=U6-1
+Added Pin To Net: NetName=NetC40_2 Pin=U6-2
+Added Net: Name=NetC40_2
+Added Pin To Net: NetName=NetC41_1 Pin=C41-1
+Added Pin To Net: NetName=NetC41_1 Pin=R56-2
+Added Pin To Net: NetName=NetC41_1 Pin=R57-1
+Added Net: Name=NetC41_1
+Added Pin To Net: NetName=NetR52_1 Pin=R52-1
+Added Pin To Net: NetName=NetR52_1 Pin=R53-1
+Added Pin To Net: NetName=NetR52_1 Pin=R56-1
+Added Pin To Net: NetName=NetR52_1 Pin=U6-6
+Added Net: Name=NetR52_1
+Added Member To Class: ClassName=Eingangsstufe Member=Component C37 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C38 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C39 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C40 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C41 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component J2 Connector x14
+Added Member To Class: ClassName=Eingangsstufe Member=Component J5 XLR_In
+Added Member To Class: ClassName=Eingangsstufe Member=Component R52 10k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R53 10k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R54 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R55 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R56 10k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R57 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component U6 OPA4134UA
+Added Room: Name=Eingangsstufe

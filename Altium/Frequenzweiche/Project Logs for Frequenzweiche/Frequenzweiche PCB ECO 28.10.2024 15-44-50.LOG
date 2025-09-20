@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=DP_13W Pin=U16-1
+Removed Pin From Net: NetName=DP_13B Pin=U16-3
+Added Pin To Net: NetName=DP_13B Pin=U16-1
+Added Pin To Net: NetName=DP_13W Pin=U16-3
+Change Net Name : Old Net Name=DP_13B New Net Name=DP_13A
+Added Room: Name=Frequenzweiche

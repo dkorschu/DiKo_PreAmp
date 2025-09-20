@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=Masse Pin=C6-1
+Removed Pin From Net: NetName=Masse Pin=C7-1
+Removed Pin From Net: NetName=NetC5_2 Pin=C7-2
+Removed Pin From Net: NetName=NetC9_1 Pin=C9-1
+Removed Pin From Net: NetName=Masse Pin=C9-2
+Removed Pin From Net: NetName=NetC9_1 Pin=C10-1
+Removed Pin From Net: NetName=Masse Pin=C10-2
+Removed Pin From Net: NetName=NetC5_2 Pin=R4-1
+Removed Pin From Net: NetName=Netzteil_1- Pin=SW1-2
+Removed Member From Class: ClassName=Energieversorgung Member=C3
+Removed Member From Class: ClassName=Energieversorgung Member=C4
+Removed Member From Class: ClassName=Energieversorgung Member=C6
+Removed Member From Class: ClassName=Energieversorgung Member=C7
+Removed Member From Class: ClassName=Energieversorgung Member=C9
+Removed Member From Class: ClassName=Energieversorgung Member=C10
+Removed Member From Class: ClassName=Energieversorgung Member=K1
+Removed Member From Class: ClassName=Energieversorgung Member=R1
+Removed Member From Class: ClassName=Energieversorgung Member=R2
+Removed Member From Class: ClassName=Energieversorgung Member=R3
+Removed Member From Class: ClassName=Energieversorgung Member=R4
+Added Pin To Net: NetName=NetC9_1 Pin=J2-01
+Added Pin To Net: NetName=Netzteil_1- Pin=J2-02
+Added Pin To Net: NetName=Masse Pin=SW1-2
+Added Pin To Net: NetName=Netzteil_1- Pin=SW1-3
+Added Pin To Net: NetName=NetC5_2 Pin=SW1-4
+Change Net Name : Old Net Name=NetC9_1 New Net Name=Netzteil_2-
+Added Room: Name=Energieversorgung

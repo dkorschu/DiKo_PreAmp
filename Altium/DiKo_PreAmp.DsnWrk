@@ -1,0 +1,12 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=DiKo_PreAmp\DiKo_PreAmp.PrjMbd
+[Project2]
+ProjectPath=Ausgangsstufe\Ausgangsstufe.PrjPcb
+[Project3]
+ProjectPath=Eingangsstufe\Eingangsstufe.PrjPcb
+[Project4]
+ProjectPath=Energieversorgung\Energieversorgung.PrjPcb
+[Project5]
+ProjectPath=Frequenzweiche\Frequenzweiche.PrjPcb

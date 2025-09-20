@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=Masse Pin=U18-1
+Removed Pin From Net: NetName=Masse Pin=U18-10
+Removed Pin From Net: NetName=DP_17A Pin=U18-11
+Removed Pin From Net: NetName=DP_19W Pin=U18-19
+Removed Pin From Net: NetName=DP_21W Pin=U19-12
+Removed Pin From Net: NetName=DP_21W Pin=U19-13
+Removed Pin From Net: NetName=DP_23W Pin=U19-18
+Removed Pin From Net: NetName=DP_23W Pin=U19-19
+Removed Pin From Net: NetName=DP_23A Pin=U19-20
+Added Pin To Net: NetName=DP_21W Pin=U18-1
+Added Pin To Net: NetName=Masse Pin=U18-12
+Added Pin To Net: NetName=Masse Pin=U18-13
+Added Pin To Net: NetName=DP_19A Pin=U18-19
+Added Pin To Net: NetName=DP_23W Pin=U19-1
+Added Pin To Net: NetName=DP_17A Pin=U19-11
+Added Pin To Net: NetName=DP_17A Pin=U19-12
+Added Pin To Net: NetName=Masse Pin=U19-18
+Added Pin To Net: NetName=Masse Pin=U19-19
+Change Net Name : Old Net Name=DP_17A New Net Name=DP_17W
+Change Net Name : Old Net Name=DP_19A New Net Name=DP_19W
+Change Net Name : Old Net Name=DP_19W New Net Name=DP_19B
+Change Net Name : Old Net Name=DP_21W New Net Name=DP_21A
+Change Net Name : Old Net Name=DP_23A New Net Name=DP_23W
+Change Net Name : Old Net Name=DP_23W New Net Name=DP_23A
+Added Pin To Net: NetName=DP_17B Pin=C72-2
+Added Pin To Net: NetName=DP_17B Pin=C73-1
+Added Pin To Net: NetName=DP_17B Pin=U19-13
+Added Net: Name=DP_17B
+Added Pin To Net: NetName=DP_18A Pin=C73-2
+Added Pin To Net: NetName=DP_18A Pin=U10-12
+Added Pin To Net: NetName=DP_18A Pin=U19-20
+Added Net: Name=DP_18A
+Added Pin To Net: NetName=DP_20A Pin=C70-2
+Added Pin To Net: NetName=DP_20A Pin=U11-3
+Added Pin To Net: NetName=DP_20A Pin=U18-11
+Added Net: Name=DP_20A
+Added Pin To Net: NetName=DP_21W Pin=C63-1
+Added Pin To Net: NetName=DP_21W Pin=U18-2
+Added Pin To Net: NetName=DP_21W Pin=U18-3
+Added Pin To Net: NetName=DP_21W Pin=U18-8
+Added Net: Name=DP_21W
+Added Pin To Net: NetName=DP_22W Pin=C75-2
+Added Pin To Net: NetName=DP_22W Pin=U11-10
+Added Pin To Net: NetName=DP_22W Pin=U18-9
+Added Pin To Net: NetName=DP_22W Pin=U18-10
+Added Net: Name=DP_22W
+Added Pin To Net: NetName=DP_24W Pin=C74-2
+Added Pin To Net: NetName=DP_24W Pin=U11-12
+Added Pin To Net: NetName=DP_24W Pin=U19-9
+Added Pin To Net: NetName=DP_24W Pin=U19-10
+Added Net: Name=DP_24W
+Added Room: Name=Frequenzweiche

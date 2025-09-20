@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=Masse Pin=J5-3
+Removed Pin From Net: NetName=Masse Pin=J5-5
+Removed Pin From Net: NetName=Masse Pin=J5-7
+Removed Pin From Net: NetName=+6V Pin=J5-9
+Removed Pin From Net: NetName=ASEQ_Kick Pin=J5-10
+Removed Pin From Net: NetName=ASEQ_Mitten Pin=J5-12
+Removed Pin From Net: NetName=ASEQ_Höhen Pin=J5-14
+Added Pin To Net: NetName=ASEQ_Höhen Pin=J5-3
+Added Pin To Net: NetName=ASEQ_Mitten Pin=J5-5
+Added Pin To Net: NetName=ASEQ_Kick Pin=J5-7
+Added Pin To Net: NetName=Masse Pin=J5-9
+Added Pin To Net: NetName=Masse Pin=J5-10
+Added Pin To Net: NetName=Masse Pin=J5-12
+Added Pin To Net: NetName=+6V Pin=J5-14
+Added Member To Class: ClassName=Frequenzweiche Member=Component U6 OPA4134UA
+Added Room: Name=Frequenzweiche

@@ -1,0 +1,27 @@
+Change Component Comment : Designator=R110 Old Comment=22k log New Comment=22k log/str
+Change Component Comment : Designator=R111 Old Comment=22k log New Comment=22k log/str
+Change Component Comment : Designator=R138 Old Comment=22k log New Comment=22k log/str
+Change Component Comment : Designator=R139 Old Comment=22k log New Comment=22k log/str
+Change Component Comment : Designator=R140 Old Comment=47k log New Comment=47k log/str
+Change Component Comment : Designator=R141 Old Comment=47k log New Comment=47k log/str
+Change Component Comment : Designator=R114 Old Comment=470k log New Comment=470k log/str
+Change Component Comment : Designator=R115 Old Comment=470k log New Comment=470k log/str
+Change component parameters: Designator = "R110" ("R110"); Footprint = "Connector x3"; UniqueID = "\BVSCULYL" ("\BVSCULYL")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R111" ("R111"); Footprint = "Connector x3"; UniqueID = "\WBYEDTIJ" ("\WBYEDTIJ")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R114" ("R114"); Footprint = "Connector x3"; UniqueID = "\WVOHRYKK" ("\WVOHRYKK")
+Change component parameters (AddParameter): Name = "Value"; Value = "470k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R115" ("R115"); Footprint = "Connector x3"; UniqueID = "\ZESLOEOH" ("\ZESLOEOH")
+Change component parameters (AddParameter): Name = "Value"; Value = "470k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R138" ("R138"); Footprint = "Connector x3"; UniqueID = "\EVCJJAUY" ("\EVCJJAUY")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R139" ("R139"); Footprint = "Connector x3"; UniqueID = "\VSEPRKXQ" ("\VSEPRKXQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R140" ("R140"); Footprint = "Connector x3"; UniqueID = "\FZZOVCMQ" ("\FZZOVCMQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log/str"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R141" ("R141"); Footprint = "Connector x3"; UniqueID = "\QMKYBPEF" ("\QMKYBPEF")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log/str"; VariantName = "[No Variations]"
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

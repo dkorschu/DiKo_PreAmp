@@ -1,0 +1,7 @@
+Added Component: Designator=R46(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "47k lin"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC21_2 Pin=R46-1
+Added Pin To Net: NetName=A03 Pin=R46-2
+Added Pin To Net: NetName=NetC22_1 Pin=R46-3
+Added Member To Class: ClassName=Eingangsstufe Member=Component R46 47k lin
+Added Room: Name=Eingangsstufe

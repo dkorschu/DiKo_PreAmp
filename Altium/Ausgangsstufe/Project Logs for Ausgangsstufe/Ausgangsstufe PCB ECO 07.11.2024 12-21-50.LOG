@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=ASEQ_Mitten Pin=R124-1
+Removed Pin From Net: NetName=ASEQ_Mitten Pin=R130-3
+Removed Pin From Net: NetName=ASEQ_Höhen Pin=R149-1
+Removed Pin From Net: NetName=ASEQ_Höhen Pin=R155-3
+Added Pin To Net: NetName=ASEQ_Höhen Pin=R124-1
+Added Pin To Net: NetName=ASEQ_Höhen Pin=R130-3
+Added Pin To Net: NetName=ASEQ_Mitten Pin=R149-1
+Added Pin To Net: NetName=ASEQ_Mitten Pin=R155-3
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

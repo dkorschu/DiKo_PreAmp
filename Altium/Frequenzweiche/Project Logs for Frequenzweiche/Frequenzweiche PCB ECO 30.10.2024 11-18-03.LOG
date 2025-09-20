@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=Aux_Sum Pin=J5-7
+Added Pin To Net: NetName=Aux_Sum Pin=J5-1
+Added Room: Name=Frequenzweiche

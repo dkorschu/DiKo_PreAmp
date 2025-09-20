@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Masse Pin=S7-1
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

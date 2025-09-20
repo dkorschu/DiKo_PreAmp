@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Masse Pin=J3-1
+Removed Pin From Net: NetName=L_Line Pin=J3-3
+Added Pin To Net: NetName=L_Line Pin=J3-1
+Added Pin To Net: NetName=Masse Pin=J3-3
+Added Room: Name=Eingangsstufe

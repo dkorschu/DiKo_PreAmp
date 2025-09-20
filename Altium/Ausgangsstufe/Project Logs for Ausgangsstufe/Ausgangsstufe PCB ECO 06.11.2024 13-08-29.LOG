@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=KST_1_1 / Line_Aux Pin=J14-1
+Removed Pin From Net: NetName=Masse Pin=J14-4
+Removed Pin From Net: NetName=AUX_Sum Pin=J14-5
+Removed Pin From Net: NetName=Masse Pin=J14-6
+Removed Pin From Net: NetName=ASEQ_Bass Pin=J14-7
+Removed Pin From Net: NetName=Masse Pin=J14-8
+Removed Pin From Net: NetName=ASEQ_Kick Pin=J14-9
+Removed Pin From Net: NetName=+6V Pin=J14-10
+Removed Pin From Net: NetName=ASEQ_Mitten Pin=J14-11
+Removed Pin From Net: NetName=-18V Pin=J14-12
+Removed Pin From Net: NetName=ASEQ_Höhen Pin=J14-13
+Removed Pin From Net: NetName=+18V Pin=J14-14
+Removed Pin From Net: NetName=A07 Pin=R110-1
+Removed Pin From Net: NetName=ASEQ_Bass Pin=R129-1
+Removed Pin From Net: NetName=NetC120_1 Pin=R129-3
+Removed Pin From Net: NetName=ASEQ_Mitten Pin=R130-1
+Removed Pin From Net: NetName=NetC122_1 Pin=R130-3
+Removed Pin From Net: NetName=A13 Pin=R138-1
+Removed Pin From Net: NetName=A09 Pin=R140-1
+Removed Pin From Net: NetName=ASEQ_Höhen Pin=R154-1
+Removed Pin From Net: NetName=NetC128_1 Pin=R154-3
+Removed Pin From Net: NetName=ASEQ_Kick Pin=R155-1
+Removed Pin From Net: NetName=NetC130_1 Pin=R155-3
+Removed Pin From Net: NetName=NetC121_1 Pin=U22-1
+Removed Pin From Net: NetName=NetC121_1 Pin=U22-2
+Removed Pin From Net: NetName=A06 Pin=U22-3
+Removed Pin From Net: NetName=A07 Pin=U22-5
+Removed Pin From Net: NetName=NetR109_1 Pin=U22-6
+Removed Pin From Net: NetName=NetC120_1 Pin=U22-7
+Added Pin To Net: NetName=Höhen Pin=C128-2
+Added Pin To Net: NetName=AUX_Sum Pin=J14-2
+Added Pin To Net: NetName=Masse Pin=J14-3
+Added Pin To Net: NetName=KST_1_1 / Line_Aux Pin=J14-4
+Added Pin To Net: NetName=Masse Pin=J14-5
+Added Pin To Net: NetName=ASEQ_Kick Pin=J14-6
+Added Pin To Net: NetName=ASEQ_Mitten Pin=J14-8
+Added Pin To Net: NetName=Masse Pin=J14-9
+Added Pin To Net: NetName=ASEQ_Höhen Pin=J14-10
+Added Pin To Net: NetName=-18V Pin=J14-11
+Added Pin To Net: NetName=ASEQ_Bass Pin=J14-12
+Added Pin To Net: NetName=+18V Pin=J14-13
+Added Pin To Net: NetName=+6V Pin=J14-14
+Added Pin To Net: NetName=A07 Pin=R110-3
+Added Pin To Net: NetName=NetC120_1 Pin=R129-1
+Added Pin To Net: NetName=ASEQ_Bass Pin=R129-3
+Added Pin To Net: NetName=NetC122_1 Pin=R130-1
+Added Pin To Net: NetName=ASEQ_Mitten Pin=R130-3
+Added Pin To Net: NetName=A13 Pin=R138-3
+Added Pin To Net: NetName=A09 Pin=R140-3
+Added Pin To Net: NetName=NetC128_1 Pin=R154-1
+Added Pin To Net: NetName=ASEQ_Höhen Pin=R154-3
+Added Pin To Net: NetName=NetC130_1 Pin=R155-1
+Added Pin To Net: NetName=ASEQ_Kick Pin=R155-3
+Added Pin To Net: NetName=NetC120_1 Pin=U22-1
+Added Pin To Net: NetName=NetR109_1 Pin=U22-2
+Added Pin To Net: NetName=A07 Pin=U22-3
+Added Pin To Net: NetName=A06 Pin=U22-5
+Added Pin To Net: NetName=NetC121_1 Pin=U22-6
+Added Pin To Net: NetName=NetC121_1 Pin=U22-7
+Added Pin To Net: NetName=Aux_Mic Pin=J14-7
+Added Pin To Net: NetName=Aux_Mic Pin=R119-2
+Added Net: Name=Aux_Mic
+Added Pin To Net: NetName=NetR110_1 Pin=R110-1
+Added Pin To Net: NetName=NetR110_1 Pin=R116-2
+Added Net: Name=NetR110_1
+Added Pin To Net: NetName=NetR138_1 Pin=R138-1
+Added Pin To Net: NetName=NetR138_1 Pin=R144-2
+Added Net: Name=NetR138_1
+Added Pin To Net: NetName=NetR140_1 Pin=R140-1
+Added Pin To Net: NetName=NetR140_1 Pin=R145-2
+Added Net: Name=NetR140_1
+Added Room: Name=Ausgangsstufe

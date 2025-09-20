@@ -1,0 +1,89 @@
+Removed Pin From Net: NetName=DP_1W Pin=C45-2
+Removed Pin From Net: NetName=DP_1W Pin=C46-1
+Removed Pin From Net: NetName=NetR52_1 Pin=U6-1
+Removed Pin From Net: NetName=NetR56_2 Pin=U6-2
+Removed Pin From Net: NetName=KST_1_1 / Line_Aux Pin=U6-3
+Removed Pin From Net: NetName=NetR58_2 Pin=U6-5
+Removed Pin From Net: NetName=NetR52_2 Pin=U6-6
+Removed Pin From Net: NetName=Bass_In Pin=U6-7
+Removed Pin From Net: NetName=Masse Pin=U6-10
+Removed Pin From Net: NetName=NetC1_2 Pin=U7-5
+Removed Pin From Net: NetName=NetC44_1 Pin=U7-6
+Removed Pin From Net: NetName=NetC44_1 Pin=U7-7
+Removed Pin From Net: NetName=NetC37_2 Pin=U7-13
+Removed Pin From Net: NetName=NetC37_2 Pin=U7-14
+Removed Pin From Net: NetName=Masse Pin=U14-1
+Removed Pin From Net: NetName=Masse Pin=U14-10
+Removed Pin From Net: NetName=DP_1W Pin=U14-12
+Removed Pin From Net: NetName=DP_1W Pin=U14-13
+Removed Pin From Net: NetName=DP_3W Pin=U14-19
+Removed Pin From Net: NetName=DP_5W Pin=U15-12
+Removed Pin From Net: NetName=DP_5W Pin=U15-13
+Removed Pin From Net: NetName=DP_7A Pin=U15-20
+Added Pin To Net: NetName=DP_1W Pin=C42-1
+Added Pin To Net: NetName=NetC44_1 Pin=U6-1
+Added Pin To Net: NetName=NetC44_1 Pin=U6-2
+Added Pin To Net: NetName=NetC1_2 Pin=U6-3
+Added Pin To Net: NetName=Masse Pin=U6-5
+Added Pin To Net: NetName=DP_1W Pin=U6-8
+Added Pin To Net: NetName=DP_1W Pin=U6-9
+Added Pin To Net: NetName=NetC37_2 Pin=U7-6
+Added Pin To Net: NetName=NetC37_2 Pin=U7-7
+Added Pin To Net: NetName=NetR52_1 Pin=U7-8
+Added Pin To Net: NetName=NetR56_2 Pin=U7-9
+Added Pin To Net: NetName=KST_1_1 / Line_Aux Pin=U7-10
+Added Pin To Net: NetName=NetR58_2 Pin=U7-12
+Added Pin To Net: NetName=NetR52_2 Pin=U7-13
+Added Pin To Net: NetName=Bass_In Pin=U7-14
+Added Pin To Net: NetName=DP_5W Pin=U14-1
+Added Pin To Net: NetName=Masse Pin=U14-12
+Added Pin To Net: NetName=Masse Pin=U14-13
+Added Pin To Net: NetName=DP_1W Pin=U15-11
+Added Pin To Net: NetName=DP_1W Pin=U15-12
+Added Pin To Net: NetName=Masse Pin=U15-18
+Added Pin To Net: NetName=Masse Pin=U15-19
+Change Net Name : Old Net Name=DP_3W New Net Name=DP_3B
+Change Net Name : Old Net Name=DP_5W New Net Name=DP_5A
+Change Net Name : Old Net Name=DP_7A New Net Name=DP_7W
+Added Pin To Net: NetName=DP_1B Pin=C45-2
+Added Pin To Net: NetName=DP_1B Pin=C46-1
+Added Pin To Net: NetName=DP_1B Pin=U15-13
+Added Net: Name=DP_1B
+Added Pin To Net: NetName=DP_2A Pin=C46-2
+Added Pin To Net: NetName=DP_2A Pin=U6-10
+Added Pin To Net: NetName=DP_2A Pin=U15-20
+Added Net: Name=DP_2A
+Added Pin To Net: NetName=DP_3W Pin=C1-1
+Added Pin To Net: NetName=DP_3W Pin=U6-13
+Added Pin To Net: NetName=DP_3W Pin=U6-14
+Added Pin To Net: NetName=DP_3W Pin=U14-19
+Added Pin To Net: NetName=DP_3W Pin=U14-20
+Added Net: Name=DP_3W
+Added Pin To Net: NetName=DP_4A Pin=C43-2
+Added Pin To Net: NetName=DP_4A Pin=U6-12
+Added Pin To Net: NetName=DP_4A Pin=U14-11
+Added Net: Name=DP_4A
+Added Pin To Net: NetName=DP_5W Pin=C38-1
+Added Pin To Net: NetName=DP_5W Pin=U14-2
+Added Pin To Net: NetName=DP_5W Pin=U14-3
+Added Pin To Net: NetName=DP_5W Pin=U14-8
+Added Net: Name=DP_5W
+Added Pin To Net: NetName=DP_6W Pin=C48-2
+Added Pin To Net: NetName=DP_6W Pin=U7-3
+Added Pin To Net: NetName=DP_6W Pin=U14-9
+Added Pin To Net: NetName=DP_6W Pin=U14-10
+Added Net: Name=DP_6W
+Added Pin To Net: NetName=DP_7A Pin=C38-2
+Added Pin To Net: NetName=DP_7A Pin=U7-1
+Added Pin To Net: NetName=DP_7A Pin=U7-2
+Added Pin To Net: NetName=DP_7A Pin=U15-1
+Added Net: Name=DP_7A
+Added Pin To Net: NetName=DP_8W Pin=C47-2
+Added Pin To Net: NetName=DP_8W Pin=U7-5
+Added Pin To Net: NetName=DP_8W Pin=U15-9
+Added Pin To Net: NetName=DP_8W Pin=U15-10
+Added Net: Name=DP_8W
+Added Pin To Net: NetName=NetU6_6 Pin=U6-6
+Added Pin To Net: NetName=NetU6_6 Pin=U6-7
+Added Net: Name=NetU6_6
+Added Room: Name=Frequenzweiche

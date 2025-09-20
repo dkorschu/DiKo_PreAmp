@@ -1,0 +1,29 @@
+Change Component Comment : Designator=R202 Old Comment=10k log New Comment=10k lin
+Change Component Comment : Designator=R110 Old Comment=20k log New Comment=22k log
+Change Component Comment : Designator=R111 Old Comment=20k log New Comment=22k log
+Change Component Comment : Designator=R138 Old Comment=20k log New Comment=22k log
+Change Component Comment : Designator=R139 Old Comment=20k log New Comment=22k log
+Change Component Comment : Designator=R140 Old Comment=50k log New Comment=47k log
+Change Component Comment : Designator=R141 Old Comment=50k log New Comment=47k log
+Change Component Comment : Designator=R191 Old Comment=100k New Comment=50k lin
+Change Component Description : Designator=D1 Old Description=WP710A10LGD LED Thru-Hole PCB Green T-1 3mm Green Lens 2 mA 568 nm 2 mcd Round New Description=WP710A10LGD LED Thru-Hole PCB Green T-1 3mm Green Lens 2 mA 568 nm 2 mcd Round | Kingbright WP710A10LGD
+Change component parameters: Designator = "R110" ("R110"); Footprint = "Connector x3"; UniqueID = "\BVSCULYL" ("\BVSCULYL")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R111" ("R111"); Footprint = "Connector x3"; UniqueID = "\WBYEDTIJ" ("\WBYEDTIJ")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R138" ("R138"); Footprint = "Connector x3"; UniqueID = "\EVCJJAUY" ("\EVCJJAUY")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R139" ("R139"); Footprint = "Connector x3"; UniqueID = "\VSEPRKXQ" ("\VSEPRKXQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "22k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R140" ("R140"); Footprint = "Connector x3"; UniqueID = "\FZZOVCMQ" ("\FZZOVCMQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R141" ("R141"); Footprint = "Connector x3"; UniqueID = "\QMKYBPEF" ("\QMKYBPEF")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R191" ("R191"); Footprint = "SMD Trimmer 3314G"; UniqueID = "\ULHFMDLO" ("\ULHFMDLO")
+Change component parameters (AddParameter): Name = "Value"; Value = "50k lin"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R202" ("R202"); Footprint = "SMD Trimmer 3314G"; UniqueID = "\CONXQAEC" ("\CONXQAEC")
+Change component parameters (AddParameter): Name = "ClassName"; Value = "VU_Meter"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k lin"; VariantName = "[No Variations]"
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

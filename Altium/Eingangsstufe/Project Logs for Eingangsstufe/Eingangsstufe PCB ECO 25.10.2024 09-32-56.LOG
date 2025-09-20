@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=A04 Pin=R49-3
+Added Pin To Net: NetName=A04 Pin=R49-1
+Added Pin To Net: NetName=NetR49_3 Pin=R49-3
+Added Pin To Net: NetName=NetR49_3 Pin=R51-1
+Added Net: Name=NetR49_3
+Added Room: Name=Eingangsstufe

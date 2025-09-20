@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetR153_1 Pin=S8-1
+Added Pin To Net: NetName=NetR153_1 Pin=S8-3
+Added Room: Name=AUX_Return
+Added Room: Name=KST/AUX
+Added Room: Name=VU_Meter

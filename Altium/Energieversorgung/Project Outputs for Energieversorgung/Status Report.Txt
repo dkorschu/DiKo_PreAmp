@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Energieversorgung.PcbDoc]
+   Generated File[Energieversorgung.TXT]
+   Generated File[Energieversorgung.LDP]
+   Generated File[Energieversorgung.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:12:44 On 14.11.2024

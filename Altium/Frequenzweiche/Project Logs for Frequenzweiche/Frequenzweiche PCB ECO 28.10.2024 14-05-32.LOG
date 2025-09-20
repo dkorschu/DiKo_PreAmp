@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=DP_15B Pin=U9-1
+Removed Pin From Net: NetName=DP_15B Pin=U9-2
+Removed Pin From Net: NetName=DP_14W Pin=U9-3
+Removed Pin From Net: NetName=DP_16W Pin=U9-5
+Removed Pin From Net: NetName=NetC50_2 Pin=U9-6
+Removed Pin From Net: NetName=NetC50_2 Pin=U9-7
+Added Component: Designator=C51(0805)
+Add component (AddParameter): Name = "Value"; Value = "22n"; VariantName = "[No Variations]"
+Added Component: Designator=C61(0805)
+Add component (AddParameter): Name = "Value"; Value = "22n"; VariantName = "[No Variations]"
+Added Component: Designator=C93(0805)
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DP_13W Pin=C51-1
+Added Pin To Net: NetName=DP_15B Pin=C51-2
+Added Pin To Net: NetName=Masse Pin=C61-1
+Added Pin To Net: NetName=DP_14W Pin=C61-2
+Added Pin To Net: NetName=Masse Pin=C93-1
+Added Pin To Net: NetName=5V_DP Pin=C93-2
+Added Pin To Net: NetName=NetC50_2 Pin=U9-1
+Added Pin To Net: NetName=NetC50_2 Pin=U9-2
+Added Pin To Net: NetName=DP_16W Pin=U9-3
+Added Pin To Net: NetName=DP_14W Pin=U9-5
+Added Pin To Net: NetName=DP_15B Pin=U9-6
+Added Pin To Net: NetName=DP_15B Pin=U9-7
+Added Member To Class: ClassName=Frequenzweiche Member=Component C51 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C61 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C93 100n
+Added Member To Class: ClassName=Frequenzweiche Member=Component U17 MCP4361-103E/ST
+Added Room: Name=Frequenzweiche

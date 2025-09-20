@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetC22_1 Pin=R46-1
+Removed Pin From Net: NetName=NetC21_2 Pin=R46-3
+Removed Pin From Net: NetName=A04 Pin=R49-1
+Removed Pin From Net: NetName=A04 Pin=R50-1
+Added Pin To Net: NetName=NetC21_2 Pin=R46-1
+Added Pin To Net: NetName=NetC22_1 Pin=R46-3
+Added Pin To Net: NetName=A04 Pin=R49-3
+Added Pin To Net: NetName=A04 Pin=R50-3
+Added Pin To Net: NetName=NetR49_1 Pin=R49-1
+Added Pin To Net: NetName=NetR49_1 Pin=R51-1
+Added Net: Name=NetR49_1
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Pin To Net: NetName=NetR50_1 Pin=R107-1
+Added Net: Name=NetR50_1
+Added Room: Name=Eingangsstufe

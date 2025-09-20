@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=Kick_Line Pin=C138-2
+Removed Pin From Net: NetName=Mitten_Line Pin=C139-2
+Removed Pin From Net: NetName=Kick_Iso Pin=R160-2
+Removed Pin From Net: NetName=Mitten_Iso Pin=R162-2
+Removed Pin From Net: NetName=Kick_Line Pin=R173-2
+Removed Pin From Net: NetName=Mitten_Line Pin=R174-2
+Removed Pin From Net: NetName=Kick Pin=U23-10
+Removed Pin From Net: NetName=Kick Pin=U23-12
+Removed Pin From Net: NetName=Mitten Pin=U24-10
+Removed Pin From Net: NetName=Mitten Pin=U24-12
+Added Pin To Net: NetName=Mitten_Line Pin=C138-2
+Added Pin To Net: NetName=Kick_Line Pin=C139-2
+Added Pin To Net: NetName=Mitten_Iso Pin=R160-2
+Added Pin To Net: NetName=Kick_Iso Pin=R162-2
+Added Pin To Net: NetName=Mitten_Line Pin=R173-2
+Added Pin To Net: NetName=Kick_Line Pin=R174-2
+Added Pin To Net: NetName=Mitten Pin=U23-10
+Added Pin To Net: NetName=Mitten Pin=U23-12
+Added Pin To Net: NetName=Kick Pin=U24-10
+Added Pin To Net: NetName=Kick Pin=U24-12
+Added Room: Name=Ausgangsstufe

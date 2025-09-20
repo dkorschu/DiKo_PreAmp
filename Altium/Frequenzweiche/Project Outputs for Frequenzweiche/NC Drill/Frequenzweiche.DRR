@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Frequenzweiche.PcbDoc   14.11.2024  15:13:15
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Frequenzweiche.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      35mil (0.899mm)                                           Round             77        PTH        0.00inch (0.00mm)
+T2      36mil (0.912mm)                                           Round             112       PTH        0.00inch (0.00mm)
+T3      36mil (0.914mm)                                           Round             30        PTH        0.00inch (0.00mm)
+T4      39mil (1.001mm)                                           Round             24        PTH        0.00inch (0.00mm)
+T5      40mil (1.021mm)                                           Round             14        PTH        0.00inch (0.00mm)
+T6      43mil (1.1mm)                                             Round             12        PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              269
+
+Total Processing Time (hh:mm:ss) : 00:00:00

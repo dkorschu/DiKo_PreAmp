@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetR71_2 Pin=U8-5
+Removed Pin From Net: NetName=NetR62_2 Pin=U8-6
+Removed Pin From Net: NetName=NetC65_1 Pin=U8-7
+Removed Pin From Net: NetName=Kick_In Pin=U9-8
+Removed Pin From Net: NetName=NetR64_2 Pin=U9-9
+Removed Pin From Net: NetName=Masse Pin=U9-10
+Removed Pin From Net: NetName=KST_1_1 / Line_Aux Pin=U9-12
+Removed Pin From Net: NetName=NetR67_2 Pin=U9-13
+Removed Pin From Net: NetName=NetR62_1 Pin=U9-14
+Added Pin To Net: NetName=Masse Pin=U8-5
+Added Pin To Net: NetName=NetR64_2 Pin=U8-6
+Added Pin To Net: NetName=Kick_In Pin=U8-7
+Added Pin To Net: NetName=NetR62_1 Pin=U9-8
+Added Pin To Net: NetName=NetR67_2 Pin=U9-9
+Added Pin To Net: NetName=KST_1_1 / Line_Aux Pin=U9-10
+Added Pin To Net: NetName=NetR71_2 Pin=U9-12
+Added Pin To Net: NetName=NetR62_2 Pin=U9-13
+Added Pin To Net: NetName=NetC65_1 Pin=U9-14
+Added Room: Name=Frequenzweiche

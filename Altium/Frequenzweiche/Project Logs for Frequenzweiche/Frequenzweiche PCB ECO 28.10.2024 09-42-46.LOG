@@ -1,0 +1,34 @@
+Added Component: Designator=U16(MCP 4361)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153-AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.microchip.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/22233a.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revA, Dec-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "20-Lead Plastic Thin Shrink Small Outline (ST) - 4.4mm Body [TSSOP]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TSSOP-ST20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revBB, Aug-2009"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Masse Pin=U16-1
+Added Pin To Net: NetName=DP_12W Pin=U16-2
+Added Pin To Net: NetName=DP_12W Pin=U16-3
+Added Pin To Net: NetName=DP_3 Pin=U16-4
+Added Pin To Net: NetName=Clock Pin=U16-5
+Added Pin To Net: NetName=Data_Out Pin=U16-6
+Added Pin To Net: NetName=Masse Pin=U16-7
+Added Pin To Net: NetName=DP_9W Pin=U16-8
+Added Pin To Net: NetName=DP_9W Pin=U16-9
+Added Pin To Net: NetName=DP_9A Pin=U16-10
+Added Pin To Net: NetName=Masse Pin=U16-11
+Added Pin To Net: NetName=DP_10W Pin=U16-12
+Added Pin To Net: NetName=DP_10W Pin=U16-13
+Added Pin To Net: NetName=NetR98_2 Pin=U16-14
+Added Pin To Net: NetName=Reset Pin=U16-15
+Added Pin To Net: NetName=Data_In Pin=U16-16
+Added Pin To Net: NetName=5V_DP Pin=U16-17
+Added Pin To Net: NetName=DP_11W Pin=U16-18
+Added Pin To Net: NetName=DP_11W Pin=U16-19
+Added Pin To Net: NetName=DP_11A Pin=U16-20
+Added Member To Class: ClassName=Frequenzweiche Member=Component U16 MCP4361-103E/ST
+Added Room: Name=Frequenzweiche

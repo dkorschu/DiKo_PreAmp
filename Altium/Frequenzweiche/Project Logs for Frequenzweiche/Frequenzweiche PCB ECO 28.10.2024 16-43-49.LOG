@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=DP_10B Pin=U17-18
+Removed Pin From Net: NetName=Masse Pin=U17-20
+Added Pin To Net: NetName=Masse Pin=U17-18
+Added Pin To Net: NetName=DP_10B Pin=U17-20
+Added Room: Name=Frequenzweiche

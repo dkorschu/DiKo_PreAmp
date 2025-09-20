@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Heiﬂ Pin=J4-2
+Removed Pin From Net: NetName=Kalt Pin=J4-3
+Added Pin To Net: NetName=Kalt Pin=J4-2
+Added Pin To Net: NetName=Heiﬂ Pin=J4-3
+Added Room: Name=Eingangsstufe

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=A11 Pin=R114-1
+Added Pin To Net: NetName=A11 Pin=R114-3
+Added Pin To Net: NetName=NetR114_1 Pin=R114-1
+Added Pin To Net: NetName=NetR114_1 Pin=R121-2
+Added Net: Name=NetR114_1
+Added Room: Name=Ausgangsstufe

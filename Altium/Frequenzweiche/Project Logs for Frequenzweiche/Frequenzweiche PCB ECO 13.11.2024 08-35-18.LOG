@@ -1,0 +1,22 @@
+Added Member To Class: ClassName=Frequenzweiche Member=Component C1 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C4 10u
+Added Member To Class: ClassName=Frequenzweiche Member=Component C37 10u
+Added Member To Class: ClassName=Frequenzweiche Member=Component C39 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C42 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C55 100n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C59 100n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C60 100n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C64 100n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C72 100n
+Added Member To Class: ClassName=Frequenzweiche Member=Component R1 4k7
+Added Member To Class: ClassName=Frequenzweiche Member=Component R2 10k
+Added Member To Class: ClassName=Frequenzweiche Member=Component R3 220k
+Added Member To Class: ClassName=Frequenzweiche Member=Component R4 220k
+Added Member To Class: ClassName=Frequenzweiche Member=Component S2 Schalter Buchsenleiste
+Added Member To Class: ClassName=Frequenzweiche Member=Component TP2 Test_Pin
+Added Member To Class: ClassName=Frequenzweiche Member=Component TP3 Test_Pin
+Added Member To Class: ClassName=Frequenzweiche Member=Component TP6 Test_Pin
+Added Member To Class: ClassName=Frequenzweiche Member=Component TP8 Test_Pin
+Added Member To Class: ClassName=Frequenzweiche Member=Component TP10 Test_Pin
+Added Member To Class: ClassName=Frequenzweiche Member=Component TP11 Test_Pin
+Added Room: Name=Frequenzweiche

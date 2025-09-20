@@ -1,0 +1,33 @@
+Change Component Designator: OldDesignator=C175 NewDesignator=C1
+Change Component Designator: OldDesignator=C176 NewDesignator=C2
+Change Component Designator: OldDesignator=C177 NewDesignator=C3
+Change Component Designator: OldDesignator=C178 NewDesignator=C4
+Change Component Designator: OldDesignator=C179 NewDesignator=C9
+Change Component Designator: OldDesignator=C180 NewDesignator=C6
+Change Component Designator: OldDesignator=C181 NewDesignator=C5
+Change Component Designator: OldDesignator=C182 NewDesignator=C8
+Change Component Designator: OldDesignator=C183 NewDesignator=C10
+Change Component Designator: OldDesignator=C184 NewDesignator=C7
+Change Component Designator: OldDesignator=C185 NewDesignator=C13
+Change Component Designator: OldDesignator=C186 NewDesignator=C12
+Change Component Designator: OldDesignator=C187 NewDesignator=C11
+Change Component Designator: OldDesignator=D4 NewDesignator=D1
+Change Component Designator: OldDesignator=D5 NewDesignator=D2
+Change Component Designator: OldDesignator=D6 NewDesignator=D3
+Change Component Designator: OldDesignator=D7 NewDesignator=D4
+Change Component Designator: OldDesignator=J20 NewDesignator=J1
+Change Component Designator: OldDesignator=J21 NewDesignator=J2
+Change Component Designator: OldDesignator=J22 NewDesignator=J3
+Change Component Designator: OldDesignator=J23 NewDesignator=J4
+Change Component Designator: OldDesignator=J24 NewDesignator=J5
+Change Component Designator: OldDesignator=R220 NewDesignator=R1
+Change Component Designator: OldDesignator=R221 NewDesignator=R2
+Change Component Designator: OldDesignator=R222 NewDesignator=R3
+Change Component Designator: OldDesignator=R223 NewDesignator=R4
+Change Net Name : Old Net Name=NetC177_2 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetC179_1 New Net Name=NetC9_1
+Change Net Name : Old Net Name=NetC180_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=NetC181_2 New Net Name=NetC5_2
+Change Net Name : Old Net Name=NetR221_1 New Net Name=NetR2_1
+Change Net Name : Old Net Name=NetR222_1 New Net Name=NetR3_1
+Added Room: Name=Energieversorgung

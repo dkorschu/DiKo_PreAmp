@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetC21_2 Pin=R46-1
+Removed Pin From Net: NetName=NetC22_1 Pin=R46-3
+Added Pin To Net: NetName=NetC22_1 Pin=R46-1
+Added Pin To Net: NetName=NetC21_2 Pin=R46-3
+Added Member To Class: ClassName=Eingangsstufe Member=Component R37 22k
+Added Room: Name=Eingangsstufe

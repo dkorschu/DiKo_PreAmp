@@ -1,0 +1,35 @@
+Added Member To Class: ClassName=Eingangsstufe Member=Component C4 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C7 470n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C22 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C24 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C25 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C27 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C28 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C29 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C34 100n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C35 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C38 10u
+Added Member To Class: ClassName=Eingangsstufe Member=Component C40 3n
+Added Member To Class: ClassName=Eingangsstufe Member=Component C41 3n
+Added Member To Class: ClassName=Eingangsstufe Member=Component J2 Phono_In
+Added Member To Class: ClassName=Eingangsstufe Member=Component R5 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R23 47k lin
+Added Member To Class: ClassName=Eingangsstufe Member=Component R32 10k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R34 10k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R35 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R36 5k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R39 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R40 5k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R41 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R42 22k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R44 47k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R45 47k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R47 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R49 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R51 220k
+Added Member To Class: ClassName=Eingangsstufe Member=Component R52 47k lin
+Added Member To Class: ClassName=Eingangsstufe Member=Component R53 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R54 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R56 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R57 6.8k
+Added Room: Name=Eingangsstufe

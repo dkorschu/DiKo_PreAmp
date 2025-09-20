@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=Masse Pin=R98-1
+Removed Pin From Net: NetName=Masse Pin=R99-1
+Removed Pin From Net: NetName=Masse Pin=R100-1
+Removed Pin From Net: NetName=Masse Pin=R101-1
+Removed Pin From Net: NetName=Masse Pin=R103-1
+Removed Pin From Net: NetName=Masse Pin=R104-1
+Removed Pin From Net: NetName=Masse Pin=R105-1
+Removed Pin From Net: NetName=Masse Pin=R106-1
+Removed Pin From Net: NetName=Masse Pin=U20-1
+Removed Pin From Net: NetName=Masse Pin=U20-10
+Removed Pin From Net: NetName=DP_25A Pin=U20-11
+Removed Pin From Net: NetName=DP_27W Pin=U20-19
+Removed Pin From Net: NetName=DP_29W Pin=U21-12
+Removed Pin From Net: NetName=DP_29W Pin=U21-13
+Removed Pin From Net: NetName=DP_31W Pin=U21-18
+Removed Pin From Net: NetName=DP_31W Pin=U21-19
+Removed Pin From Net: NetName=DP_31A Pin=U21-20
+Removed Member From Class: ClassName=Frequenzweiche Member=R98
+Removed Member From Class: ClassName=Frequenzweiche Member=R99
+Removed Member From Class: ClassName=Frequenzweiche Member=R100
+Removed Member From Class: ClassName=Frequenzweiche Member=R101
+Removed Member From Class: ClassName=Frequenzweiche Member=R103
+Removed Member From Class: ClassName=Frequenzweiche Member=R104
+Removed Member From Class: ClassName=Frequenzweiche Member=R105
+Removed Member From Class: ClassName=Frequenzweiche Member=R106
+Added Pin To Net: NetName=DP_29W Pin=U20-1
+Added Pin To Net: NetName=Masse Pin=U20-12
+Added Pin To Net: NetName=Masse Pin=U20-13
+Added Pin To Net: NetName=DP_27A Pin=U20-19
+Added Pin To Net: NetName=DP_31W Pin=U21-1
+Added Pin To Net: NetName=DP_31A Pin=U21-8
+Added Pin To Net: NetName=DP_25A Pin=U21-11
+Added Pin To Net: NetName=DP_25A Pin=U21-12
+Added Pin To Net: NetName=Masse Pin=U21-18
+Added Pin To Net: NetName=Masse Pin=U21-19
+Change Net Name : Old Net Name=Data_Out New Net Name=Data
+Change Net Name : Old Net Name=DP_25A New Net Name=DP_25W
+Change Net Name : Old Net Name=DP_27A New Net Name=DP_27W
+Change Net Name : Old Net Name=DP_27W New Net Name=DP_27B
+Change Net Name : Old Net Name=DP_29W New Net Name=DP_29A
+Change Net Name : Old Net Name=DP_31A New Net Name=DP_31W
+Change Net Name : Old Net Name=DP_31W New Net Name=DP_31A
+Added Pin To Net: NetName=DP_25B Pin=C84-2
+Added Pin To Net: NetName=DP_25B Pin=C85-1
+Added Pin To Net: NetName=DP_25B Pin=U21-13
+Added Net: Name=DP_25B
+Added Pin To Net: NetName=DP_26A Pin=C85-2
+Added Pin To Net: NetName=DP_26A Pin=U12-12
+Added Pin To Net: NetName=DP_26A Pin=U21-20
+Added Net: Name=DP_26A
+Added Pin To Net: NetName=DP_28A Pin=C82-2
+Added Pin To Net: NetName=DP_28A Pin=U13-3
+Added Pin To Net: NetName=DP_28A Pin=U20-11
+Added Net: Name=DP_28A
+Added Pin To Net: NetName=DP_29W Pin=C77-1
+Added Pin To Net: NetName=DP_29W Pin=U20-2
+Added Pin To Net: NetName=DP_29W Pin=U20-3
+Added Pin To Net: NetName=DP_29W Pin=U20-8
+Added Net: Name=DP_29W
+Added Pin To Net: NetName=DP_30W Pin=C87-2
+Added Pin To Net: NetName=DP_30W Pin=U13-10
+Added Pin To Net: NetName=DP_30W Pin=U20-9
+Added Pin To Net: NetName=DP_30W Pin=U20-10
+Added Net: Name=DP_30W
+Added Pin To Net: NetName=DP_32W Pin=C86-2
+Added Pin To Net: NetName=DP_32W Pin=U13-12
+Added Pin To Net: NetName=DP_32W Pin=U21-9
+Added Pin To Net: NetName=DP_32W Pin=U21-10
+Added Net: Name=DP_32W
+Added Room: Name=Frequenzweiche

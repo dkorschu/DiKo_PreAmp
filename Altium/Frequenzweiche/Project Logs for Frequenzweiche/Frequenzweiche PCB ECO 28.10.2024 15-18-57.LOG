@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=DP_3A Pin=C40-1
+Removed Pin From Net: NetName=DP_11W Pin=C53-1
+Removed Pin From Net: NetName=DP_19A Pin=C66-1
+Removed Pin From Net: NetName=DP_27A Pin=C79-1
+Removed Member From Class: ClassName=Frequenzweiche Member=C40
+Removed Member From Class: ClassName=Frequenzweiche Member=C53
+Removed Member From Class: ClassName=Frequenzweiche Member=C66
+Removed Member From Class: ClassName=Frequenzweiche Member=C79
+Added Component: Designator=C1(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C2(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C3(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=C4(0805)
+Add component (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DP_3A Pin=C1-1
+Added Pin To Net: NetName=DP_11W Pin=C2-1
+Added Pin To Net: NetName=DP_19A Pin=C3-1
+Added Pin To Net: NetName=DP_27A Pin=C4-1
+Added Pin To Net: NetName=Masse Pin=R1-1
+Added Pin To Net: NetName=Masse Pin=R2-1
+Added Pin To Net: NetName=Masse Pin=R3-1
+Added Pin To Net: NetName=Masse Pin=R4-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U7-5
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=R2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U9-12
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=R3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U11-5
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=R4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U13-5
+Added Net: Name=NetC4_2
+Added Member To Class: ClassName=Frequenzweiche Member=Component C1 10u
+Added Member To Class: ClassName=Frequenzweiche Member=Component C2 10u
+Added Member To Class: ClassName=Frequenzweiche Member=Component C3 10u
+Added Member To Class: ClassName=Frequenzweiche Member=Component C4 10u
+Added Member To Class: ClassName=Frequenzweiche Member=Component C50 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C60 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component R1 220k
+Added Member To Class: ClassName=Frequenzweiche Member=Component R2 220k
+Added Member To Class: ClassName=Frequenzweiche Member=Component R3 220k
+Added Member To Class: ClassName=Frequenzweiche Member=Component R4 220k
+Added Room: Name=Frequenzweiche

@@ -1,0 +1,13 @@
+Change Component Comment : Designator=R56 Old Comment=20k log New Comment=47k log
+Change Component Comment : Designator=R67 Old Comment=50k log New Comment=47k log
+Change Component Comment : Designator=R82 Old Comment=50k log New Comment=47k log
+Change Component Comment : Designator=R93 Old Comment=50k log New Comment=47k log
+Change component parameters: Designator = "R56" ("R56"); Footprint = "Connector x3"; UniqueID = "\OFWEQGUS" ("\OFWEQGUS")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R67" ("R67"); Footprint = "Connector x3"; UniqueID = "\JQGNLDPF" ("\JQGNLDPF")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R82" ("R82"); Footprint = "Connector x3"; UniqueID = "\ZSPHQRPQ" ("\ZSPHQRPQ")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R93" ("R93"); Footprint = "Connector x3"; UniqueID = "\ZDZBACPH" ("\ZDZBACPH")
+Change component parameters (AddParameter): Name = "Value"; Value = "47k log"; VariantName = "[No Variations]"
+Added Room: Name=Frequenzweiche

@@ -1,0 +1,13 @@
+Added Component: Designator=R47(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "220k log"; VariantName = "[No Variations]"
+Added Component: Designator=R48(Connector x3)
+Add component (AddParameter): Name = "Value"; Value = "220k log"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=A02 Pin=R47-1
+Added Pin To Net: NetName=A02 Pin=R47-2
+Added Pin To Net: NetName=NetR47_3 Pin=R47-3
+Added Pin To Net: NetName=A02 Pin=R48-1
+Added Pin To Net: NetName=A02 Pin=R48-2
+Added Pin To Net: NetName=NetR48_3 Pin=R48-3
+Added Member To Class: ClassName=Eingangsstufe Member=Component R47 220k log
+Added Member To Class: ClassName=Eingangsstufe Member=Component R48 220k log
+Added Room: Name=Eingangsstufe

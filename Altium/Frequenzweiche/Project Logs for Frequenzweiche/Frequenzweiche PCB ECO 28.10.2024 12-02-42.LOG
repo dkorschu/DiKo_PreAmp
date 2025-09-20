@@ -1,0 +1,55 @@
+Added Component: Designator=C60(0805)
+Add component (AddParameter): Name = "Value"; Value = "22n"; VariantName = "[No Variations]"
+Added Component: Designator=C61(0805)
+Add component (AddParameter): Name = "Value"; Value = "22n"; VariantName = "[No Variations]"
+Added Component: Designator=R61(0805)
+Add component (AddParameter): Name = "Value"; Value = "220k"; VariantName = "[No Variations]"
+Added Component: Designator=R90(0805)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=U17(MCP 4361)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153-AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.microchip.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/22233a.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revA, Dec-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "20-Lead Plastic Thin Shrink Small Outline (ST) - 4.4mm Body [TSSOP]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TSSOP-ST20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revBB, Aug-2009"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Masse Pin=C60-1
+Added Pin To Net: NetName=DP_16W Pin=C60-2
+Added Pin To Net: NetName=Masse Pin=C61-1
+Added Pin To Net: NetName=DP_14W Pin=C61-2
+Added Pin To Net: NetName=Masse Pin=R61-1
+Added Pin To Net: NetName=DP_13A Pin=R61-2
+Added Pin To Net: NetName=KST_1_2 Pin=R90-1
+Added Pin To Net: NetName=NetR90_2 Pin=R90-2
+Added Pin To Net: NetName=DP_13A Pin=TP5-01
+Added Pin To Net: NetName=DP_15W Pin=U17-1
+Added Pin To Net: NetName=DP_16W Pin=U17-2
+Added Pin To Net: NetName=DP_16W Pin=U17-3
+Added Pin To Net: NetName=DP_4 Pin=U17-4
+Added Pin To Net: NetName=Clock Pin=U17-5
+Added Pin To Net: NetName=Data_Out Pin=U17-6
+Added Pin To Net: NetName=Masse Pin=U17-7
+Added Pin To Net: NetName=DP_14W Pin=U17-8
+Added Pin To Net: NetName=DP_14W Pin=U17-9
+Added Pin To Net: NetName=DP_13W Pin=U17-10
+Added Pin To Net: NetName=DP_13A Pin=U17-11
+Added Pin To Net: NetName=DP_13W Pin=U17-12
+Added Pin To Net: NetName=DP_13W Pin=U17-13
+Added Pin To Net: NetName=NetR99_2 Pin=U17-14
+Added Pin To Net: NetName=Reset Pin=U17-15
+Added Pin To Net: NetName=Data_In Pin=U17-16
+Added Pin To Net: NetName=5V_DP Pin=U17-17
+Added Pin To Net: NetName=DP_15W Pin=U17-18
+Added Pin To Net: NetName=DP_15W Pin=U17-19
+Added Pin To Net: NetName=DP_15A Pin=U17-20
+Added Member To Class: ClassName=Frequenzweiche Member=Component C60 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component C61 22n
+Added Member To Class: ClassName=Frequenzweiche Member=Component R61 220k
+Added Member To Class: ClassName=Frequenzweiche Member=Component R90 10k
+Added Member To Class: ClassName=Frequenzweiche Member=Component U17 MCP4361-103E/ST
+Added Room: Name=Frequenzweiche
