@@ -1,6 +1,6 @@
 # DiKo_PreAmp
 
-This repository contains all resources related to the design, development, and documentation of an audio preamplifier that was created as part of a bachelor’s thesis. The preamplifier includes a crossover network whose transmission characteristics can be adjusted using digital potentiometers.
+This repository contains all resources related to the design, development and documentation of an audio preamplifier that was created as part of a bachelor’s thesis. The preamplifier includes a crossover network whose transmission characteristics can be adjusted using digital potentiometers.
 
 ## Repository Structure  
 
