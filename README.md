@@ -1,6 +1,6 @@
 # DiKo_PreAmp
 
-This repository contains all resources related to the design, development, and documentation of a preamplifier created as part of a bachelor’s thesis.  
+This repository contains all resources related to the design, development, and documentation of an audio preamplifier that was created as part of a bachelor’s thesis. The preamplifier includes a crossover network whose transmission characteristics can be adjusted using digital potentiometers.
 
 ## Repository Structure  
 
@@ -21,7 +21,8 @@ This repository contains all resources related to the design, development, and d
   Photos of the preamplifier prototype.  
 
 - **Software/**  
-  Source code for both the microcontroller firmware and the desktop application used to control the digital potentiometers.  
+  Source code for both the microcontroller firmware and the desktop application used to control the digital potentiometers.
+  The microcontroller was programmed using the Arduino IDE and the desktop application was developed in C# with Microsoft Visual    Studio. 
 
 ## Status  
 
