@@ -3,4 +3,5 @@
   (lib (name "REC10K-2415DAW_H2")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/REC10K-2415DAW_H2.kicad_sym")(options "")(descr ""))
   (lib (name "REC10K-2409SAW_H2")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/REC10K-2409SAW_H2.kicad_sym")(options "")(descr ""))
   (lib (name "INA128U")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/INA128U.kicad_sym")(options "")(descr ""))
+  (lib (name "R_Potentiometer_Dual_US")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/Device.kicad_sym")(options "")(descr ""))
 )
