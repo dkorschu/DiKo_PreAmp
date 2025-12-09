@@ -72,60 +72,11 @@
 			)
 		)
 		(symbol "R_Potentiometer_Dual_0_1"
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -7.62 2.286)
-				)
+			(rectangle
+				(start -8.636 2.54)
+				(end -6.604 -2.54)
 				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.286) (xy -6.604 1.905) (xy -7.62 1.524) (xy -8.636 1.143) (xy -7.62 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0.762) (xy -6.604 0.381) (xy -7.62 0) (xy -8.636 -0.381) (xy -7.62 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -0.762) (xy -6.604 -1.143) (xy -7.62 -1.524) (xy -8.636 -1.905) (xy -7.62 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -2.286) (xy -7.62 -2.54)
-				)
-				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -146,19 +97,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 0) (xy -7.366 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 0) (xy -7.366 0)
+					(xy -5.08 0) (xy -6.096 0)
 				)
 				(stroke
 					(width 0)
@@ -302,7 +241,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.826 0) (xy 5.842 0)
+					(xy 5.08 0) (xy 6.096 0)
 				)
 				(stroke
 					(width 0)
@@ -314,7 +253,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.477 0) (xy 5.334 -0.508) (xy 5.334 0.508) (xy 6.477 0)
+					(xy 6.477 0) (xy 5.334 0.508) (xy 5.334 -0.508) (xy 6.477 0)
 				)
 				(stroke
 					(width 0)
@@ -324,60 +263,11 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy 7.62 2.54) (xy 7.62 2.286)
-				)
+			(rectangle
+				(start 8.636 2.54)
+				(end 6.604 -2.54)
 				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 2.286) (xy 8.636 1.905) (xy 7.62 1.524) (xy 6.604 1.143) (xy 7.62 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 0.762) (xy 8.636 0.381) (xy 7.62 0) (xy 6.604 -0.381) (xy 7.62 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -0.762) (xy 8.636 -1.143) (xy 7.62 -1.524) (xy 6.604 -1.905) (xy 7.62 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -2.286) (xy 7.62 -2.54)
-				)
-				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -423,8 +313,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 180)
-				(length 2.54)
+				(at -3.81 0 180)
+				(length 1.27)
 				(name "2"
 					(effects
 						(font
@@ -441,8 +331,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 0)
-				(length 2.54)
+				(at 3.81 0 0)
+				(length 1.27)
 				(name "5"
 					(effects
 						(font
