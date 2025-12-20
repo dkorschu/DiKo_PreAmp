@@ -5652,6 +5652,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LEGENDE"
+		(exclude_from_sim no)
+		(at 673.862 557.784 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "6602fa76-ad2f-4975-8aad-aa2e8e4eb068")
+	)
+	(text "Platinen Bereich"
+		(exclude_from_sim no)
+		(at 674.37 576.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "673d7556-a5ac-4505-a418-a3690e0768ad")
+	)
+	(text "Leiterkabel"
+		(exclude_from_sim no)
+		(at 674.37 569.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80c7c693-bf21-4847-890c-6e41a71b75e2")
+	)
+	(text "Leiterbahn\n"
+		(exclude_from_sim no)
+		(at 674.37 563.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0798d02-50e2-49ce-b821-bf61ea6b8e7a")
+	)
 	(junction
 		(at 85.09 62.23)
 		(diameter 0)
@@ -9768,6 +9812,16 @@
 		)
 		(uuid "0d17b11d-a4cc-4eb3-b1d0-5f6f5c0f20c6")
 	)
+	(polyline
+		(pts
+			(xy 674.37 565.15) (xy 716.28 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d58c00f-6ab6-4924-9871-65121d873b0c")
+	)
 	(wire
 		(pts
 			(xy 52.07 59.69) (xy 52.07 62.23)
@@ -13448,6 +13502,17 @@
 		)
 		(uuid "3bee39d6-4be1-4fcc-9edc-a7add51f30e0")
 	)
+	(polyline
+		(pts
+			(xy 674.37 577.85) (xy 716.28 577.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 153 0 1)
+		)
+		(uuid "3bf45817-3716-43bb-ba51-29c61dc16ff5")
+	)
 	(wire
 		(pts
 			(xy 402.59 562.61) (xy 402.59 570.23)
@@ -15010,7 +15075,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 436.88) (xy 345.44 422.91)
+			(xy 345.44 426.72) (xy 345.44 422.91)
 		)
 		(stroke
 			(width 0)
@@ -19020,7 +19085,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 444.5) (xy 345.44 445.77)
+			(xy 345.44 434.34) (xy 345.44 435.61)
 		)
 		(stroke
 			(width 0)
@@ -19607,6 +19672,16 @@
 			(type default)
 		)
 		(uuid "8b5da782-5468-4710-94ec-13063170b599")
+	)
+	(polyline
+		(pts
+			(xy 674.37 571.5) (xy 716.28 571.5)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "8b64d026-f323-40f6-a4c0-1eb20eedbb4f")
 	)
 	(wire
 		(pts
@@ -30046,7 +30121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05233d9c-8912-487d-b94e-8e2698be4c67")
-		(property "Reference" "Z146"
+		(property "Reference" "Z68"
 			(at 260.858 308.61 90)
 			(effects
 				(font
@@ -30099,7 +30174,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z146")
+					(reference "Z68")
 					(unit 1)
 				)
 			)
@@ -31022,7 +31097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08e9aa91-2b74-432f-97d8-8bd4ab2ac47b")
-		(property "Reference" "Z201"
+		(property "Reference" "Z86"
 			(at 77.47 416.052 90)
 			(effects
 				(font
@@ -31075,7 +31150,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z201")
+					(reference "Z86")
 					(unit 1)
 				)
 			)
@@ -31365,7 +31440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a072ea0-28f0-44a9-932b-cffdd98cbc32")
-		(property "Reference" "Z164"
+		(property "Reference" "Z59"
 			(at 131.318 332.74 90)
 			(effects
 				(font
@@ -31418,7 +31493,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z164")
+					(reference "Z59")
 					(unit 1)
 				)
 			)
@@ -31973,7 +32048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c74b6bb-4805-4847-ae87-65fc7676b829")
-		(property "Reference" "Z180"
+		(property "Reference" "Z56"
 			(at 44.45 355.092 90)
 			(effects
 				(font
@@ -32026,7 +32101,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z180")
+					(reference "Z56")
 					(unit 1)
 				)
 			)
@@ -33434,7 +33509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1201f2c1-3677-4040-981f-8cebce83c0b3")
-		(property "Reference" "Z207"
+		(property "Reference" "Z85"
 			(at 53.848 422.91 90)
 			(effects
 				(font
@@ -33487,7 +33562,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z207")
+					(reference "Z85")
 					(unit 1)
 				)
 			)
@@ -34801,7 +34876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16a64e8a-2876-429d-8630-d7705feb583f")
-		(property "Reference" "Z200"
+		(property "Reference" "Z84"
 			(at 45.72 413.512 90)
 			(effects
 				(font
@@ -34854,7 +34929,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z200")
+					(reference "Z84")
 					(unit 1)
 				)
 			)
@@ -36240,7 +36315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a11be67-75df-4159-a327-d2cc8a999140")
-		(property "Reference" "Z92"
+		(property "Reference" "Z40"
 			(at 44.958 207.01 90)
 			(effects
 				(font
@@ -36293,7 +36368,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z92")
+					(reference "Z40")
 					(unit 1)
 				)
 			)
@@ -37824,7 +37899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ec9fcb1-72b9-404b-8f01-87b78c754137")
-		(property "Reference" "Z140"
+		(property "Reference" "Z64"
 			(at 187.96 296.672 90)
 			(effects
 				(font
@@ -37877,7 +37952,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z140")
+					(reference "Z64")
 					(unit 1)
 				)
 			)
@@ -40024,7 +40099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25d25fe0-d099-49b6-badd-ee47564da0e9")
-		(property "Reference" "Z110"
+		(property "Reference" "Z45"
 			(at 55.118 227.33 90)
 			(effects
 				(font
@@ -40077,7 +40152,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z110")
+					(reference "Z45")
 					(unit 1)
 				)
 			)
@@ -40224,7 +40299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27e915d9-9849-4847-81b7-c8952015b121")
-		(property "Reference" "Z192"
+		(property "Reference" "Z57"
 			(at 52.578 364.49 90)
 			(effects
 				(font
@@ -40277,7 +40352,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z192")
+					(reference "Z57")
 					(unit 1)
 				)
 			)
@@ -41156,7 +41231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa490d9-a38c-4e5b-ae0e-ac801ea2f217")
-		(property "Reference" "Z91"
+		(property "Reference" "Z41"
 			(at 46.99 197.612 90)
 			(effects
 				(font
@@ -41209,7 +41284,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z91")
+					(reference "Z41")
 					(unit 1)
 				)
 			)
@@ -41362,7 +41437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b86e5f3-dfb4-46ac-a22d-1cd05149998a")
-		(property "Reference" "Z196"
+		(property "Reference" "Z77"
 			(at 43.688 391.16 90)
 			(effects
 				(font
@@ -41415,7 +41490,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z196")
+					(reference "Z77")
 					(unit 1)
 				)
 			)
@@ -41430,7 +41505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b975c4f-7fba-466d-9de2-15199811fc2f")
-		(property "Reference" "Z107"
+		(property "Reference" "Z44"
 			(at 46.99 217.932 90)
 			(effects
 				(font
@@ -41483,7 +41558,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z107")
+					(reference "Z44")
 					(unit 1)
 				)
 			)
@@ -42634,7 +42709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30d7a705-97ed-4548-a375-d2905d5e2699")
-		(property "Reference" "Z193"
+		(property "Reference" "Z78"
 			(at 45.72 381.762 90)
 			(effects
 				(font
@@ -42687,7 +42762,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z193")
+					(reference "Z78")
 					(unit 1)
 				)
 			)
@@ -44184,7 +44259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "365d4b8d-fefd-413e-b85f-e3332204bac1")
-		(property "Reference" "Z209"
+		(property "Reference" "Z96"
 			(at 237.998 425.45 90)
 			(effects
 				(font
@@ -44237,7 +44312,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z209")
+					(reference "Z96")
 					(unit 1)
 				)
 			)
@@ -45030,7 +45105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39377740-6d52-4244-b267-6b3eb3d59c47")
-		(property "Reference" "Z139"
+		(property "Reference" "Z62"
 			(at 177.8 296.672 90)
 			(effects
 				(font
@@ -45083,7 +45158,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z139")
+					(reference "Z62")
 					(unit 1)
 				)
 			)
@@ -45302,7 +45377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a27879e-5964-4c2b-82d4-e02e473149c9")
-		(property "Reference" "Z161"
+		(property "Reference" "Z61"
 			(at 155.448 322.58 90)
 			(effects
 				(font
@@ -45355,7 +45430,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z161")
+					(reference "Z61")
 					(unit 1)
 				)
 			)
@@ -45920,7 +45995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c0dcb25-2f4f-4fa5-8a59-01c8fd924de8")
-		(property "Reference" "Z197"
+		(property "Reference" "Z79"
 			(at 53.848 391.16 90)
 			(effects
 				(font
@@ -45973,7 +46048,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z197")
+					(reference "Z79")
 					(unit 1)
 				)
 			)
@@ -46396,7 +46471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e25db1b-c026-4078-8677-940b910cb091")
-		(property "Reference" "Z127"
+		(property "Reference" "Z52"
 			(at 119.38 296.672 90)
 			(effects
 				(font
@@ -46449,7 +46524,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z127")
+					(reference "Z52")
 					(unit 1)
 				)
 			)
@@ -47654,7 +47729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "412ac464-906b-4f44-b68a-d049039ffacf")
-		(property "Reference" "Z212"
+		(property "Reference" "Z95"
 			(at 118.618 443.23 90)
 			(effects
 				(font
@@ -47707,7 +47782,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z212")
+					(reference "Z95")
 					(unit 1)
 				)
 			)
@@ -48908,7 +48983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44c2be75-3da0-4233-92e4-98c94382ff18")
-		(property "Reference" "Z176"
+		(property "Reference" "Z69"
 			(at 237.998 334.01 90)
 			(effects
 				(font
@@ -48961,7 +49036,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z176")
+					(reference "Z69")
 					(unit 1)
 				)
 			)
@@ -52145,7 +52220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f10128-65a8-4e8c-8e90-b723eac4d749")
-		(property "Reference" "Z215"
+		(property "Reference" "Z94"
 			(at 87.63 447.802 90)
 			(effects
 				(font
@@ -52198,7 +52273,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z215")
+					(reference "Z94")
 					(unit 1)
 				)
 			)
@@ -53166,7 +53241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56d20bae-3a7d-4683-9d0b-0a7a7005ca21")
-		(property "Reference" "Z175"
+		(property "Reference" "Z58"
 			(at 137.668 332.74 90)
 			(effects
 				(font
@@ -53219,7 +53294,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z175")
+					(reference "Z58")
 					(unit 1)
 				)
 			)
@@ -54204,7 +54279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c43987a-f1d5-4603-b00c-03d4f88dea50")
-		(property "Reference" "Z186"
+		(property "Reference" "Z76"
 			(at 258.318 359.41 90)
 			(effects
 				(font
@@ -54257,7 +54332,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z186")
+					(reference "Z76")
 					(unit 1)
 				)
 			)
@@ -54880,7 +54955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5de5043a-768b-4424-8052-8c950d93a4fb")
-		(property "Reference" "Z104"
+		(property "Reference" "Z47"
 			(at 126.238 217.17 90)
 			(effects
 				(font
@@ -54933,7 +55008,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z104")
+					(reference "Z47")
 					(unit 1)
 				)
 			)
@@ -55149,7 +55224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f2dbc70-7506-416f-a48f-2bfbda982ead")
-		(property "Reference" "Z213"
+		(property "Reference" "Z90"
 			(at 45.72 445.262 90)
 			(effects
 				(font
@@ -55202,7 +55277,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z213")
+					(reference "Z90")
 					(unit 1)
 				)
 			)
@@ -56694,7 +56769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63a8c1c8-da05-4486-8d42-368aee2d9075")
-		(property "Reference" "Z143"
+		(property "Reference" "Z63"
 			(at 185.928 306.07 90)
 			(effects
 				(font
@@ -56747,7 +56822,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z143")
+					(reference "Z63")
 					(unit 1)
 				)
 			)
@@ -56903,7 +56978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63f2cd43-98f5-4052-86e7-630d5f48c2cf")
-		(property "Reference" "Z177"
+		(property "Reference" "Z71"
 			(at 248.158 334.01 90)
 			(effects
 				(font
@@ -56956,7 +57031,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z177")
+					(reference "Z71")
 					(unit 1)
 				)
 			)
@@ -57782,7 +57857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65f5e180-376f-4c07-b87b-03c5c160a49c")
-		(property "Reference" "Z94"
+		(property "Reference" "Z46"
 			(at 118.11 207.772 90)
 			(effects
 				(font
@@ -57835,7 +57910,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z94")
+					(reference "Z46")
 					(unit 1)
 				)
 			)
@@ -58323,7 +58398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "676e9dfb-ffe5-41b6-81d4-f28b39a6a0fb")
-		(property "Reference" "Z178"
+		(property "Reference" "Z72"
 			(at 259.588 334.01 90)
 			(effects
 				(font
@@ -58376,7 +58451,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z178")
+					(reference "Z72")
 					(unit 1)
 				)
 			)
@@ -58529,7 +58604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d22447-a160-4c5c-be1e-79989eab6467")
-		(property "Reference" "Z179"
+		(property "Reference" "Z74"
 			(at 240.03 350.012 90)
 			(effects
 				(font
@@ -58582,7 +58657,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z179")
+					(reference "Z74")
 					(unit 1)
 				)
 			)
@@ -60163,7 +60238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e3aaa59-b641-4210-b33f-d296e9face64")
-		(property "Reference" "Z108"
+		(property "Reference" "Z49"
 			(at 231.648 224.79 90)
 			(effects
 				(font
@@ -60216,7 +60291,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z108")
+					(reference "Z49")
 					(unit 1)
 				)
 			)
@@ -61521,7 +61596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72d04a86-d333-4cc2-8460-c8e449d1047c")
-		(property "Reference" "Z210"
+		(property "Reference" "Z98"
 			(at 248.158 425.45 90)
 			(effects
 				(font
@@ -61574,7 +61649,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z210")
+					(reference "Z98")
 					(unit 1)
 				)
 			)
@@ -62044,7 +62119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74de6dd1-764d-4d7e-8b3a-a048013429f8")
-		(property "Reference" "Z142"
+		(property "Reference" "Z53"
 			(at 127.508 306.07 90)
 			(effects
 				(font
@@ -62097,7 +62172,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z142")
+					(reference "Z53")
 					(unit 1)
 				)
 			)
@@ -62926,7 +63001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77d69bbc-172c-48cc-99ef-038fa9cc014a")
-		(property "Reference" "Z181"
+		(property "Reference" "Z73"
 			(at 237.998 359.41 90)
 			(effects
 				(font
@@ -62979,7 +63054,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z181")
+					(reference "Z73")
 					(unit 1)
 				)
 			)
@@ -65947,7 +66022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "810d7181-5238-4e22-86e8-6e7837e75d53")
-		(property "Reference" "Z199"
+		(property "Reference" "Z81"
 			(at 84.328 393.7 90)
 			(effects
 				(font
@@ -66000,7 +66075,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z199")
+					(reference "Z81")
 					(unit 1)
 				)
 			)
@@ -66221,7 +66296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "817989d8-adef-4778-9552-e99d478ade2a")
-		(property "Reference" "Z208"
+		(property "Reference" "Z87"
 			(at 85.598 425.45 90)
 			(effects
 				(font
@@ -66274,7 +66349,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z208")
+					(reference "Z87")
 					(unit 1)
 				)
 			)
@@ -66493,7 +66568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8304849f-ee9d-4e95-a4aa-9ee8e8cf6293")
-		(property "Reference" "Z211"
+		(property "Reference" "Z99"
 			(at 259.588 425.45 90)
 			(effects
 				(font
@@ -66546,7 +66621,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z211")
+					(reference "Z99")
 					(unit 1)
 				)
 			)
@@ -66831,7 +66906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84f99890-3e56-4516-9bda-fa0ff0988929")
-		(property "Reference" "Z185"
+		(property "Reference" "Z75"
 			(at 248.158 359.41 90)
 			(effects
 				(font
@@ -66884,7 +66959,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z185")
+					(reference "Z75")
 					(unit 1)
 				)
 			)
@@ -68430,7 +68505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88bcb924-24cd-4ba7-85ad-596d03e75338")
-		(property "Reference" "Z246"
+		(property "Reference" "Z89"
 			(at 43.688 454.66 90)
 			(effects
 				(font
@@ -68483,7 +68558,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z246")
+					(reference "Z89")
 					(unit 1)
 				)
 			)
@@ -69235,7 +69310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bcd600a-1b85-4786-b941-dafe2dc1abba")
-		(property "Reference" "Z204"
+		(property "Reference" "Z88"
 			(at 87.63 416.052 90)
 			(effects
 				(font
@@ -69288,7 +69363,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z204")
+					(reference "Z88")
 					(unit 1)
 				)
 			)
@@ -69612,7 +69687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8da908a5-cbc1-484b-961d-deac38f119be")
-		(property "Reference" "Z244"
+		(property "Reference" "Z100"
 			(at 259.588 450.85 90)
 			(effects
 				(font
@@ -69665,7 +69740,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z244")
+					(reference "Z100")
 					(unit 1)
 				)
 			)
@@ -69854,7 +69929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e6507d7-c758-4705-9609-57f03449ea09")
-		(property "Reference" "Z163"
+		(property "Reference" "Z70"
 			(at 240.03 324.612 90)
 			(effects
 				(font
@@ -69907,7 +69982,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z163")
+					(reference "Z70")
 					(unit 1)
 				)
 			)
@@ -70198,7 +70273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff5a844-85b4-47b0-b434-9f2966c3db78")
-		(property "Reference" "Z251"
+		(property "Reference" "Z91"
 			(at 53.848 454.66 90)
 			(effects
 				(font
@@ -70251,7 +70326,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z251")
+					(reference "Z91")
 					(unit 1)
 				)
 			)
@@ -74335,7 +74410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fe2cd95-a2aa-4728-ab07-bd98055d77d7")
-		(property "Reference" "Z206"
+		(property "Reference" "Z83"
 			(at 43.688 422.91 90)
 			(effects
 				(font
@@ -74388,7 +74463,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z206")
+					(reference "Z83")
 					(unit 1)
 				)
 			)
@@ -77242,46 +77317,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "602c8379-e0ac-4aa1-ab7a-64fcf4667cb8")
+			(uuid "602c8379-e0ac-4aa1-ab7a-64fcf4667cb9")
 		)
 		(pin "5"
-			(uuid "94181e5f-f483-4f94-9b83-f4baa8a3457f")
+			(uuid "94181e5f-f483-4f94-9b83-f4baa8a34580")
 		)
 		(pin "12"
-			(uuid "2a494380-bc9c-45af-9398-0c8edc2b0263")
+			(uuid "2a494380-bc9c-45af-9398-0c8edc2b0264")
 		)
 		(pin "13"
-			(uuid "4f4a92f0-2875-4123-b407-4ca2c143c729")
+			(uuid "4f4a92f0-2875-4123-b407-4ca2c143c72a")
 		)
 		(pin "10"
-			(uuid "a25fe156-c12e-4a8a-af34-2975e4ce8f0e")
+			(uuid "a25fe156-c12e-4a8a-af34-2975e4ce8f0f")
 		)
 		(pin "14"
-			(uuid "72c49d52-f788-4e26-9b88-77c63f32a0ea")
+			(uuid "72c49d52-f788-4e26-9b88-77c63f32a0eb")
 		)
 		(pin "3"
-			(uuid "495fdc6e-8a0c-4c32-9a28-be21800511c6")
+			(uuid "495fdc6e-8a0c-4c32-9a28-be21800511c7")
 		)
 		(pin "4"
 			(uuid "97096172-d842-4d00-8108-b982dcc3d7d0")
 		)
 		(pin "8"
-			(uuid "d34ed7a5-3060-4aa6-8fc1-b0533a59bac2")
+			(uuid "d34ed7a5-3060-4aa6-8fc1-b0533a59bac3")
 		)
 		(pin "2"
-			(uuid "12058b87-6cf9-4e2b-9a43-d16d6f84164a")
+			(uuid "12058b87-6cf9-4e2b-9a43-d16d6f84164b")
 		)
 		(pin "1"
-			(uuid "03893112-40fe-4a6f-862d-2ae4f8816b1d")
+			(uuid "03893112-40fe-4a6f-862d-2ae4f8816b1e")
 		)
 		(pin "7"
-			(uuid "3752f409-21eb-4d2e-99d4-2ddcf3847898")
+			(uuid "3752f409-21eb-4d2e-99d4-2ddcf3847899")
 		)
 		(pin "11"
 			(uuid "0043c35c-c03f-4271-81ba-a5c381ce78a3")
 		)
 		(pin "9"
-			(uuid "20353c3b-16d3-4986-8bf5-3ca4b6acca65")
+			(uuid "20353c3b-16d3-4986-8bf5-3ca4b6acca66")
 		)
 		(instances
 			(project "DiKo_PreAmp"
@@ -77837,7 +77912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab62d5e3-22cc-4084-8232-46a53c3e5452")
-		(property "Reference" "Z145"
+		(property "Reference" "Z67"
 			(at 248.158 308.61 90)
 			(effects
 				(font
@@ -77890,7 +77965,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z145")
+					(reference "Z67")
 					(unit 1)
 				)
 			)
@@ -78884,7 +78959,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 345.44 440.69 0)
+		(at 345.44 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78892,7 +78967,7 @@
 		(dnp no)
 		(uuid "adc10d8f-3e65-41ec-84ed-e4094e40ae87")
 		(property "Reference" "Z239"
-			(at 348.488 440.69 90)
+			(at 348.488 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78900,7 +78975,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 349.25 440.69 90)
+			(at 349.25 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78909,7 +78984,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 343.662 440.69 90)
+			(at 343.662 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78918,7 +78993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 440.69 0)
+			(at 345.44 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78927,7 +79002,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 345.44 440.69 0)
+			(at 345.44 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80639,7 +80714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b371ed97-e2e6-439c-a638-26f5f244ab94")
-		(property "Reference" "Z101"
+		(property "Reference" "Z48"
 			(at 128.27 207.772 90)
 			(effects
 				(font
@@ -80692,7 +80767,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z101")
+					(reference "Z48")
 					(unit 1)
 				)
 			)
@@ -82099,7 +82174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b829fd83-ca15-40de-82a1-d0508577faf6")
-		(property "Reference" "Z194"
+		(property "Reference" "Z80"
 			(at 76.2 384.302 90)
 			(effects
 				(font
@@ -82152,7 +82227,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z194")
+					(reference "Z80")
 					(unit 1)
 				)
 			)
@@ -82301,7 +82376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9367c87-443a-4844-aedc-97de1c2d0163")
-		(property "Reference" "Z93"
+		(property "Reference" "Z42"
 			(at 55.118 207.01 90)
 			(effects
 				(font
@@ -82354,7 +82429,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z93")
+					(reference "Z42")
 					(unit 1)
 				)
 			)
@@ -83040,7 +83115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbdf07f7-c979-4587-8cf0-02f67a836785")
-		(property "Reference" "Z195"
+		(property "Reference" "Z82"
 			(at 86.36 384.302 90)
 			(effects
 				(font
@@ -83093,7 +83168,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z195")
+					(reference "Z82")
 					(unit 1)
 				)
 			)
@@ -83392,7 +83467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc9bcfa1-c158-45dd-8d5f-8c4659e0990c")
-		(property "Reference" "Z214"
+		(property "Reference" "Z92"
 			(at 77.47 447.802 90)
 			(effects
 				(font
@@ -83445,7 +83520,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z214")
+					(reference "Z92")
 					(unit 1)
 				)
 			)
@@ -83870,7 +83945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bde3dae4-8ff8-4047-954e-99e49655d536")
-		(property "Reference" "Z144"
+		(property "Reference" "Z65"
 			(at 237.998 308.61 90)
 			(effects
 				(font
@@ -83923,7 +83998,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z144")
+					(reference "Z65")
 					(unit 1)
 				)
 			)
@@ -87198,7 +87273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8a8d33f-1670-4d07-92af-1da81d525c41")
-		(property "Reference" "Z252"
+		(property "Reference" "Z93"
 			(at 85.598 457.2 90)
 			(effects
 				(font
@@ -87251,7 +87326,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z252")
+					(reference "Z93")
 					(unit 1)
 				)
 			)
@@ -90848,7 +90923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4ee8e4a-534f-467f-96a9-80262e2d0572")
-		(property "Reference" "Z109"
+		(property "Reference" "Z43"
 			(at 44.958 227.33 90)
 			(effects
 				(font
@@ -90901,7 +90976,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z109")
+					(reference "Z43")
 					(unit 1)
 				)
 			)
@@ -92720,7 +92795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcbdf02d-fd5c-4136-a3cd-85cf5e6c0f2a")
-		(property "Reference" "Z191"
+		(property "Reference" "Z55"
 			(at 42.418 364.49 90)
 			(effects
 				(font
@@ -92773,7 +92848,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z191")
+					(reference "Z55")
 					(unit 1)
 				)
 			)
@@ -93034,7 +93109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd6ce6ac-c69e-42a4-bef3-0e9269e9c2e3")
-		(property "Reference" "Z124"
+		(property "Reference" "Z51"
 			(at 231.648 234.95 90)
 			(effects
 				(font
@@ -93087,7 +93162,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z124")
+					(reference "Z51")
 					(unit 1)
 				)
 			)
@@ -93419,46 +93494,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "602c8379-e0ac-4aa1-ab7a-64fcf4667cb9")
+			(uuid "602c8379-e0ac-4aa1-ab7a-64fcf4667cbc")
 		)
 		(pin "5"
-			(uuid "94181e5f-f483-4f94-9b83-f4baa8a34580")
+			(uuid "94181e5f-f483-4f94-9b83-f4baa8a34583")
 		)
 		(pin "12"
-			(uuid "2a494380-bc9c-45af-9398-0c8edc2b0264")
+			(uuid "2a494380-bc9c-45af-9398-0c8edc2b0265")
 		)
 		(pin "13"
-			(uuid "4f4a92f0-2875-4123-b407-4ca2c143c72a")
+			(uuid "4f4a92f0-2875-4123-b407-4ca2c143c72b")
 		)
 		(pin "10"
-			(uuid "a25fe156-c12e-4a8a-af34-2975e4ce8f0f")
+			(uuid "a25fe156-c12e-4a8a-af34-2975e4ce8f12")
 		)
 		(pin "14"
-			(uuid "72c49d52-f788-4e26-9b88-77c63f32a0eb")
+			(uuid "72c49d52-f788-4e26-9b88-77c63f32a0ec")
 		)
 		(pin "3"
-			(uuid "495fdc6e-8a0c-4c32-9a28-be21800511c7")
+			(uuid "495fdc6e-8a0c-4c32-9a28-be21800511ca")
 		)
 		(pin "4"
 			(uuid "a0d1c01d-2041-442a-a3bf-353490b8cb3a")
 		)
 		(pin "8"
-			(uuid "d34ed7a5-3060-4aa6-8fc1-b0533a59bac3")
+			(uuid "d34ed7a5-3060-4aa6-8fc1-b0533a59bac6")
 		)
 		(pin "2"
-			(uuid "12058b87-6cf9-4e2b-9a43-d16d6f84164b")
+			(uuid "12058b87-6cf9-4e2b-9a43-d16d6f84164e")
 		)
 		(pin "1"
-			(uuid "03893112-40fe-4a6f-862d-2ae4f8816b1e")
+			(uuid "03893112-40fe-4a6f-862d-2ae4f8816b21")
 		)
 		(pin "7"
-			(uuid "3752f409-21eb-4d2e-99d4-2ddcf3847899")
+			(uuid "3752f409-21eb-4d2e-99d4-2ddcf384789c")
 		)
 		(pin "11"
 			(uuid "39e5692e-c31c-41cf-8773-ed44c1133977")
 		)
 		(pin "9"
-			(uuid "20353c3b-16d3-4986-8bf5-3ca4b6acca66")
+			(uuid "20353c3b-16d3-4986-8bf5-3ca4b6acca69")
 		)
 		(instances
 			(project ""
@@ -93541,7 +93616,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 345.44 445.77 0)
+		(at 345.44 435.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -93550,7 +93625,7 @@
 		(fields_autoplaced yes)
 		(uuid "de46cd3e-b64f-4aa5-a7e6-3a3f654c09ee")
 		(property "Reference" "#PWR0269"
-			(at 345.44 452.12 0)
+			(at 345.44 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93559,7 +93634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 450.85 0)
+			(at 345.44 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93567,7 +93642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 445.77 0)
+			(at 345.44 435.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93576,7 +93651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 445.77 0)
+			(at 345.44 435.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93585,7 +93660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 345.44 445.77 0)
+			(at 345.44 435.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93784,7 +93859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df708fe0-4a21-4eef-ab23-fbe88507945a")
-		(property "Reference" "Z205"
+		(property "Reference" "Z97"
 			(at 240.03 416.052 90)
 			(effects
 				(font
@@ -93837,7 +93912,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z205")
+					(reference "Z97")
 					(unit 1)
 				)
 			)
@@ -94751,7 +94826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e25ffd4e-d6b2-4bd0-a402-542902ecc591")
-		(property "Reference" "Z141"
+		(property "Reference" "Z66"
 			(at 240.03 299.212 90)
 			(effects
 				(font
@@ -94804,7 +94879,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z141")
+					(reference "Z66")
 					(unit 1)
 				)
 			)
@@ -95303,7 +95378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e39552fe-4e85-4249-b3f5-5cf7b234ce40")
-		(property "Reference" "Z147"
+		(property "Reference" "Z60"
 			(at 137.668 322.58 90)
 			(effects
 				(font
@@ -95356,7 +95431,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z147")
+					(reference "Z60")
 					(unit 1)
 				)
 			)
@@ -96881,7 +96956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7f402d9-a52b-49df-b50e-9e0287bc791c")
-		(property "Reference" "Z111"
+		(property "Reference" "Z50"
 			(at 224.028 234.95 90)
 			(effects
 				(font
@@ -96934,7 +97009,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z111")
+					(reference "Z50")
 					(unit 1)
 				)
 			)
@@ -97667,46 +97742,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "602c8379-e0ac-4aa1-ab7a-64fcf4667cbc")
+			(uuid "602c8379-e0ac-4aa1-ab7a-64fcf4667cbd")
 		)
 		(pin "5"
-			(uuid "94181e5f-f483-4f94-9b83-f4baa8a34583")
+			(uuid "94181e5f-f483-4f94-9b83-f4baa8a34584")
 		)
 		(pin "12"
-			(uuid "2a494380-bc9c-45af-9398-0c8edc2b0265")
+			(uuid "2a494380-bc9c-45af-9398-0c8edc2b0266")
 		)
 		(pin "13"
-			(uuid "4f4a92f0-2875-4123-b407-4ca2c143c72b")
+			(uuid "4f4a92f0-2875-4123-b407-4ca2c143c72c")
 		)
 		(pin "10"
-			(uuid "a25fe156-c12e-4a8a-af34-2975e4ce8f12")
+			(uuid "a25fe156-c12e-4a8a-af34-2975e4ce8f13")
 		)
 		(pin "14"
-			(uuid "72c49d52-f788-4e26-9b88-77c63f32a0ec")
+			(uuid "72c49d52-f788-4e26-9b88-77c63f32a0ed")
 		)
 		(pin "3"
-			(uuid "495fdc6e-8a0c-4c32-9a28-be21800511ca")
+			(uuid "495fdc6e-8a0c-4c32-9a28-be21800511cb")
 		)
 		(pin "4"
 			(uuid "a0d1c01d-2041-442a-a3bf-353490b8cb3d")
 		)
 		(pin "8"
-			(uuid "d34ed7a5-3060-4aa6-8fc1-b0533a59bac6")
+			(uuid "d34ed7a5-3060-4aa6-8fc1-b0533a59bac7")
 		)
 		(pin "2"
-			(uuid "12058b87-6cf9-4e2b-9a43-d16d6f84164e")
+			(uuid "12058b87-6cf9-4e2b-9a43-d16d6f84164f")
 		)
 		(pin "1"
-			(uuid "03893112-40fe-4a6f-862d-2ae4f8816b21")
+			(uuid "03893112-40fe-4a6f-862d-2ae4f8816b22")
 		)
 		(pin "7"
-			(uuid "3752f409-21eb-4d2e-99d4-2ddcf384789c")
+			(uuid "3752f409-21eb-4d2e-99d4-2ddcf384789d")
 		)
 		(pin "11"
 			(uuid "39e5692e-c31c-41cf-8773-ed44c113397a")
 		)
 		(pin "9"
-			(uuid "20353c3b-16d3-4986-8bf5-3ca4b6acca69")
+			(uuid "20353c3b-16d3-4986-8bf5-3ca4b6acca6a")
 		)
 		(instances
 			(project ""
@@ -102791,7 +102866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff513ff3-cd7b-47ee-85f3-33c7b390b398")
-		(property "Reference" "Z138"
+		(property "Reference" "Z54"
 			(at 129.54 296.672 90)
 			(effects
 				(font
@@ -102844,7 +102919,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z138")
+					(reference "Z54")
 					(unit 1)
 				)
 			)
