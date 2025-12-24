@@ -28046,7 +28046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 392.43 179.07 0)
 			(effects
 				(font
@@ -32997,7 +32997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 392.43 245.11 0)
 			(effects
 				(font
@@ -33171,7 +33171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 656.59 408.94 0)
 			(effects
 				(font
@@ -42307,7 +42307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 393.7 388.62 0)
 			(effects
 				(font
@@ -47712,7 +47712,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 119.38 64.77 0)
 		(mirror x)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -47807,7 +47807,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U1")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -55511,7 +55511,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 119.38 133.35 0)
 		(mirror x)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -55606,7 +55606,7 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U2")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -56873,7 +56873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 161.29 109.22 0)
 			(effects
 				(font
@@ -63346,7 +63346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 393.7 55.88 0)
 			(effects
 				(font
@@ -74352,7 +74352,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 177.8 111.76 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74448,7 +74448,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U2")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -78448,7 +78448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 656.59 354.33 0)
 			(effects
 				(font
@@ -83106,7 +83106,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 172.72 62.23 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -83201,7 +83201,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U1")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -94006,7 +94006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 393.7 334.01 0)
 			(effects
 				(font
@@ -98283,7 +98283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 393.7 123.19 0)
 			(effects
 				(font
@@ -99689,7 +99689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
 			(at 529.59 408.94 0)
 			(effects
 				(font
