@@ -39435,7 +39435,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 208.28 302.26 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -39531,7 +39531,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U4")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -49290,7 +49290,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 96.5136 224.79 90)
 			(effects
 				(font
@@ -49696,7 +49696,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 96.5136 191.77 90)
 			(effects
 				(font
@@ -59271,7 +59271,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 101.6 299.72 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -59366,7 +59366,7 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U4")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -59947,7 +59947,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 161.29 313.69 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -60042,7 +60042,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U4")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -89274,7 +89274,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 64.77 387.35 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -89370,7 +89370,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U5")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -97917,7 +97917,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 66.04 450.85 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -98013,7 +98013,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U5")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
