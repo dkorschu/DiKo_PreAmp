@@ -5,4 +5,6 @@
   (lib (name "INA128U")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/INA128U.kicad_sym")(options "")(descr ""))
   (lib (name "R_Potentiometer_Dual")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/R_Potentiometer_Dual.kicad_sym")(options "")(descr ""))
   (lib (name "SW_Rotary_1x4")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/SW_Rotary_1x4.kicad_sym")(options "")(descr ""))
+  (lib (name "Common_Mode_Choke")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/Common_Mode_Choke.kicad_sym")(options "")(descr ""))
+  (lib (name "conn_01x05_bridged")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/conn_01x05_bridged.kicad_sym")(options "")(descr ""))
 )
