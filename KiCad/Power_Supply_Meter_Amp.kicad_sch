@@ -38652,13 +38652,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 438.15 541.02 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2091a1fc-6bc4-4d5a-b9ad-80bd9436145f")
-		(property "Reference" "U23"
+		(property "Reference" "U24"
 			(at 438.15 530.86 0)
 			(effects
 				(font
@@ -38746,8 +38746,8 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U23")
-					(unit 3)
+					(reference "U24")
+					(unit 1)
 				)
 			)
 		)
@@ -39595,13 +39595,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 509.27 544.83 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2335146b-d80b-468a-9be9-6d3df0be0129")
-		(property "Reference" "U24"
+		(property "Reference" "U23"
 			(at 509.27 534.67 0)
 			(effects
 				(font
@@ -39689,8 +39689,8 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U24")
-					(unit 1)
+					(reference "U23")
+					(unit 3)
 				)
 			)
 		)
@@ -85911,14 +85911,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 438.15 562.61 0)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c8c514-8504-4640-9aba-cd07191fc32f")
-		(property "Reference" "U23"
+		(property "Reference" "U24"
 			(at 438.15 552.45 0)
 			(effects
 				(font
@@ -86006,8 +86006,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U23")
-					(unit 4)
+					(reference "U24")
+					(unit 2)
 				)
 			)
 		)
@@ -89471,13 +89471,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 544.83 524.51 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cf6714bf-f771-4d17-b53f-55e4b21b9700")
-		(property "Reference" "U24"
+		(property "Reference" "U23"
 			(at 544.83 534.67 0)
 			(effects
 				(font
@@ -89565,8 +89565,8 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U24")
-					(unit 2)
+					(reference "U23")
+					(unit 4)
 				)
 			)
 		)
