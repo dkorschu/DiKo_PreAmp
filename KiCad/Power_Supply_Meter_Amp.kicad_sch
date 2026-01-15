@@ -4782,7 +4782,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4800,7 +4800,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4818,7 +4818,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4836,7 +4836,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -30687,7 +30687,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0554e5b6-ee07-4e13-863d-c7db2c259917")
 		(property "Reference" "#PWR0176"
 			(at 552.45 563.88 0)
@@ -30699,7 +30698,7 @@
 			)
 		)
 		(property "Value" "GND_M"
-			(at 552.45 562.61 0)
+			(at 552.958 562.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39595,7 +39594,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 509.27 544.83 0)
 		(mirror x)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -39690,7 +39689,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U23")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -77646,7 +77645,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a906d6d0-7509-4959-9454-e6cbcc0d2227")
 		(property "Reference" "#PWR0174"
 			(at 546.1 553.72 0)
@@ -77657,8 +77655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
-			(at 546.1 562.61 0)
+		(property "Value" "+15V_M"
+			(at 545.084 562.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89471,7 +89469,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 544.83 524.51 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -89566,7 +89564,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U23")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
