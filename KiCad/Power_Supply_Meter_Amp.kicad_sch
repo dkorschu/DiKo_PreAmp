@@ -83365,7 +83365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_M"
 			(at 708.66 541.02 0)
 			(effects
 				(font
@@ -89866,7 +89866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_M"
 			(at 690.88 541.02 0)
 			(effects
 				(font
