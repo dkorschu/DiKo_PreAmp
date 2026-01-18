@@ -19354,7 +19354,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 525.78) (xy 637.54 520.7)
+			(xy 637.54 518.16) (xy 637.54 525.78)
 		)
 		(stroke
 			(width 0)
@@ -19821,16 +19821,6 @@
 			(type default)
 		)
 		(uuid "87f9d8a3-5a97-42a4-a7a6-633530cff138")
-	)
-	(wire
-		(pts
-			(xy 637.54 520.7) (xy 641.35 520.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88009259-c259-47df-943b-c20eccaa3f22")
 	)
 	(wire
 		(pts
@@ -20541,6 +20531,16 @@
 			(type default)
 		)
 		(uuid "913cf67e-496d-4fc9-9bfb-ee8f4a661ce6")
+	)
+	(wire
+		(pts
+			(xy 637.54 518.16) (xy 650.24 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9157d41a-bbdd-44ea-97af-be1962e0b999")
 	)
 	(wire
 		(pts
@@ -25924,7 +25924,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 513.08) (xy 641.35 513.08)
+			(xy 618.49 513.08) (xy 650.24 513.08)
 		)
 		(stroke
 			(width 0)
@@ -28254,7 +28254,7 @@
 	)
 	(wire
 		(pts
-			(xy 628.65 515.62) (xy 641.35 515.62)
+			(xy 628.65 515.62) (xy 650.24 515.62)
 		)
 		(stroke
 			(width 0)
@@ -31790,7 +31790,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 646.43 515.62 0)
+		(at 655.32 515.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31798,7 +31798,7 @@
 		(dnp no)
 		(uuid "09de5c13-e937-4581-b7cd-540e16c5167a")
 		(property "Reference" "J36"
-			(at 640.334 506.984 0)
+			(at 649.224 506.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31807,7 +31807,7 @@
 			)
 		)
 		(property "Value" "VU_Meter_Out"
-			(at 640.334 509.524 0)
+			(at 649.224 509.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31816,7 +31816,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x04_P2.54mm_Vertical_LongPdas"
-			(at 646.43 515.62 0)
+			(at 655.32 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31825,7 +31825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 646.43 515.62 0)
+			(at 655.32 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31834,7 +31834,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 646.43 515.62 0)
+			(at 655.32 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76137,7 +76137,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 641.35 518.16 90)
+		(at 650.24 520.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -76146,7 +76146,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1e640fc-8c16-4bbe-b590-25262e96ad73")
 		(property "Reference" "#PWR0197"
-			(at 645.16 518.16 0)
+			(at 654.05 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76155,7 +76155,7 @@
 			)
 		)
 		(property "Value" "+9V_M"
-			(at 637.54 518.1599 90)
+			(at 646.43 520.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76164,7 +76164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 641.35 518.16 0)
+			(at 650.24 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76173,7 +76173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 641.35 518.16 0)
+			(at 650.24 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76182,7 +76182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 641.35 518.16 0)
+			(at 650.24 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
