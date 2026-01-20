@@ -646,13 +646,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "0b0124a1-1f64-4271-998f-356b1ee05552")
-		(at 83.82 54.61)
+		(at 525.78 58.42)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U9"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "c4d33e67-a95a-44fa-aba8-13754e19dcd5")
+			(uuid "4a1567dd-5233-4792-ab0f-0e4a9e574fed")
 			(effects
 				(font
 					(size 1 1)
@@ -664,7 +664,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68db0674-9e22-46e9-a543-fc1a8adbab01")
+			(uuid "e5c3f511-5fe4-4868-8550-587843ce31e6")
 			(effects
 				(font
 					(size 1 1)
@@ -676,7 +676,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "573a348f-f5b7-4262-a4f6-5713abac828c")
+			(uuid "e91ec333-8977-4f5f-b4cb-c58a1070a112")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +688,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2fc2ae61-286d-4fd3-a4ff-332eb4b7da15")
+			(uuid "fed86628-b12a-4d39-89c8-f866bd3a87e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,13 +1286,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "0fe83dc0-49c4-4b1c-9e4f-8639a1697991")
-		(at 109.22 81.28)
+		(at 551.18 85.09)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U15"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "fd80d270-d580-4558-bdc2-2f38241f59a0")
+			(uuid "eb322a7b-cba8-4a83-9989-a95640b283a0")
 			(effects
 				(font
 					(size 1 1)
@@ -1304,7 +1304,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42751127-f1ff-4dd3-8828-8b6f8d710a4d")
+			(uuid "c8c5151a-70a1-4702-8bf3-f632cbe4c91a")
 			(effects
 				(font
 					(size 1 1)
@@ -1316,7 +1316,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b4d97b9-e1d2-405d-90af-2b60cc99f899")
+			(uuid "f945caba-ba6b-45d1-a76e-7426658de3bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1328,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e9ebfe6-f213-4c44-bfef-59b12840f0c0")
+			(uuid "e9a72736-d811-45b4-9e70-6bc9dd9f9b50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,13 +2180,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "15c27d1b-454d-4676-8dba-74cbc3ef74a0")
-		(at 160.02 107.95)
+		(at 601.98 111.76)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U22"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "3343976d-8f19-4d08-8d89-02e6935f07f6")
+			(uuid "31d99561-d776-40eb-bbec-9208309da211")
 			(effects
 				(font
 					(size 1 1)
@@ -2198,7 +2198,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9c7cb2b-10bf-45c3-a024-19d5a2442734")
+			(uuid "5aebfa98-62cb-46a7-833c-8c0f6aa2c6a9")
 			(effects
 				(font
 					(size 1 1)
@@ -2210,7 +2210,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8957e179-8ad7-41db-930e-aa44b665f796")
+			(uuid "1852a88c-f490-4945-8c6f-5292c6b9c0c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2222,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e13b4dd-3bbd-4319-937a-29367f81b497")
+			(uuid "2e45bef0-8d5c-47ed-940e-6ff49c54de53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,13 +3624,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "26ac85d3-bdf6-4fd5-969c-6a22347b3220")
-		(at 83.82 81.28)
+		(at 525.78 85.09)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U14"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "3bb315ca-a9f7-4c77-898f-11218649a6ea")
+			(uuid "2b5ec260-1e3d-445a-9900-d9afe670685a")
 			(effects
 				(font
 					(size 1 1)
@@ -3642,7 +3642,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdeebedc-7162-4613-b0f2-004077ee2048")
+			(uuid "54725765-bff0-4b57-b9f2-cff4b92db00d")
 			(effects
 				(font
 					(size 1 1)
@@ -3654,7 +3654,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3e2b88a-a2d1-44b9-8075-9a717bbc90f9")
+			(uuid "72648e71-ed6e-43fa-b3f7-92c237300d03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "822f2271-7911-422a-ab51-0094939062fa")
+			(uuid "b911bf3b-4d25-4735-b28d-10045b4c9c3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,13 +4561,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "324e2645-2515-46fe-8d6f-5801b84b027f")
-		(at 58.42 106.68)
+		(at 500.38 110.49)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U18"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "9d5e60b8-6965-4dd7-bf8c-1d63b6710d75")
+			(uuid "fa6ede6a-56c5-4570-960b-8ba94f31dc86")
 			(effects
 				(font
 					(size 1 1)
@@ -4579,7 +4579,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e3802d0-e0ce-41ad-9f79-cc66009cc998")
+			(uuid "730a8859-f64b-4092-ab3c-166613c41c64")
 			(effects
 				(font
 					(size 1 1)
@@ -4591,7 +4591,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad1ad556-8006-4b56-a94e-8be950827fbb")
+			(uuid "412bc58e-444d-4b5f-8d15-1adb7fb17592")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4603,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52ef3511-43e7-4c25-9885-8bac4893f9ee")
+			(uuid "f9cd0e4f-d357-4aef-bfb0-dec3a4f88c3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,13 +7291,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "49ed1625-fdc3-4fc5-aaf5-783c7dd03911")
-		(at 58.42 54.61)
+		(at 500.38 58.42)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U8"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "2c55e2a8-d80e-42e4-879d-d75596999c03")
+			(uuid "7222302d-39b4-43d5-a4a1-3ae71dc91f94")
 			(effects
 				(font
 					(size 1 1)
@@ -7309,7 +7309,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b350a05-4576-4f9a-adb5-6e2d7a66a90c")
+			(uuid "2c4b1e4c-9d35-44bb-84a7-f07ac76aa805")
 			(effects
 				(font
 					(size 1 1)
@@ -7321,7 +7321,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "850c92b6-b9cf-4317-b5e0-012c2c1ba498")
+			(uuid "034d7a32-e9ad-491b-9e8f-bbfa653a7b97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +7333,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2faa72d3-e121-465d-b7d3-ae5f20a6b1cd")
+			(uuid "c922142c-5a7d-4e0c-aee6-61ef47670e44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,13 +7668,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "53d93b4c-17fe-4f75-86ee-d7d19d6f1639")
-		(at 134.62 81.28)
+		(at 576.58 85.09)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U16"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "9c5df7d9-6fda-4bb6-a0dd-e48cab37a6c4")
+			(uuid "3c3b9641-dbff-49d3-a125-10ce6ba1c240")
 			(effects
 				(font
 					(size 1 1)
@@ -7686,7 +7686,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c9e32df-b2e3-4eb0-aff2-6bd33cd07be9")
+			(uuid "15713b24-d6ae-4fd0-ba6a-097922667cc8")
 			(effects
 				(font
 					(size 1 1)
@@ -7698,7 +7698,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "321ff905-83b5-4d42-ae5d-3288f06a0d38")
+			(uuid "806b32b7-e313-4dec-a079-176b41d06279")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7710,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6472f78f-fff9-4ef6-959a-6b453047fea2")
+			(uuid "40c80404-dfba-40aa-9862-e3c9afb0e1f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,13 +8826,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "66472d0c-cb69-4a3f-9b68-d6e64513e391")
-		(at 160.02 81.28)
+		(at 601.98 85.09)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U17"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "c17fef57-c779-4452-b0ed-0965240d45b9")
+			(uuid "1232353e-17ea-429c-a9be-be0636d84d61")
 			(effects
 				(font
 					(size 1 1)
@@ -8844,7 +8844,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d41ab258-cc77-43a0-97ac-5c27b5e5ceda")
+			(uuid "c56aa70b-c0b7-4a5c-892f-91132e7fbd58")
 			(effects
 				(font
 					(size 1 1)
@@ -8856,7 +8856,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "454ac12a-a89f-48ab-a8c5-9557654cf45f")
+			(uuid "2bdfe94b-f080-4a6f-a2e5-13f2733dbf5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +8868,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4d0fb9b-057e-4b03-9549-e26dd1c47dc5")
+			(uuid "69a37b66-86f5-4124-9618-0bacdd7a677c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,13 +9466,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "7e165316-eed2-4a44-89f4-e103da81fadd")
-		(at 109.22 54.61)
+		(at 551.18 58.42)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U10"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "65ab8905-99e4-4a82-bed5-06a3decefb4c")
+			(uuid "ac0c9804-9e22-4545-a9e8-8d8590cec91e")
 			(effects
 				(font
 					(size 1 1)
@@ -9484,7 +9484,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbe92e55-db26-4407-b262-3e6c5bd756ff")
+			(uuid "71b7fea6-25ef-4a95-9931-2dfe3649ef38")
 			(effects
 				(font
 					(size 1 1)
@@ -9496,7 +9496,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05ec49e2-d146-49e5-9ef1-56a6923c96ab")
+			(uuid "998080bd-fa00-4481-9c35-88b050d9fe4c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9508,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69f14999-9970-4b6f-9545-fbebd9d3bc7c")
+			(uuid "c576ee3f-7702-486a-b792-eb40aa64c4ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10107,13 +10107,13 @@
 	(footprint "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
 		(layer "F.Cu")
 		(uuid "8a2ce655-bc6a-40b7-9796-166bc45cb3eb")
-		(at 378.72 59.51)
+		(at 52.07 116.84)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J26"
-			(at 0 -2.38 0)
+			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "f41107ad-dd57-4064-9fbd-96604a04232f")
+			(uuid "3d0a409b-3c28-4abc-b308-0d304dd1f53e")
 			(effects
 				(font
 					(size 1 1)
@@ -10124,7 +10124,8 @@
 		(property "Value" "Phono/Line_In"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "74c6e530-c160-4972-87ca-c8c11c7eb95e")
+			(hide yes)
+			(uuid "cfd825be-8904-48d8-91a4-d12ec165e6da")
 			(effects
 				(font
 					(size 1 1)
@@ -10136,7 +10137,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3b5a006-f362-4af2-8490-d276448e9456")
+			(uuid "512d0f93-a81c-4c10-a262-8c43e151886d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10149,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87b263be-4d11-4969-a4ba-b12e6916be98")
+			(uuid "8d9641ba-ac3a-40ff-87d9-081a405fa01b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,13 +10361,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "8d39730e-7ecb-466e-82c1-53f673eaa69c")
-		(at 134.62 54.61)
+		(at 576.58 58.42)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U11"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "b09bd4c1-5d7f-4ae6-8351-290a2a4ce8f8")
+			(uuid "66dfd9d7-f723-4583-8826-5796cb2a57a2")
 			(effects
 				(font
 					(size 1 1)
@@ -10378,7 +10379,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6728d84b-8fdb-47e5-b3aa-df55a0310fa0")
+			(uuid "28d20a8a-41ab-43ad-b62a-c24dcb5f144a")
 			(effects
 				(font
 					(size 1 1)
@@ -10390,7 +10391,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "528c5e1a-4c0f-4c2a-b454-af25a0e6faf7")
+			(uuid "c9d98c38-b400-4295-aafd-5941dbd29e22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10403,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "178aa0c1-e83a-4d74-bfb9-8b352162727c")
+			(uuid "93a24942-e2f3-4ef9-bd95-4880e6741a3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,13 +12858,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "a7807ac5-e26f-4902-b06d-b2fad885379a")
-		(at 160.02 54.61)
+		(at 601.98 58.42)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U12"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "3d077980-8468-4f3f-83a9-35c81bdcdb34")
+			(uuid "aa661315-a482-4954-9310-090e56df94ee")
 			(effects
 				(font
 					(size 1 1)
@@ -12875,7 +12876,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3cd572f-641c-41d3-9171-abd03374514a")
+			(uuid "0e330da1-fc3a-4658-b9fc-a352f80ac5a3")
 			(effects
 				(font
 					(size 1 1)
@@ -12887,7 +12888,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc63d40b-e1e2-41f8-a1be-6d982dd0024f")
+			(uuid "8838ba45-27da-4b6c-93f3-2ee864fbb96a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +12900,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c72c9dc4-ecbe-42b1-b512-b50d6155f7cf")
+			(uuid "42642224-f5bb-4f62-b451-ddd1c2f616ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,13 +13752,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "bbd653f5-0583-4274-a5b0-f30916810003")
-		(at 134.62 106.68)
+		(at 576.58 110.49)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U21"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "d9f92649-3455-4a35-bf1c-e04bf5dbf5f6")
+			(uuid "3a62899a-6aa8-42f2-a8a3-a94355b2f0ab")
 			(effects
 				(font
 					(size 1 1)
@@ -13769,7 +13770,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a57e8cf9-c598-4f5f-bd09-cab9b9ae04e1")
+			(uuid "0d25a29f-7f1e-4984-ac6f-d82f45cbeb4a")
 			(effects
 				(font
 					(size 1 1)
@@ -13781,7 +13782,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "567a8f19-8839-46f6-a778-42d935f49a58")
+			(uuid "4cd203b7-3a4a-4864-921e-e0ee1018a7c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13793,7 +13794,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "753ecba5-88b1-4239-a776-447ea2edcd81")
+			(uuid "aff70559-cfe6-403f-9249-260acacfe51f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15215,13 +15216,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "db40e95b-f363-44b5-9d5a-3a34ac5128c3")
-		(at 58.42 81.28)
+		(at 500.38 85.09)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U13"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "a48c0030-478d-41ba-9fbf-a40d699688ff")
+			(uuid "3ea4a504-4f26-4131-a74b-7898d0a697f4")
 			(effects
 				(font
 					(size 1 1)
@@ -15233,7 +15234,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b073a329-50e1-4dc2-a39c-c0776fa71add")
+			(uuid "20aea1d2-eadb-4226-934e-c5b167c4faf1")
 			(effects
 				(font
 					(size 1 1)
@@ -15245,7 +15246,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ef6f182-88fd-4c40-ab05-26c848928c82")
+			(uuid "c865b73f-c907-4641-8da3-cbc19bbe058b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15257,7 +15258,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3346c18f-1c44-44f3-8560-2d5b806c3681")
+			(uuid "4b327733-2cb5-43ef-8099-fad6c622f0ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,13 +15879,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "f06f552a-78ee-46d4-ae2d-bfc0756692c1")
-		(at 109.22 106.68)
+		(at 551.18 110.49)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U20"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "45799316-97a9-4677-82ae-9f40037b7b92")
+			(uuid "c0e44788-7ecf-4915-b1c5-067a42ff6d97")
 			(effects
 				(font
 					(size 1 1)
@@ -15896,7 +15897,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfd6c8fa-6d29-46da-8ede-db35db0ea8d2")
+			(uuid "8b3b7d2d-3eba-4b88-9545-9631e89866c5")
 			(effects
 				(font
 					(size 1 1)
@@ -15908,7 +15909,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d933107f-7d1b-47e5-bece-b6729ff1852c")
+			(uuid "ce0d3c72-a259-4f25-99a4-ed4e7850d91b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +15921,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95aa35cf-aee4-4b58-b3e5-bf1bf1a1557c")
+			(uuid "88f1d410-1ae8-44a7-8ec6-bd1bd4370f07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16508,13 +16509,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 		(layer "F.Cu")
 		(uuid "fe36f49a-b009-4ea3-b187-dfce8e3965e1")
-		(at 83.82 106.68)
+		(at 525.78 110.49)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "U19"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "77440ce6-9c20-42c7-9fd6-010bf6f6e8cb")
+			(uuid "e320a336-d299-4377-b33b-c69712ce8785")
 			(effects
 				(font
 					(size 1 1)
@@ -16526,7 +16527,7 @@
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "270329e5-e33f-4a0c-857b-8dcdfc657f6a")
+			(uuid "7ad90e8e-aa40-4f02-9671-66cc2212fe68")
 			(effects
 				(font
 					(size 1 1)
@@ -16538,7 +16539,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9267b7ef-f732-4698-bf48-4107070b7ba1")
+			(uuid "fae08939-fa18-423b-bcc0-b23f747c6aba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16550,7 +16551,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b15d600-361b-48ab-9fb6-998d359e9647")
+			(uuid "817f9b81-5028-47e0-b200-2ac054274c71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24025,13 +24026,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "1d9f3af0-195a-4f4e-a4e3-0732fff34614")
-		(at 416.648572 128.81 180)
+		(at 55.88 116.84)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "Z106"
 			(at 0 1.65 0)
 			(layer "B.SilkS")
-			(uuid "5593badd-2d0d-4a6f-a0a3-00d132ac7c5b")
+			(uuid "5f12a293-70de-44c5-a664-504605443b5e")
 			(effects
 				(font
 					(size 1 1)
@@ -24043,7 +24044,8 @@
 		(property "Value" "~"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
-			(uuid "1feb241d-7364-4000-a9f2-5cb9441de49a")
+			(hide yes)
+			(uuid "dc391bf6-d187-466b-ad90-8986554e762d")
 			(effects
 				(font
 					(size 1 1)
@@ -24056,7 +24058,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3f5e15af-584e-4245-9e74-78e6e00eb4c1")
+			(uuid "f256f445-ba70-43ca-a4ea-9bde6ac6b6fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24069,7 +24071,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "396f68cd-24ed-485c-a176-28c355887e52")
+			(uuid "567995b3-79ea-460b-afd2-b0f8525760c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24084,16 +24086,6 @@
 		(sheetfile "Output.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 0.735)
-			(end 0.227064 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "463023ac-b206-4671-9c8b-b177a3406b0e")
-		)
-		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
@@ -24104,34 +24096,14 @@
 			(uuid "c43c134e-404c-4ce1-beaf-94bc7185fff3")
 		)
 		(fp_line
-			(start 1.85 0.95)
-			(end 1.85 -0.95)
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "41d48799-34a6-4af8-8001-3898d88a9936")
-		)
-		(fp_line
-			(start 1.85 -0.95)
-			(end -1.85 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "de00aa62-cddd-4019-a9e3-b98ebc4963b7")
-		)
-		(fp_line
-			(start -1.85 0.95)
-			(end 1.85 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "22caace4-8be3-4791-bf10-e681958486f7")
+			(layer "B.SilkS")
+			(uuid "463023ac-b206-4671-9c8b-b177a3406b0e")
 		)
 		(fp_line
 			(start -1.85 -0.95)
@@ -24144,24 +24116,44 @@
 			(uuid "3b619570-b8f3-415f-9c29-9af1e574ddea")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end 1 -0.625)
+			(start -1.85 0.95)
+			(end 1.85 0.95)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "f955237f-1601-4c1c-abf9-560ccbc98bb7")
+			(layer "B.CrtYd")
+			(uuid "22caace4-8be3-4791-bf10-e681958486f7")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end -1 -0.625)
+			(start 1.85 -0.95)
+			(end -1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "de00aa62-cddd-4019-a9e3-b98ebc4963b7")
+		)
+		(fp_line
+			(start 1.85 0.95)
+			(end 1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "41d48799-34a6-4af8-8001-3898d88a9936")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "5a9f3b3e-2567-456b-a246-8b31d38fe62f")
+			(uuid "78538ef9-af5a-4ea0-bb2c-d13d5abc6754")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -24174,14 +24166,24 @@
 			(uuid "ad29462a-8bb5-4610-98fb-056cfda3d271")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end -1 0.625)
+			(start 1 -0.625)
+			(end -1 -0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "78538ef9-af5a-4ea0-bb2c-d13d5abc6754")
+			(uuid "5a9f3b3e-2567-456b-a246-8b31d38fe62f")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f955237f-1601-4c1c-abf9-560ccbc98bb7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -24196,7 +24198,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1 0 180)
+			(at -1 0)
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
@@ -24205,7 +24207,7 @@
 			(uuid "a1a87111-6415-4ba3-bddf-291110affb47")
 		)
 		(pad "2" smd roundrect
-			(at 1 0 180)
+			(at 1 0)
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
@@ -31369,13 +31371,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "36ee98aa-95a0-4c9b-b8db-bde0f897f3ab")
-		(at 416.648572 119.96 180)
+		(at 55.88 119.38)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "Z103"
 			(at 0 1.65 0)
 			(layer "B.SilkS")
-			(uuid "3b4b4fb0-7a69-4fe8-8964-c88ee502c6a5")
+			(uuid "6add15a1-e454-4b2e-8b09-67b6199bdcd9")
 			(effects
 				(font
 					(size 1 1)
@@ -31387,7 +31389,8 @@
 		(property "Value" "~"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
-			(uuid "19931d70-2ea9-4d18-b2a4-9b95f34df8b3")
+			(hide yes)
+			(uuid "999076d0-5241-4dd3-b2d3-ad20b84cc6f5")
 			(effects
 				(font
 					(size 1 1)
@@ -31400,7 +31403,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a2439b64-1ed5-48e9-9170-a18ef9dacf18")
+			(uuid "eb41277f-c600-473f-9763-215121c60f9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31413,7 +31416,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c36b5c8a-622a-4271-a3f6-8b33540219cf")
+			(uuid "294b2aae-b264-457e-911e-cb8d22027e8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31428,16 +31431,6 @@
 		(sheetfile "Output.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 0.735)
-			(end 0.227064 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f1cd6921-8abd-493c-bab8-80bfd35fd949")
-		)
-		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
@@ -31448,34 +31441,14 @@
 			(uuid "48142e7c-e167-4cda-a5ac-79e54db549b0")
 		)
 		(fp_line
-			(start 1.85 0.95)
-			(end 1.85 -0.95)
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "55fa6873-b2a3-43e1-9172-96e37d6e47e5")
-		)
-		(fp_line
-			(start 1.85 -0.95)
-			(end -1.85 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "be710cb3-394f-4779-85eb-60b99536bf10")
-		)
-		(fp_line
-			(start -1.85 0.95)
-			(end 1.85 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "190da1b4-c500-451d-9f19-2ccf726b20ab")
+			(layer "B.SilkS")
+			(uuid "f1cd6921-8abd-493c-bab8-80bfd35fd949")
 		)
 		(fp_line
 			(start -1.85 -0.95)
@@ -31488,24 +31461,44 @@
 			(uuid "bc1ff8a5-b77a-415e-ad60-6265579e81bf")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end 1 -0.625)
+			(start -1.85 0.95)
+			(end 1.85 0.95)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "d1189fd7-5733-4c73-938b-ab0645fa4d26")
+			(layer "B.CrtYd")
+			(uuid "190da1b4-c500-451d-9f19-2ccf726b20ab")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end -1 -0.625)
+			(start 1.85 -0.95)
+			(end -1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "be710cb3-394f-4779-85eb-60b99536bf10")
+		)
+		(fp_line
+			(start 1.85 0.95)
+			(end 1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "55fa6873-b2a3-43e1-9172-96e37d6e47e5")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8f4378a0-727d-4250-9553-124a2e34eddf")
+			(uuid "17f245fa-95ab-400e-b852-a901bf9cc0a3")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -31518,14 +31511,24 @@
 			(uuid "afd47805-862d-4730-a77e-7f914624e82a")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end -1 0.625)
+			(start 1 -0.625)
+			(end -1 -0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "17f245fa-95ab-400e-b852-a901bf9cc0a3")
+			(uuid "8f4378a0-727d-4250-9553-124a2e34eddf")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d1189fd7-5733-4c73-938b-ab0645fa4d26")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -31540,7 +31543,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1 0 180)
+			(at -1 0)
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
@@ -31549,7 +31552,7 @@
 			(uuid "7a3723c7-5754-4785-b974-8382d16430d0")
 		)
 		(pad "2" smd roundrect
-			(at 1 0 180)
+			(at 1 0)
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
@@ -44425,13 +44428,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "6d26257b-47e3-4212-9629-b776d8edfecc")
-		(at 416.648572 152.41 180)
+		(at 55.88 111.76 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "Z114"
-			(at 0 1.65 0)
+			(at 0 -1.27 0)
 			(layer "B.SilkS")
-			(uuid "0dd8eb41-a964-4f79-83c8-0b7110534c5d")
+			(uuid "0e9621b8-52e9-4b9a-b957-e8ce34f44f1b")
 			(effects
 				(font
 					(size 1 1)
@@ -44443,7 +44446,8 @@
 		(property "Value" "~"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
-			(uuid "ce214661-bfa1-4716-ab42-4f81b11aeb66")
+			(hide yes)
+			(uuid "c659a550-1e56-4f28-b766-1c3f80c9a458")
 			(effects
 				(font
 					(size 1 1)
@@ -44456,7 +44460,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d12ef092-bf18-465b-b493-a2829c90805d")
+			(uuid "db23ff59-5af0-4a5c-a43b-f441f776b771")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44469,7 +44473,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "765d88b9-ec4e-4fd7-a84e-cd851bbbd178")
+			(uuid "cd9a33fc-c0d4-4db2-babd-e7ab7434bd57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53605,13 +53609,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "91b543af-85eb-483f-b849-80274de29581")
-		(at 416.648572 140.61 180)
+		(at 55.88 114.3)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "Z110"
 			(at 0 1.65 0)
 			(layer "B.SilkS")
-			(uuid "499680f4-3b00-422a-a7d9-7fdef697fa64")
+			(uuid "cfd8a655-39b5-4fd9-bc7e-ed5799729e2f")
 			(effects
 				(font
 					(size 1 1)
@@ -53623,7 +53627,8 @@
 		(property "Value" "~"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
-			(uuid "6274a234-1805-460d-be25-e5737767eb5f")
+			(hide yes)
+			(uuid "43c2bd66-5a7d-4435-8c87-17fc1bd87871")
 			(effects
 				(font
 					(size 1 1)
@@ -53636,7 +53641,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c77c78b-9b5d-4e99-8877-061e09efbf05")
+			(uuid "7c89f464-5f18-464a-a93a-90a29effd93c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53649,7 +53654,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f5ecc103-c436-4aa2-9788-e0524cd4acae")
+			(uuid "169fd1ce-073f-4d29-8df1-08403b9826e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53664,16 +53669,6 @@
 		(sheetfile "Output.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 0.735)
-			(end 0.227064 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "def3d62b-1127-4bdc-9c3a-32ca46d2b92d")
-		)
-		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
 			(stroke
@@ -53684,34 +53679,14 @@
 			(uuid "73ed144c-a093-4ce9-ba05-bbd0dd21e1fe")
 		)
 		(fp_line
-			(start 1.85 0.95)
-			(end 1.85 -0.95)
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "06eee80c-cd13-4b34-98a2-16804740a438")
-		)
-		(fp_line
-			(start 1.85 -0.95)
-			(end -1.85 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b7219f62-ed7f-4991-b005-7f845bb2d916")
-		)
-		(fp_line
-			(start -1.85 0.95)
-			(end 1.85 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a90ef26f-3f6d-4bb6-bc55-84d25e25c4ee")
+			(layer "B.SilkS")
+			(uuid "def3d62b-1127-4bdc-9c3a-32ca46d2b92d")
 		)
 		(fp_line
 			(start -1.85 -0.95)
@@ -53724,24 +53699,44 @@
 			(uuid "b2e7af1b-93c1-4679-aa50-9145ecd75ef4")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end 1 -0.625)
+			(start -1.85 0.95)
+			(end 1.85 0.95)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "185da6ff-85ca-4c4d-94b4-22769339c889")
+			(layer "B.CrtYd")
+			(uuid "a90ef26f-3f6d-4bb6-bc55-84d25e25c4ee")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end -1 -0.625)
+			(start 1.85 -0.95)
+			(end -1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b7219f62-ed7f-4991-b005-7f845bb2d916")
+		)
+		(fp_line
+			(start 1.85 0.95)
+			(end 1.85 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "06eee80c-cd13-4b34-98a2-16804740a438")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end -1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e4362ef1-b2b2-4848-8fd4-8dacc0bb6372")
+			(uuid "60b574c0-b6d9-4867-946b-933228da7690")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -53754,14 +53749,24 @@
 			(uuid "b233c530-36d5-43bd-957c-03150938d319")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end -1 0.625)
+			(start 1 -0.625)
+			(end -1 -0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "60b574c0-b6d9-4867-946b-933228da7690")
+			(uuid "e4362ef1-b2b2-4848-8fd4-8dacc0bb6372")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "185da6ff-85ca-4c4d-94b4-22769339c889")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -53776,7 +53781,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1 0 180)
+			(at -1 0)
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
@@ -53785,7 +53790,7 @@
 			(uuid "62e427c2-46ae-4ce8-8c6a-87047633c825")
 		)
 		(pad "2" smd roundrect
-			(at 1 0 180)
+			(at 1 0)
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
@@ -80336,6 +80341,38 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "a2681a1a-4808-4272-bca6-8895081820c7")
+	)
+	(segment
+		(start 54.88 119.38)
+		(end 52.07 119.38)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 73)
+		(uuid "0667853e-44bf-47c0-bad9-70b3a1a726b3")
+	)
+	(segment
+		(start 54.88 116.84)
+		(end 52.07 116.84)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 74)
+		(uuid "0d6747f0-cf93-4027-8f0d-2b1b98fbd88b")
+	)
+	(segment
+		(start 54.88 116.84)
+		(end 54.88 114.3)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 74)
+		(uuid "49793a38-c505-403c-9c76-4d7b3a6cfd5d")
+	)
+	(segment
+		(start 56.88 111.76)
+		(end 56.88 114.3)
+		(width 0.6)
+		(layer "B.Cu")
+		(net 197)
+		(uuid "e371c754-f6d6-4305-83a4-d9d06ee90c4f")
 	)
 	(embedded_fonts no)
 )
