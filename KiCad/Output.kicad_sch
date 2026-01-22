@@ -6305,6 +6305,12 @@
 		(uuid "0a7c01ec-fd7f-4976-9d86-6cfb31a43d1c")
 	)
 	(junction
+		(at 367.03 454.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b39418b-7acf-4e83-a026-a0350183667d")
+	)
+	(junction
 		(at 624.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7517,7 +7523,7 @@
 		(uuid "6c15a933-6fb4-4cff-a2dc-5b578d508303")
 	)
 	(junction
-		(at 787.4 369.57)
+		(at 800.1 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c28b469-2734-4bea-8af9-8fda1658c57f")
@@ -7611,6 +7617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "733c95d9-b70a-4a5a-89d2-d795258b672c")
+	)
+	(junction
+		(at 377.19 454.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7389d499-9c3c-46dc-87ac-f27382d3601a")
 	)
 	(junction
 		(at 671.83 280.67)
@@ -7805,7 +7817,7 @@
 		(uuid "893c8160-6187-49ae-bfee-2b79a2b4558a")
 	)
 	(junction
-		(at 777.24 397.51)
+		(at 789.94 397.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aa2ff9f-8308-43c2-96d1-299aa2270f45")
@@ -7883,7 +7895,7 @@
 		(uuid "8f9e6a77-03e4-4907-a05c-2a62311c7283")
 	)
 	(junction
-		(at 787.4 397.51)
+		(at 800.1 397.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fc97cc0-0bb8-4495-8007-daa90a470530")
@@ -8117,7 +8129,7 @@
 		(uuid "a024e903-37f1-48dc-93b5-f42a1d3074c7")
 	)
 	(junction
-		(at 777.24 369.57)
+		(at 789.94 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f1fdd4-b1a3-4673-8b44-16d21697a24b")
@@ -10144,6 +10156,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 454.66) (xy 368.3 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b53b251-ffb6-4502-882f-47dac0dd7895")
+	)
+	(wire
+		(pts
 			(xy 163.83 468.63) (xy 166.37 468.63)
 		)
 		(stroke
@@ -11334,6 +11356,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 457.2) (xy 367.03 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a014e7c-80d0-4bf6-8a81-122f06ddc301")
+	)
+	(wire
+		(pts
 			(xy 624.84 194.31) (xy 624.84 208.28)
 		)
 		(stroke
@@ -12334,6 +12366,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 454.66) (xy 753.11 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2645f472-ff76-4b02-9e05-9b841ea17c04")
+	)
+	(wire
+		(pts
 			(xy 806.45 127) (xy 806.45 134.62)
 		)
 		(stroke
@@ -13134,7 +13176,7 @@
 	)
 	(wire
 		(pts
-			(xy 772.16 397.51) (xy 777.24 397.51)
+			(xy 772.16 397.51) (xy 789.94 397.51)
 		)
 		(stroke
 			(width 0)
@@ -13944,7 +13986,7 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 397.51) (xy 787.4 400.05)
+			(xy 800.1 397.51) (xy 800.1 400.05)
 		)
 		(stroke
 			(width 0)
@@ -14424,7 +14466,7 @@
 	)
 	(wire
 		(pts
-			(xy 777.24 372.11) (xy 777.24 369.57)
+			(xy 789.94 372.11) (xy 789.94 369.57)
 		)
 		(stroke
 			(width 0)
@@ -15364,7 +15406,7 @@
 	)
 	(wire
 		(pts
-			(xy 786.13 369.57) (xy 787.4 369.57)
+			(xy 798.83 369.57) (xy 800.1 369.57)
 		)
 		(stroke
 			(width 0)
@@ -15744,7 +15786,7 @@
 	)
 	(wire
 		(pts
-			(xy 777.24 400.05) (xy 777.24 397.51)
+			(xy 789.94 400.05) (xy 789.94 397.51)
 		)
 		(stroke
 			(width 0)
@@ -16954,7 +16996,7 @@
 	)
 	(wire
 		(pts
-			(xy 786.13 397.51) (xy 787.4 397.51)
+			(xy 798.83 397.51) (xy 800.1 397.51)
 		)
 		(stroke
 			(width 0)
@@ -18434,7 +18476,7 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 397.51) (xy 806.45 397.51)
+			(xy 800.1 397.51) (xy 806.45 397.51)
 		)
 		(stroke
 			(width 0)
@@ -19204,7 +19246,7 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 369.57) (xy 806.45 369.57)
+			(xy 800.1 369.57) (xy 806.45 369.57)
 		)
 		(stroke
 			(width 0)
@@ -21144,7 +21186,7 @@
 	)
 	(wire
 		(pts
-			(xy 777.24 369.57) (xy 778.51 369.57)
+			(xy 789.94 369.57) (xy 791.21 369.57)
 		)
 		(stroke
 			(width 0)
@@ -21834,7 +21876,7 @@
 	)
 	(wire
 		(pts
-			(xy 777.24 397.51) (xy 778.51 397.51)
+			(xy 789.94 397.51) (xy 791.21 397.51)
 		)
 		(stroke
 			(width 0)
@@ -22334,7 +22376,7 @@
 	)
 	(wire
 		(pts
-			(xy 787.4 369.57) (xy 787.4 372.11)
+			(xy 800.1 369.57) (xy 800.1 372.11)
 		)
 		(stroke
 			(width 0)
@@ -23231,6 +23273,16 @@
 			(type default)
 		)
 		(uuid "b5406c9d-4be5-45fb-b7d2-b8ed1ca6ee1b")
+	)
+	(wire
+		(pts
+			(xy 377.19 454.66) (xy 377.19 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56a44aa-0780-4cf0-bd73-d301cf94345f")
 	)
 	(wire
 		(pts
@@ -25204,7 +25256,7 @@
 	)
 	(wire
 		(pts
-			(xy 772.16 369.57) (xy 777.24 369.57)
+			(xy 772.16 369.57) (xy 789.94 369.57)
 		)
 		(stroke
 			(width 0)
@@ -26334,7 +26386,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 454.66) (xy 753.11 454.66)
+			(xy 349.25 454.66) (xy 367.03 454.66)
 		)
 		(stroke
 			(width 0)
@@ -27191,6 +27243,16 @@
 			(type default)
 		)
 		(uuid "ee541a24-b9de-4118-b3d1-0d18f2671412")
+	)
+	(wire
+		(pts
+			(xy 375.92 454.66) (xy 377.19 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee565da8-500c-42f6-88e7-83659800efbe")
 	)
 	(wire
 		(pts
@@ -30109,7 +30171,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 787.4 375.92 0)
+		(at 800.1 375.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30117,7 +30179,7 @@
 		(dnp no)
 		(uuid "0437436d-ecb9-4aec-891d-8c80d392a9e0")
 		(property "Reference" "Z255"
-			(at 790.448 375.92 90)
+			(at 803.148 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30125,7 +30187,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 791.21 375.92 90)
+			(at 803.91 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30134,7 +30196,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 785.622 375.92 90)
+			(at 798.322 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30143,7 +30205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 787.4 375.92 0)
+			(at 800.1 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30152,7 +30214,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 787.4 375.92 0)
+			(at 800.1 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37494,7 +37556,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 782.32 397.51 90)
+		(at 795.02 397.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37502,7 +37564,7 @@
 		(dnp no)
 		(uuid "1c1c463f-c8fa-48fc-84ad-5b0ea76c13ab")
 		(property "Reference" "Z246"
-			(at 782.32 394.462 90)
+			(at 795.02 394.462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37510,7 +37572,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 782.32 393.7 90)
+			(at 795.02 393.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37519,7 +37581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 782.32 399.288 90)
+			(at 795.02 399.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37528,7 +37590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 782.32 397.51 0)
+			(at 795.02 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37537,7 +37599,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 782.32 397.51 0)
+			(at 795.02 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46058,6 +46120,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 377.19 461.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a9dbe54-241b-41f6-8818-f10c3c0ce985")
+		(property "Reference" "Z259"
+			(at 380.238 461.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 381 461.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 375.412 461.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 377.19 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfda4dc3-02d9-44a1-bf5c-a0cacee1116e")
+		)
+		(pin "1"
+			(uuid "0487cb8a-6cb0-41c8-b9f1-06b5bc23085d")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "Z259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 340.36 468.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -49258,7 +49388,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 777.24 403.86 0)
+		(at 789.94 403.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49266,7 +49396,7 @@
 		(dnp no)
 		(uuid "4443ac77-69e3-4cda-b815-b7b3925b0f42")
 		(property "Reference" "Z236"
-			(at 780.288 403.86 90)
+			(at 792.988 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49274,7 +49404,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 781.05 403.86 90)
+			(at 793.75 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49283,7 +49413,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 775.462 403.86 90)
+			(at 788.162 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49292,7 +49422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 777.24 403.86 0)
+			(at 789.94 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49301,7 +49431,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 777.24 403.86 0)
+			(at 789.94 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51298,7 +51428,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 782.32 369.57 90)
+		(at 795.02 369.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51306,7 +51436,7 @@
 		(dnp no)
 		(uuid "4d0b7889-8026-41d1-b416-fe40e265571d")
 		(property "Reference" "Z245"
-			(at 782.32 366.522 90)
+			(at 795.02 366.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51314,7 +51444,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 782.32 365.76 90)
+			(at 795.02 365.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51323,7 +51453,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 782.32 371.348 90)
+			(at 795.02 371.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51332,7 +51462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 782.32 369.57 0)
+			(at 795.02 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51341,7 +51471,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 782.32 369.57 0)
+			(at 795.02 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54664,7 +54794,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 787.4 407.67 0)
+		(at 800.1 407.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54673,7 +54803,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b1c3e56-4026-49c9-a1d5-42d6a9a0e051")
 		(property "Reference" "#PWR0305"
-			(at 787.4 414.02 0)
+			(at 800.1 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54682,7 +54812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 787.4 412.75 0)
+			(at 800.1 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54690,7 +54820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 787.4 407.67 0)
+			(at 800.1 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54699,7 +54829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 787.4 407.67 0)
+			(at 800.1 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54708,7 +54838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 787.4 407.67 0)
+			(at 800.1 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56025,6 +56155,74 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "Z99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 367.03 461.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e88baf8-4555-4733-a168-26875cec68f0")
+		(property "Reference" "Z258"
+			(at 370.078 461.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 370.84 461.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 365.252 461.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 367.03 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c1a3dfd-9e55-426c-97fe-a26ef1f91cdf")
+		)
+		(pin "1"
+			(uuid "7e681cb4-7dd6-4b73-a4f0-6dcc8f7b3f2e")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "Z258")
 					(unit 1)
 				)
 			)
@@ -65817,7 +66015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 777.24 375.92 0)
+		(at 789.94 375.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65825,7 +66023,7 @@
 		(dnp no)
 		(uuid "7d1f8cf2-a01b-4801-95c3-c10060ba2c56")
 		(property "Reference" "Z235"
-			(at 780.288 375.92 90)
+			(at 792.988 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65833,7 +66031,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 781.05 375.92 90)
+			(at 793.75 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65842,7 +66040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 775.462 375.92 90)
+			(at 788.162 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65851,7 +66049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 777.24 375.92 0)
+			(at 789.94 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65860,7 +66058,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 777.24 375.92 0)
+			(at 789.94 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69713,7 +69911,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 787.4 403.86 0)
+		(at 800.1 403.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69721,7 +69919,7 @@
 		(dnp no)
 		(uuid "8b198509-68c5-4cd5-a357-eb3760a655d4")
 		(property "Reference" "Z256"
-			(at 790.448 403.86 90)
+			(at 803.148 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69729,7 +69927,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 791.21 403.86 90)
+			(at 803.91 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69738,7 +69936,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 785.622 403.86 90)
+			(at 798.322 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69747,7 +69945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 787.4 403.86 0)
+			(at 800.1 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69756,7 +69954,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 787.4 403.86 0)
+			(at 800.1 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73692,6 +73890,72 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 367.03 464.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a28daf6-a7ab-4e9d-9b30-8634c40ebc0a")
+		(property "Reference" "#PWR0321"
+			(at 367.03 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 367.03 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81036351-3bfe-4527-afd2-dfd061737a84")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -78144,7 +78408,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 777.24 407.67 0)
+		(at 789.94 407.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78153,7 +78417,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa44a3cf-d5d2-4be5-bcea-6da8710b4c31")
 		(property "Reference" "#PWR0289"
-			(at 777.24 414.02 0)
+			(at 789.94 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78162,7 +78426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 777.24 412.75 0)
+			(at 789.94 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78170,7 +78434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 777.24 407.67 0)
+			(at 789.94 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78179,7 +78443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 777.24 407.67 0)
+			(at 789.94 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78188,7 +78452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 777.24 407.67 0)
+			(at 789.94 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80502,7 +80766,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 777.24 379.73 0)
+		(at 789.94 379.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -80511,7 +80775,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0ae63de-36be-4323-92ba-5e555e2475c0")
 		(property "Reference" "#PWR0288"
-			(at 777.24 386.08 0)
+			(at 789.94 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80520,7 +80784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 777.24 384.81 0)
+			(at 789.94 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80528,7 +80792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 777.24 379.73 0)
+			(at 789.94 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80537,7 +80801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 777.24 379.73 0)
+			(at 789.94 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80546,7 +80810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 777.24 379.73 0)
+			(at 789.94 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94205,7 +94469,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 787.4 379.73 0)
+		(at 800.1 379.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -94214,7 +94478,7 @@
 		(fields_autoplaced yes)
 		(uuid "df546e8d-2efb-409b-a1e7-cf43633f1b82")
 		(property "Reference" "#PWR0304"
-			(at 787.4 386.08 0)
+			(at 800.1 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94223,7 +94487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 787.4 384.81 0)
+			(at 800.1 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94231,7 +94495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 787.4 379.73 0)
+			(at 800.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94240,7 +94504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 787.4 379.73 0)
+			(at 800.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94249,7 +94513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 787.4 379.73 0)
+			(at 800.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100712,6 +100976,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 372.11 454.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f51b10f7-590c-42cb-b9dd-ef085b79c0e8")
+		(property "Reference" "Z257"
+			(at 372.11 451.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 372.11 450.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 372.11 456.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 372.11 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6abab98d-d31b-4782-96c3-7036d75dc258")
+		)
+		(pin "1"
+			(uuid "2bad2f81-f70e-4b91-9cc7-2665ac0725f3")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "Z257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 532.13 271.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -100943,6 +101275,72 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 377.19 464.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f62910f5-1f88-4e1d-983b-a727ae7fec12")
+		(property "Reference" "#PWR0322"
+			(at 377.19 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 377.19 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 377.19 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f61fd1da-1649-43a9-8f62-cbb170db860e")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
