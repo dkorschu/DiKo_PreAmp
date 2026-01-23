@@ -6201,6 +6201,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sw_spdt_2:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 85.09 62.23)
@@ -9197,52 +9355,16 @@
 		(uuid "ffe93352-52d6-43ee-9d98-bdd3263ebacd")
 	)
 	(no_connect
-		(at 659.13 403.86)
-		(uuid "130af53a-dbc0-422c-8372-fb64a3f8dafb")
-	)
-	(no_connect
 		(at 149.86 510.54)
 		(uuid "1330667b-30da-4b09-a4ac-051397e0a44e")
-	)
-	(no_connect
-		(at 394.97 240.03)
-		(uuid "392ca315-395f-432d-96f1-94c554706e82")
-	)
-	(no_connect
-		(at 396.24 118.11)
-		(uuid "734a4ac9-dc55-4295-995f-190a54418455")
-	)
-	(no_connect
-		(at 532.13 403.86)
-		(uuid "89e1ea1b-3ea8-48a3-9260-c3b41a9a9b45")
-	)
-	(no_connect
-		(at 396.24 328.93)
-		(uuid "9c53424e-e65f-456f-b0a7-6e141cc2f38a")
 	)
 	(no_connect
 		(at 114.3 510.54)
 		(uuid "af2c3f41-f497-4fce-917d-b15a1f54cd5a")
 	)
 	(no_connect
-		(at 396.24 383.54)
-		(uuid "bb46ad72-4aba-4ab2-9413-cf4e5346ca96")
-	)
-	(no_connect
-		(at 396.24 50.8)
-		(uuid "c73058fe-c67a-40a2-ace8-ef46b8639931")
-	)
-	(no_connect
-		(at 394.97 173.99)
-		(uuid "d5f19b49-10b1-4f73-9984-cf5d0ed67626")
-	)
-	(no_connect
 		(at 114.3 553.72)
 		(uuid "d74522d9-0b6d-46c2-9050-216cdf7d8b98")
-	)
-	(no_connect
-		(at 659.13 349.25)
-		(uuid "faaec57c-2bd4-42ed-949f-0cb5eddfbb22")
 	)
 	(wire
 		(pts
@@ -28664,76 +28786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 392.43 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00a56407-75d0-470c-a9a4-24bdd12fe40d")
-		(property "Reference" "SW3"
-			(at 383.794 179.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 383.794 177.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 392.43 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 400.05 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 392.43 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c696b5b5-c008-4704-9e46-b1995368cb26")
-		)
-		(pin "3"
-			(uuid "bd1323ca-e8bf-428c-b3fa-5d82ece5b4cc")
-		)
-		(pin "2"
-			(uuid "2f84d9d1-4e94-42d5-89db-f38af4f57aa3")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 751.84 533.4 270)
 		(unit 1)
@@ -33614,80 +33666,10 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 392.43 245.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "117ca27c-393e-4bf0-9c69-1fe5abf88143")
-		(property "Reference" "SW4"
-			(at 383.794 245.872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 383.794 243.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 392.43 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 400.05 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 392.43 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68ac4ad9-9c4b-496f-9ea4-30fd279b0a31")
-		)
-		(pin "3"
-			(uuid "705c88be-c74c-4d48-aedf-900692b3214b")
-		)
-		(pin "2"
-			(uuid "a8aacf5a-f51c-4bdb-983c-f8c81f731a91")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 433.07 71.12 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33782,77 +33764,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U8")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 656.59 408.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11c14ab6-1848-4a56-8b9f-cc18cbca465e")
-		(property "Reference" "SW12"
-			(at 647.954 409.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 647.954 407.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 656.59 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 664.21 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 656.59 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb3d2956-2a24-4d15-8b51-138320717fb2")
-		)
-		(pin "3"
-			(uuid "d690908e-b820-4610-ad65-b32038df2321")
-		)
-		(pin "2"
-			(uuid "b5800bdc-8365-4913-9d16-9aed2c1a023f")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW12")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -42833,76 +42745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 393.7 388.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fbe57fa-23b0-4955-b5e7-76b5545c4604")
-		(property "Reference" "SW8"
-			(at 385.064 389.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 385.064 386.842 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 393.7 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 401.32 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 393.7 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2460fdd8-d90a-4fa1-9e28-8bfbd7e66373")
-		)
-		(pin "3"
-			(uuid "ff2696a4-3113-462a-a5e6-104121447b26")
-		)
-		(pin "2"
-			(uuid "3605c0a1-e780-4327-8cec-51c14b7d9509")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 715.01 69.85 0)
 		(unit 1)
@@ -44248,14 +44090,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 377.19 114.3 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3413f1a6-f4eb-462d-804c-2000bcb8e252")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 377.19 104.14 0)
 			(effects
 				(font
@@ -44343,8 +44185,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U9")
-					(unit 1)
+					(reference "U8")
+					(unit 2)
 				)
 			)
 		)
@@ -49657,6 +49499,75 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 393.7 334.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "449bcca8-4da9-49c0-aa5e-ab791fb86cc6")
+		(property "Reference" "SW7"
+			(at 379.984 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 379.984 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 393.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 393.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e334fe8a-045f-403e-bec6-71ddf171542d")
+		)
+		(pin "1"
+			(uuid "a4bef679-8d18-4332-b0f7-1ace19f8cf66")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 234.95 334.01 0)
 		(unit 1)
@@ -50441,6 +50352,75 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 392.43 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47c7e730-a4a5-4413-9bcf-d613c6ec82d4")
+		(property "Reference" "SW4"
+			(at 378.714 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 378.714 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 392.43 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 392.43 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b34494-baa2-4d70-9ec8-91c26adaef8a")
+		)
+		(pin "2"
+			(uuid "928a0c0d-0269-4ca6-8dce-60b5293372e3")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 96.52 195.58 270)
 		(unit 1)
@@ -51189,6 +51169,75 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 393.7 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cba7c61-97c3-4279-ab0f-63247381c846")
+		(property "Reference" "SW6"
+			(at 379.984 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 379.984 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 393.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 393.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a31a1c1f-bb33-4b96-a04d-f0321ae5ee8c")
+		)
+		(pin "2"
+			(uuid "cdc7074c-4afe-40cc-90c0-71068071ed4f")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 586.74 342.9 0)
 		(unit 2)
@@ -51555,6 +51604,75 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 656.59 408.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d89f241-d419-454f-af20-a4aaf0e758c3")
+		(property "Reference" "SW12"
+			(at 643.128 407.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 643.128 410.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 656.59 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 664.21 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 656.59 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc18082-a267-41ef-9607-4ff37a84f990")
+		)
+		(pin "2"
+			(uuid "b7b6c4cd-f7c8-4051-8be4-d5f84692b688")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -58692,13 +58810,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 433.07 138.43 0)
 		(mirror x)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "65a4e7e0-54c4-4956-85bf-579ddffc4c7f")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 433.07 132.334 0)
 			(effects
 				(font
@@ -58786,8 +58904,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U9")
-					(unit 2)
+					(reference "U8")
+					(unit 3)
 				)
 			)
 		)
@@ -60118,6 +60236,75 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 529.59 408.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e75eaf-2fd4-4730-b0e2-48a7e30e8582")
+		(property "Reference" "SW10"
+			(at 516.128 407.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 516.128 410.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 529.59 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 537.21 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 529.59 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdbe19a3-c577-40db-b9bc-ddfa8cbe7f5f")
+		)
+		(pin "1"
+			(uuid "7f84bd35-b2e7-4e5f-9bb1-399a40f52d15")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -64380,76 +64567,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 393.7 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78d8a5f2-d3ad-4e93-98ef-8e80643796a0")
-		(property "Reference" "SW5"
-			(at 385.064 56.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 385.064 54.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 393.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 401.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 393.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b26ec553-771f-41ed-bbf2-eb08c4511067")
-		)
-		(pin "3"
-			(uuid "ef6d2314-1569-428f-8ff3-24b030b6a7c3")
-		)
-		(pin "2"
-			(uuid "1946c4ed-aa64-4a09-afdc-d305df3a97e4")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -79687,76 +79804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 656.59 354.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad1a4387-c366-4b32-bf5b-7965df5f31f8")
-		(property "Reference" "SW11"
-			(at 647.954 355.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 647.954 352.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 656.59 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 664.21 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 656.59 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55341272-de4c-48d6-920b-a201e45c2a20")
-		)
-		(pin "3"
-			(uuid "bd600efd-3276-46ab-968c-978c10cb0430")
-		)
-		(pin "2"
-			(uuid "8ba029a1-9e5a-4e81-8e6d-90d7a8703782")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 764.54 93.98 0)
 		(unit 2)
@@ -81745,6 +81792,75 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 393.7 388.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b395af6c-eb39-4b19-b9d8-c6af7483d0dd")
+		(property "Reference" "SW8"
+			(at 379.984 387.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 379.984 389.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 393.7 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 393.7 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36c10250-15a0-4f57-898b-ccfc5ca57e39")
+		)
+		(pin "2"
+			(uuid "65b83447-2815-40a0-829c-325263d7e051")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 52.07 69.85 0)
 		(unit 1)
@@ -83543,6 +83659,75 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 656.59 354.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6d47cb-9ca8-4945-a3cc-45eb08f790da")
+		(property "Reference" "SW11"
+			(at 643.128 353.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 643.128 355.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 656.59 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 664.21 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 656.59 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84126cec-1316-486b-85bd-54a6873d028d")
+		)
+		(pin "2"
+			(uuid "586e4e84-3565-47ce-8c67-e12f10febffc")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 767.08 431.8 270)
 		(unit 1)
@@ -84394,14 +84579,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 561.34 102.87 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce8ea7b-e8a9-43f3-8256-d86e658e993c")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 561.34 92.71 0)
 			(effects
 				(font
@@ -84489,8 +84674,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U8")
-					(unit 3)
+					(reference "U9")
+					(unit 2)
 				)
 			)
 		)
@@ -90754,13 +90939,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 613.41 73.66 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d1902453-9a81-4a27-be95-0d628f1abe1a")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 613.41 68.072 0)
 			(effects
 				(font
@@ -90848,8 +91033,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U8")
-					(unit 4)
+					(reference "U9")
+					(unit 1)
 				)
 			)
 		)
@@ -90915,6 +91100,75 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 393.7 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2752990-74ec-4c3e-a94f-a8eb843e2717")
+		(property "Reference" "SW5"
+			(at 379.984 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 379.984 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 393.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 393.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99443bc4-0095-40e3-a79a-785627ef2205")
+		)
+		(pin "1"
+			(uuid "61917d3b-aeb3-419e-9bc1-5fa0211b8e7d")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -94669,6 +94923,75 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_spdt_2:SW_SPDT")
+		(at 392.43 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dff4c223-b325-4b1c-8f52-c1f97a0e08f7")
+		(property "Reference" "SW3"
+			(at 378.714 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 378.714 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
+			(at 392.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 392.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf573a0-a915-4bc0-a5f0-ce5a58ec6f98")
+		)
+		(pin "2"
+			(uuid "18292d71-9d50-4ad7-a91a-29960fd338b0")
+		)
+		(instances
+			(project ""
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 636.27 300.99 0)
 		(unit 1)
@@ -95082,76 +95405,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 393.7 334.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e18be214-ae3b-4a82-93db-4d9caa35af8a")
-		(property "Reference" "SW7"
-			(at 385.064 334.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 385.064 332.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 393.7 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 401.32 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 393.7 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aefff47-b655-4f92-ac8e-8dba1723ac35")
-		)
-		(pin "3"
-			(uuid "bcfc9f62-cf35-4f2a-ae70-4e1e93882cd2")
-		)
-		(pin "2"
-			(uuid "a8b465f9-cc2f-47ca-8a7f-d161a5cbdd0b")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -99431,76 +99684,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 393.7 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efbfd89b-a02b-4ec7-8e2c-a6aa2a8048b1")
-		(property "Reference" "SW6"
-			(at 385.064 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 385.064 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 393.7 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 401.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 393.7 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3224ccb6-3619-452c-ac4f-a1f0cafa033a")
-		)
-		(pin "3"
-			(uuid "d46ba123-0a7d-49a5-8d8e-21e44b1c3acf")
-		)
-		(pin "2"
-			(uuid "97a39cf6-5e87-4b07-beca-4472d4d57f96")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 144.78 133.35 90)
 		(unit 1)
@@ -100831,76 +101014,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "Z189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 529.59 408.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4c8f582-e367-498f-be7e-c95ecbd73ec9")
-		(property "Reference" "SW10"
-			(at 520.954 409.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 520.954 407.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x03_P2.54mm_Vertical_LongPads"
-			(at 529.59 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 537.21 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 529.59 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08a06465-6639-4ba9-b117-6ca266dfdea1")
-		)
-		(pin "3"
-			(uuid "0a36ba21-d750-4b83-a0c6-428b8b1406c3")
-		)
-		(pin "2"
-			(uuid "c9a84c25-e13d-4ef6-861f-2ee554365477")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "SW10")
 					(unit 1)
 				)
 			)
