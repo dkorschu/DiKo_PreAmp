@@ -11125,7 +11125,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 105.41) (xy 481.33 105.41)
+			(xy 786.13 346.71) (xy 801.37 346.71)
 		)
 		(stroke
 			(width 0)
@@ -12995,7 +12995,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 105.41) (xy 513.08 97.79)
+			(xy 515.62 100.33) (xy 515.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -14285,7 +14285,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 105.41) (xy 513.08 105.41)
+			(xy 500.38 100.33) (xy 515.62 100.33)
 		)
 		(stroke
 			(width 0)
@@ -14575,7 +14575,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 171.45) (xy 491.49 171.45)
+			(xy 501.65 166.37) (xy 516.89 166.37)
 		)
 		(stroke
 			(width 0)
@@ -15395,7 +15395,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 100.33) (xy 466.09 105.41)
+			(xy 786.13 341.63) (xy 786.13 346.71)
 		)
 		(stroke
 			(width 0)
@@ -17655,7 +17655,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 95.25) (xy 492.76 95.25)
+			(xy 500.38 90.17) (xy 495.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -18725,7 +18725,7 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 161.29) (xy 471.17 172.72)
+			(xy 496.57 156.21) (xy 496.57 167.64)
 		)
 		(stroke
 			(width 0)
@@ -20155,7 +20155,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 100.33) (xy 497.84 105.41)
+			(xy 500.38 95.25) (xy 500.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -21615,7 +21615,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 161.29) (xy 471.17 161.29)
+			(xy 501.65 156.21) (xy 496.57 156.21)
 		)
 		(stroke
 			(width 0)
@@ -22775,7 +22775,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 95.25) (xy 461.01 105.41)
+			(xy 781.05 336.55) (xy 781.05 346.71)
 		)
 		(stroke
 			(width 0)
@@ -23325,7 +23325,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 171.45) (xy 491.49 163.83)
+			(xy 516.89 166.37) (xy 516.89 158.75)
 		)
 		(stroke
 			(width 0)
@@ -24515,7 +24515,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 166.37) (xy 476.25 171.45)
+			(xy 501.65 161.29) (xy 501.65 166.37)
 		)
 		(stroke
 			(width 0)
@@ -24855,7 +24855,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 95.25) (xy 492.76 105.41)
+			(xy 495.3 90.17) (xy 495.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -25695,7 +25695,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 95.25) (xy 461.01 95.25)
+			(xy 786.13 336.55) (xy 781.05 336.55)
 		)
 		(stroke
 			(width 0)
@@ -26735,7 +26735,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 105.41) (xy 481.33 97.79)
+			(xy 801.37 346.71) (xy 801.37 339.09)
 		)
 		(stroke
 			(width 0)
@@ -35248,14 +35248,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 561.34 237.49 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "153ca4af-e956-4ba0-86a8-3b1f411f0a8d")
-		(property "Reference" "U10"
+		(property "Reference" "U13"
 			(at 561.34 227.33 0)
 			(effects
 				(font
@@ -35343,8 +35343,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U10")
-					(unit 4)
+					(reference "U13")
+					(unit 3)
 				)
 			)
 		)
@@ -36763,13 +36763,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 613.41 140.97 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1886c6f2-02a0-40c6-8e6d-c38b75b26384")
-		(property "Reference" "U11"
+		(property "Reference" "U22"
 			(at 613.41 135.382 0)
 			(effects
 				(font
@@ -36857,8 +36857,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U11")
-					(unit 2)
+					(reference "U22")
+					(unit 4)
 				)
 			)
 		)
@@ -39938,7 +39938,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -42235,14 +42234,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 377.19 379.73 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29c66612-9105-4e1c-811b-a35f3edccb53")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 377.19 369.57 0)
 			(effects
 				(font
@@ -42330,8 +42329,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U13")
-					(unit 3)
+					(reference "U10")
+					(unit 2)
 				)
 			)
 		)
@@ -44499,7 +44498,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -45971,7 +45969,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -47771,7 +47768,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -48948,7 +48944,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -50070,13 +50065,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 377.19 325.12 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4186d5f0-563a-4ecd-8072-267aade96e94")
-		(property "Reference" "U12"
+		(property "Reference" "U10"
 			(at 377.19 314.96 0)
 			(effects
 				(font
@@ -50164,8 +50159,8 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U12")
-					(unit 3)
+					(reference "U10")
+					(unit 1)
 				)
 			)
 		)
@@ -56481,7 +56476,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 473.71 97.79 0)
+		(at 793.75 339.09 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56490,7 +56485,7 @@
 		(fields_autoplaced yes)
 		(uuid "57dcb3a7-8561-4279-b5e7-b3914334acca")
 		(property "Reference" "U22"
-			(at 473.71 87.63 0)
+			(at 793.75 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56498,7 +56493,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 473.71 90.17 0)
+			(at 793.75 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56506,7 +56501,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 472.44 95.25 0)
+			(at 792.48 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56515,7 +56510,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 474.98 92.71 0)
+			(at 795.02 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56524,7 +56519,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 473.71 97.79 0)
+			(at 793.75 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57020,7 +57015,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -59667,13 +59661,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 506.73 219.71 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "63066e22-fb4e-455c-97ad-b8fb06ed291f")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 506.73 213.868 0)
 			(effects
 				(font
@@ -59761,8 +59755,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U10")
-					(unit 3)
+					(reference "U11")
+					(unit 1)
 				)
 			)
 		)
@@ -59771,13 +59765,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 433.07 394.97 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "632bd819-2eb2-47aa-814e-47c647adcc0c")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 433.07 389.128 0)
 			(effects
 				(font
@@ -59865,8 +59859,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U13")
-					(unit 4)
+					(reference "U10")
+					(unit 3)
 				)
 			)
 		)
@@ -61871,7 +61865,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -64438,7 +64431,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -65098,16 +65090,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 505.46 97.79 0)
-		(unit 3)
+		(at 508 92.71 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e591bd-9e80-4001-8d0b-64d8c16bab5e")
-		(property "Reference" "U22"
-			(at 505.46 87.63 0)
+		(property "Reference" "U11"
+			(at 508 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65115,7 +65107,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 505.46 90.17 0)
+			(at 508 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65123,7 +65115,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 504.19 95.25 0)
+			(at 506.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65132,7 +65124,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 506.73 92.71 0)
+			(at 509.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65141,7 +65133,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 505.46 97.79 0)
+			(at 508 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65194,8 +65186,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U22")
-					(unit 3)
+					(reference "U11")
+					(unit 4)
 				)
 			)
 		)
@@ -75010,7 +75002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9111190e-7b6f-4ede-b396-100da10636e2")
-		(property "Reference" "U11"
+		(property "Reference" "U22"
 			(at 561.34 160.02 0)
 			(effects
 				(font
@@ -75098,7 +75090,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U11")
+					(reference "U22")
 					(unit 3)
 				)
 			)
@@ -76529,7 +76521,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 492.76 105.41 0)
+		(at 495.3 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -76538,7 +76530,7 @@
 		(fields_autoplaced yes)
 		(uuid "96a9f3a5-cb2c-4681-af10-29532ca7aef4")
 		(property "Reference" "#PWR064"
-			(at 492.76 111.76 0)
+			(at 495.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76547,7 +76539,7 @@
 			)
 		)
 		(property "Value" "GND_O"
-			(at 492.76 110.49 0)
+			(at 495.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76555,7 +76547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 492.76 105.41 0)
+			(at 495.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76564,7 +76556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 492.76 105.41 0)
+			(at 495.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76573,7 +76565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 492.76 105.41 0)
+			(at 495.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78671,7 +78663,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 471.17 172.72 0)
+		(at 496.57 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78680,7 +78672,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c9afc26-aca3-474f-9027-55ede78d1bcd")
 		(property "Reference" "#PWR068"
-			(at 471.17 179.07 0)
+			(at 496.57 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78689,7 +78681,7 @@
 			)
 		)
 		(property "Value" "GND_O"
-			(at 471.17 177.8 0)
+			(at 496.57 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78697,7 +78689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 471.17 172.72 0)
+			(at 496.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78706,7 +78698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 471.17 172.72 0)
+			(at 496.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78715,7 +78707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 471.17 172.72 0)
+			(at 496.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81817,7 +81809,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
@@ -89615,14 +89606,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 561.34 102.87 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce8ea7b-e8a9-43f3-8256-d86e658e993c")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 561.34 92.71 0)
 			(effects
 				(font
@@ -89710,8 +89701,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U10")
-					(unit 2)
+					(reference "U12")
+					(unit 3)
 				)
 			)
 		)
@@ -93404,16 +93395,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 483.87 163.83 0)
-		(unit 4)
+		(at 509.27 158.75 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c87627a0-b04c-4a66-9c24-5e0706761c50")
-		(property "Reference" "U22"
-			(at 483.87 153.67 0)
+		(property "Reference" "U11"
+			(at 509.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93421,7 +93412,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 483.87 156.21 0)
+			(at 509.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93429,7 +93420,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 482.6 161.29 0)
+			(at 508 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93438,7 +93429,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 485.14 158.75 0)
+			(at 510.54 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93447,7 +93438,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 483.87 163.83 0)
+			(at 509.27 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93500,8 +93491,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U22")
-					(unit 4)
+					(reference "U11")
+					(unit 3)
 				)
 			)
 		)
@@ -96714,7 +96705,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 461.01 105.41 0)
+		(at 781.05 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -96723,7 +96714,7 @@
 		(fields_autoplaced yes)
 		(uuid "d184fa27-2f40-4ecc-a81d-b37dfcf28192")
 		(property "Reference" "#PWR063"
-			(at 461.01 111.76 0)
+			(at 781.05 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96732,7 +96723,7 @@
 			)
 		)
 		(property "Value" "GND_O"
-			(at 461.01 110.49 0)
+			(at 781.05 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96740,7 +96731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 461.01 105.41 0)
+			(at 781.05 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96749,7 +96740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 461.01 105.41 0)
+			(at 781.05 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96758,7 +96749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 461.01 105.41 0)
+			(at 781.05 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96848,13 +96839,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 613.41 73.66 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d1902453-9a81-4a27-be95-0d628f1abe1a")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 613.41 68.072 0)
 			(effects
 				(font
@@ -96942,8 +96933,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U10")
-					(unit 1)
+					(reference "U12")
+					(unit 4)
 				)
 			)
 		)
@@ -97613,7 +97604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d43e5c59-9f38-4347-94e9-7285ebbcc12a")
-		(property "Reference" "U12"
+		(property "Reference" "U10"
 			(at 433.07 334.518 0)
 			(effects
 				(font
@@ -97701,7 +97692,7 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U12")
+					(reference "U10")
 					(unit 4)
 				)
 			)
@@ -107275,7 +107266,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 506.73 285.75 0)
 		(mirror x)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -107370,7 +107361,7 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U11")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -108302,13 +108293,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 613.41 208.28 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f60d0ab6-a160-4d43-a79f-113010d0234d")
-		(property "Reference" "U11"
+		(property "Reference" "U13"
 			(at 613.41 202.692 0)
 			(effects
 				(font
@@ -108396,8 +108387,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U11")
-					(unit 1)
+					(reference "U13")
+					(unit 4)
 				)
 			)
 		)
@@ -109910,7 +109901,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "100n"
