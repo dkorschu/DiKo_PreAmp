@@ -36763,13 +36763,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 613.41 140.97 0)
 		(mirror x)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1886c6f2-02a0-40c6-8e6d-c38b75b26384")
-		(property "Reference" "U22"
+		(property "Reference" "U12"
 			(at 613.41 135.382 0)
 			(effects
 				(font
@@ -36857,8 +36857,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U22")
-					(unit 4)
+					(reference "U12")
+					(unit 2)
 				)
 			)
 		)
@@ -74995,14 +74995,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 561.34 170.18 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9111190e-7b6f-4ede-b396-100da10636e2")
-		(property "Reference" "U22"
+		(property "Reference" "U12"
 			(at 561.34 160.02 0)
 			(effects
 				(font
@@ -75090,8 +75090,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U22")
-					(unit 3)
+					(reference "U12")
+					(unit 1)
 				)
 			)
 		)
@@ -93567,13 +93567,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 613.41 274.32 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c89e8188-f49c-4fcc-92c8-26e6ef2361cc")
-		(property "Reference" "U12"
+		(property "Reference" "U22"
 			(at 613.41 268.732 0)
 			(effects
 				(font
@@ -93661,8 +93661,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U12")
-					(unit 1)
+					(reference "U22")
+					(unit 3)
 				)
 			)
 		)
@@ -99205,14 +99205,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 561.34 303.53 0)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa67dcb-d709-4a35-add3-93640779f6f7")
-		(property "Reference" "U12"
+		(property "Reference" "U22"
 			(at 561.34 293.37 0)
 			(effects
 				(font
@@ -99300,8 +99300,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U12")
-					(unit 2)
+					(reference "U22")
+					(unit 4)
 				)
 			)
 		)
