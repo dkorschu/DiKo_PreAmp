@@ -1,4 +1,4 @@
-27102451260696146
+27105990489094891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -46903,6 +46903,20 @@ Connector_PinSocket_2.54mm_LongPads
 PinSocket_1x06_P2.54mm_Vertical_LongPads
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Connector_PinSocket_2.54mm_LongPads
+PinSocket_2x03_P2.54mm_Vertical_LongPads
+Through hole straight socket strip, 2x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x03 2.54mm single row
+0
+6
+6
+Connector_PinSocket_2.54mm_LongPads
+PinSocket_2x03_P2.54mm_Vertical_LongPads_Mirrored
+Through hole straight socket strip, 2x03, 2.54mm pitch, single row (from Kicad 4.0.7), mirrored
+Through hole socket strip THT 1x03 2.54mm single row
 0
 6
 6
