@@ -63122,7 +63122,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 695.96 424.18 0)
 		(mirror x)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -63217,7 +63217,7 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U20")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -65772,7 +65772,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 695.96 369.57 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -65867,7 +65867,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U20")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -109391,7 +109391,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 640.08 345.44 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -109487,7 +109487,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U20")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
