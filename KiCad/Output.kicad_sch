@@ -36100,7 +36100,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 514.35 354.33 0)
 		(mirror x)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -36195,7 +36195,7 @@
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U22")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -62507,13 +62507,13 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 568.96 424.18 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "689f6744-1d9f-4f2a-a4ad-4694f6628aaf")
-		(property "Reference" "U20"
+		(property "Reference" "U22"
 			(at 568.96 418.338 0)
 			(effects
 				(font
@@ -62601,8 +62601,8 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U20")
-					(unit 2)
+					(reference "U22")
+					(unit 4)
 				)
 			)
 		)
@@ -65778,7 +65778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72f71cef-bd90-49c0-8131-2e0994e93424")
-		(property "Reference" "U22"
+		(property "Reference" "U20"
 			(at 695.96 363.728 0)
 			(effects
 				(font
@@ -65866,7 +65866,7 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U22")
+					(reference "U20")
 					(unit 2)
 				)
 			)
@@ -65897,7 +65897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x06_P2.54mm_Vertical_LongPads"
+		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_2x03_P2.54mm_Vertical_LongPads"
 			(at 568.96 360.045 0)
 			(effects
 				(font
@@ -87660,7 +87660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79a2466-2beb-4376-ab52-57d25ef60efd")
-		(property "Reference" "U20"
+		(property "Reference" "U22"
 			(at 513.08 389.89 0)
 			(effects
 				(font
@@ -87748,7 +87748,7 @@
 		(instances
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U20")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -109398,7 +109398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa2d380e-428e-4e7d-94f7-f660f3b8f47a")
-		(property "Reference" "U22"
+		(property "Reference" "U20"
 			(at 640.08 335.28 0)
 			(effects
 				(font
@@ -109486,7 +109486,7 @@
 		(instances
 			(project ""
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "U22")
+					(reference "U20")
 					(unit 1)
 				)
 			)
