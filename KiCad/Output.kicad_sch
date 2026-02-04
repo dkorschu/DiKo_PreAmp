@@ -10130,7 +10130,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 469.9) (xy 284.48 471.17)
+			(xy 289.56 463.55) (xy 289.56 464.82)
 		)
 		(stroke
 			(width 0)
@@ -10487,6 +10487,16 @@
 			(type dash_dot)
 		)
 		(uuid "1196688a-9462-4e83-a061-fde428e72ec8")
+	)
+	(wire
+		(pts
+			(xy 673.1 468.63) (xy 673.1 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11989c0c-c38a-4bea-a0f1-aa53d90cd168")
 	)
 	(wire
 		(pts
@@ -13640,6 +13650,16 @@
 	)
 	(wire
 		(pts
+			(xy 678.18 468.63) (xy 678.18 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f9c985-1206-48cc-822d-e8ee67597236")
+	)
+	(wire
+		(pts
 			(xy 654.05 90.17) (xy 654.05 93.98)
 		)
 		(stroke
@@ -15060,7 +15080,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 469.9) (xy 292.1 471.17)
+			(xy 297.18 463.55) (xy 297.18 464.82)
 		)
 		(stroke
 			(width 0)
@@ -16597,6 +16617,16 @@
 			(type default)
 		)
 		(uuid "5ffa632a-2702-4b4e-a187-0ccb212dee4f")
+	)
+	(wire
+		(pts
+			(xy 687.07 468.63) (xy 687.07 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6021a933-e5ed-4eab-ba05-055590372fa9")
 	)
 	(wire
 		(pts
@@ -18530,6 +18560,16 @@
 	)
 	(wire
 		(pts
+			(xy 659.13 468.63) (xy 659.13 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3689a3-1503-4ce8-8d22-f6bc2f2644b5")
+	)
+	(wire
+		(pts
 			(xy 772.16 265.43) (xy 772.16 257.81)
 		)
 		(stroke
@@ -19270,6 +19310,16 @@
 	)
 	(wire
 		(pts
+			(xy 664.21 468.63) (xy 664.21 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8555f236-da61-4507-b86a-54e6e21bbc1c")
+	)
+	(wire
+		(pts
 			(xy 699.77 515.62) (xy 701.04 515.62)
 		)
 		(stroke
@@ -19830,7 +19880,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 469.9) (xy 289.56 471.17)
+			(xy 294.64 463.55) (xy 294.64 464.82)
 		)
 		(stroke
 			(width 0)
@@ -20370,7 +20420,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 471.17) (xy 287.02 469.9)
+			(xy 292.1 464.82) (xy 292.1 463.55)
 		)
 		(stroke
 			(width 0)
@@ -22300,7 +22350,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 471.17) (xy 294.64 469.9)
+			(xy 299.72 464.82) (xy 299.72 463.55)
 		)
 		(stroke
 			(width 0)
@@ -26460,6 +26510,16 @@
 	)
 	(wire
 		(pts
+			(xy 692.15 468.63) (xy 692.15 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f6ec53-95b3-4387-8435-e15074cad617")
+	)
+	(wire
+		(pts
 			(xy 453.39 394.97) (xy 452.12 394.97)
 		)
 		(stroke
@@ -27227,6 +27287,16 @@
 			(type default)
 		)
 		(uuid "f4774dd1-f8d9-460f-9b1e-44a9983f36c7")
+	)
+	(wire
+		(pts
+			(xy 285.75 45.72) (xy 285.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f527d9d2-7e98-4926-bf85-4cc9114fe874")
 	)
 	(wire
 		(pts
@@ -33443,6 +33513,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 285.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e761220-3e46-4660-89cd-f97226231986")
+		(property "Reference" "C119"
+			(at 288.29 41.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 288.29 44.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 285.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16a79c57-03ba-42aa-989f-5bbbd051c646")
+		)
+		(pin "1"
+			(uuid "2a1e71f6-d814-43fc-a1d5-f964e72ad24c")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 303.53 312.42 0)
 		(unit 1)
@@ -35512,6 +35697,72 @@
 			(project "Output"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 692.15 471.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "166507a3-3a1c-499c-913b-065406d17cf7")
+		(property "Reference" "#PWR0350"
+			(at 692.15 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 692.15 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 692.15 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 692.15 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 692.15 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b93b43-b119-43f4-ab99-5cdfea00e230")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0350")
 					(unit 1)
 				)
 			)
@@ -42984,6 +43235,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 675.64 468.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2aacef-9550-467b-9653-7dc7094e6c68")
+		(property "Reference" "C121"
+			(at 675.6336 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 675.6336 464.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 675.64 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 675.64 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 675.64 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f40773-165a-4954-9f5b-281e88d577a2")
+		)
+		(pin "2"
+			(uuid "1be4a450-c84b-49e1-a09c-7210c58185c3")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 709.93 93.98 90)
 		(unit 1)
@@ -44583,7 +44902,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 284.48 469.9 0)
+		(at 289.56 463.55 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -44592,7 +44911,7 @@
 		(dnp no)
 		(uuid "3336b95a-0488-42fb-8b97-6564e403a07c")
 		(property "Reference" "#PWR0130"
-			(at 284.48 463.55 0)
+			(at 289.56 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44601,7 +44920,7 @@
 			)
 		)
 		(property "Value" "9V_GND_O"
-			(at 284.48 466.09 90)
+			(at 289.56 459.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44610,7 +44929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 469.9 0)
+			(at 289.56 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44619,7 +44938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 469.9 0)
+			(at 289.56 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44628,7 +44947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 284.48 469.9 0)
+			(at 289.56 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45562,7 +45881,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 292.1 469.9 0)
+		(at 297.18 463.55 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45571,7 +45890,7 @@
 		(dnp no)
 		(uuid "35e58952-1417-4ab3-a33c-e469b96af906")
 		(property "Reference" "#PWR0131"
-			(at 292.1 463.55 0)
+			(at 297.18 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45580,7 +45899,7 @@
 			)
 		)
 		(property "Value" "GND_O"
-			(at 292.1 459.74 90)
+			(at 297.18 453.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45589,7 +45908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 469.9 0)
+			(at 297.18 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45598,7 +45917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 469.9 0)
+			(at 297.18 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45607,7 +45926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 292.1 469.9 0)
+			(at 297.18 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55838,6 +56157,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 689.61 468.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54d63f81-621f-4df7-9127-449851e6a08f")
+		(property "Reference" "C122"
+			(at 689.6036 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 689.6036 464.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 689.61 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 689.61 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 689.61 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39126d13-51d4-4a97-84db-58ae2e291f49")
+		)
+		(pin "2"
+			(uuid "b799d01d-4b91-47a5-8b8b-7cdc613cb5e8")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 594.36 138.43 90)
 		(unit 1)
@@ -55900,6 +56287,116 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 284.48 476.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551dd36e-ba94-4309-a796-eb0e3a36b7e2")
+		(property "Reference" "H10"
+			(at 287.02 474.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 287.02 477.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 284.48 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -62746,7 +63243,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 287.02 469.9 0)
+		(at 292.1 463.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -62755,7 +63252,7 @@
 		(dnp no)
 		(uuid "6903fb01-4adb-4e94-b87c-eaad197a77f6")
 		(property "Reference" "#PWR0120"
-			(at 287.02 473.71 0)
+			(at 292.1 467.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62764,7 +63261,7 @@
 			)
 		)
 		(property "Value" "+9V_O"
-			(at 287.02 466.344 90)
+			(at 292.1 459.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62773,7 +63270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 469.9 0)
+			(at 292.1 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62782,7 +63279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 469.9 0)
+			(at 292.1 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62791,7 +63288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 287.02 469.9 0)
+			(at 292.1 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67845,7 +68342,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 294.64 469.9 0)
+		(at 299.72 463.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -67854,7 +68351,7 @@
 		(dnp no)
 		(uuid "790a8762-3299-4bc2-a6be-6c041fb7d8bf")
 		(property "Reference" "#PWR0122"
-			(at 294.64 473.71 0)
+			(at 299.72 467.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67863,7 +68360,7 @@
 			)
 		)
 		(property "Value" "+15V_O"
-			(at 294.64 466.344 90)
+			(at 299.72 459.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67872,7 +68369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 469.9 0)
+			(at 299.72 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67881,7 +68378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 469.9 0)
+			(at 299.72 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67890,7 +68387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 294.64 469.9 0)
+			(at 299.72 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78243,6 +78740,116 @@
 			(project "Output"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "Z123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 815.34 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c22c2a7-f6a6-4161-bffe-00652f2ddb46")
+		(property "Reference" "H12"
+			(at 817.88 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 817.88 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 815.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -95040,6 +95647,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 661.67 468.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdd9113c-4479-4938-8d65-d9383c742961")
+		(property "Reference" "C120"
+			(at 661.6636 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 661.6636 464.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 661.67 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.67 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 661.67 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "273ea949-274d-4b81-a549-939bba517a27")
+		)
+		(pin "2"
+			(uuid "03bdc832-fe18-4612-9978-28bf158c9dca")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 452.12 406.4 0)
 		(unit 1)
@@ -95976,6 +96651,72 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 687.07 471.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfe6b76b-29cf-47f5-a7de-f0055744659a")
+		(property "Reference" "#PWR0349"
+			(at 687.07 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 686.054 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 687.07 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 687.07 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 687.07 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90683098-a8a7-4da5-bf9b-e5a1ae89166b")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0349")
 					(unit 1)
 				)
 			)
@@ -99413,6 +100154,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 285.75 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbef9ec8-3a90-4d2f-a45c-f7dd9b359ba3")
+		(property "Reference" "H9"
+			(at 288.29 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 288.29 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 285.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 285.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61690823-3c73-4f38-be65-67b4d5c59b9b")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 176.53 52.07 270)
 		(unit 1)
@@ -101063,7 +101872,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 289.56 469.9 0)
+		(at 294.64 463.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -101072,7 +101881,7 @@
 		(dnp no)
 		(uuid "dfeec32f-0316-49e2-9e76-4df08c71d4d6")
 		(property "Reference" "#PWR0121"
-			(at 289.56 473.71 0)
+			(at 294.64 467.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101081,7 +101890,7 @@
 			)
 		)
 		(property "Value" "-15V_O"
-			(at 289.56 466.344 90)
+			(at 294.64 459.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101090,7 +101899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 469.9 0)
+			(at 294.64 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101099,7 +101908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 469.9 0)
+			(at 294.64 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101108,7 +101917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 289.56 469.9 0)
+			(at 294.64 463.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102592,6 +103401,72 @@
 			(project "Output"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 678.18 471.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30f30e1-ed56-4cec-8200-41f89d95ed29")
+		(property "Reference" "#PWR0348"
+			(at 678.18 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 678.942 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 678.18 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 678.18 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 678.18 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "254bae4f-1a71-4ff9-a34b-fec10b2bb03d")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0348")
 					(unit 1)
 				)
 			)
@@ -104235,7 +105110,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 289.56 476.25 90)
+		(at 294.64 469.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -104243,7 +105118,7 @@
 		(dnp no)
 		(uuid "e76c212a-1737-4afb-8299-16c06f30996a")
 		(property "Reference" "J22"
-			(at 300.228 472.694 90)
+			(at 305.308 466.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104252,7 +105127,7 @@
 			)
 		)
 		(property "Value" "EMK_In"
-			(at 303.276 475.234 90)
+			(at 308.356 468.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104261,7 +105136,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x05_P2.54mm_Vertical_LongPads"
-			(at 289.56 476.25 0)
+			(at 294.64 469.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104270,7 +105145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 476.25 0)
+			(at 294.64 469.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104279,7 +105154,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 289.56 476.25 0)
+			(at 294.64 469.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106949,6 +107824,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
+		(at 659.13 471.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f12c6faa-74e8-490d-8c9a-978105a84edf")
+		(property "Reference" "#PWR0345"
+			(at 659.13 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 658.622 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 659.13 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 659.13 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 659.13 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b9cae08-45d8-428f-aaf5-fba5bab4b299")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0345")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
 		(at 636.27 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -107435,6 +108376,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 285.75 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f29dcabf-c909-4a60-bcb3-3788faa1bd8c")
+		(property "Reference" "#PWR0210"
+			(at 285.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 282.956 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 285.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b441ff9a-8e6e-41e7-a266-c040c2caecc7")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 732.79 535.94 180)
 		(unit 1)
@@ -107495,6 +108502,72 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 664.21 471.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2d2f9a1-5896-4524-9893-05fcd7270906")
+		(property "Reference" "#PWR0346"
+			(at 664.21 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 664.972 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 664.21 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 664.21 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 664.21 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8bfacb0-66b2-4d08-99d4-86c7566b8c52")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0346")
 					(unit 1)
 				)
 			)
@@ -107563,6 +108636,72 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 673.1 471.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3a4f84c-88b0-4d46-beda-4ef004f3cdd4")
+		(property "Reference" "#PWR0347"
+			(at 673.1 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 672.338 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 673.1 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 673.1 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 673.1 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d9d9e0e-830c-46b2-bd54-5bd591142f13")
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
@@ -110714,6 +111853,116 @@
 			(project "Output"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "Z61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 712.47 474.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff847bb1-3295-42e9-905a-70a4d5751e9c")
+		(property "Reference" "H11"
+			(at 715.01 473.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 715.01 476.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 712.47 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Output"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "H11")
 					(unit 1)
 				)
 			)
