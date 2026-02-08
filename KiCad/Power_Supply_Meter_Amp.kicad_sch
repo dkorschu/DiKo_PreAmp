@@ -10691,6 +10691,16 @@
 	)
 	(wire
 		(pts
+			(xy 637.54 518.16) (xy 650.24 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e1297c-4f47-47a8-85f7-2f1c7a8a5492")
+	)
+	(wire
+		(pts
 			(xy 781.05 105.41) (xy 781.05 104.14)
 		)
 		(stroke
@@ -20098,16 +20108,6 @@
 			(type default)
 		)
 		(uuid "91360f40-5ac7-4246-b0ca-49a98b6d09fb")
-	)
-	(wire
-		(pts
-			(xy 637.54 518.16) (xy 650.24 518.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9157d41a-bbdd-44ea-97af-be1962e0b999")
 	)
 	(wire
 		(pts
@@ -45038,6 +45038,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 584.2 519.43 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45045,7 +45046,7 @@
 		(dnp no)
 		(uuid "24998252-b3e6-4940-8268-4a3a368a853b")
 		(property "Reference" "Z170"
-			(at 587.248 519.43 90)
+			(at 581.152 519.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45053,7 +45054,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 588.01 519.43 90)
+			(at 580.39 519.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45062,7 +45063,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 582.422 519.43 90)
+			(at 585.978 519.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59178,7 +59179,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "447038a6-f170-426a-9baa-cfe7fddede16")
 		(property "Reference" "R75"
 			(at 554.99 549.9099 0)

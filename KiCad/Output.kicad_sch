@@ -10490,16 +10490,6 @@
 	)
 	(wire
 		(pts
-			(xy 673.1 468.63) (xy 673.1 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11989c0c-c38a-4bea-a0f1-aa53d90cd168")
-	)
-	(wire
-		(pts
 			(xy 669.29 102.87) (xy 669.29 104.14)
 		)
 		(stroke
@@ -13650,16 +13640,6 @@
 	)
 	(wire
 		(pts
-			(xy 678.18 468.63) (xy 678.18 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36f9c985-1206-48cc-822d-e8ee67597236")
-	)
-	(wire
-		(pts
 			(xy 654.05 90.17) (xy 654.05 93.98)
 		)
 		(stroke
@@ -16620,16 +16600,6 @@
 	)
 	(wire
 		(pts
-			(xy 687.07 468.63) (xy 687.07 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6021a933-e5ed-4eab-ba05-055590372fa9")
-	)
-	(wire
-		(pts
 			(xy 669.29 228.6) (xy 669.29 232.41)
 		)
 		(stroke
@@ -18560,16 +18530,6 @@
 	)
 	(wire
 		(pts
-			(xy 659.13 468.63) (xy 659.13 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3689a3-1503-4ce8-8d22-f6bc2f2644b5")
-	)
-	(wire
-		(pts
 			(xy 772.16 265.43) (xy 772.16 257.81)
 		)
 		(stroke
@@ -19307,16 +19267,6 @@
 			(type default)
 		)
 		(uuid "8518c737-a2cc-4cdb-abe1-d87fadd449ee")
-	)
-	(wire
-		(pts
-			(xy 664.21 468.63) (xy 664.21 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8555f236-da61-4507-b86a-54e6e21bbc1c")
 	)
 	(wire
 		(pts
@@ -26507,16 +26457,6 @@
 			(type default)
 		)
 		(uuid "e9da0552-d1da-4341-be8a-17e13f02138c")
-	)
-	(wire
-		(pts
-			(xy 692.15 468.63) (xy 692.15 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f6ec53-95b3-4387-8435-e15074cad617")
 	)
 	(wire
 		(pts
@@ -35703,72 +35643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 692.15 471.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "166507a3-3a1c-499c-913b-065406d17cf7")
-		(property "Reference" "#PWR0350"
-			(at 692.15 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 692.15 476.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 692.15 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 692.15 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 692.15 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1b93b43-b119-43f4-ab99-5cdfea00e230")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR0350")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 797.56 523.24 0)
 		(unit 5)
@@ -43230,74 +43104,6 @@
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "U18")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 675.64 468.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c2aacef-9550-467b-9653-7dc7094e6c68")
-		(property "Reference" "C121"
-			(at 675.6336 462.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 675.6336 464.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 675.64 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 675.64 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 675.64 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9f40773-165a-4954-9f5b-281e88d577a2")
-		)
-		(pin "2"
-			(uuid "1be4a450-c84b-49e1-a09c-7210c58185c3")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "C121")
-					(unit 1)
 				)
 			)
 		)
@@ -56151,74 +55957,6 @@
 			(project "Output"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0328")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 689.61 468.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54d63f81-621f-4df7-9127-449851e6a08f")
-		(property "Reference" "C122"
-			(at 689.6036 462.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 689.6036 464.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 689.61 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 689.61 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 689.61 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39126d13-51d4-4a97-84db-58ae2e291f49")
-		)
-		(pin "2"
-			(uuid "b799d01d-4b91-47a5-8b8b-7cdc613cb5e8")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -95647,74 +95385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 661.67 468.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdd9113c-4479-4938-8d65-d9383c742961")
-		(property "Reference" "C120"
-			(at 661.6636 462.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 661.6636 464.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 661.67 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 661.67 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 661.67 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "273ea949-274d-4b81-a549-939bba517a27")
-		)
-		(pin "2"
-			(uuid "03bdc832-fe18-4612-9978-28bf158c9dca")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "C120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 452.12 406.4 0)
 		(unit 1)
@@ -96651,72 +96321,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "RV7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 687.07 471.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfe6b76b-29cf-47f5-a7de-f0055744659a")
-		(property "Reference" "#PWR0349"
-			(at 687.07 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 686.054 476.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 687.07 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 687.07 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 687.07 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90683098-a8a7-4da5-bf9b-e5a1ae89166b")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR0349")
 					(unit 1)
 				)
 			)
@@ -103407,72 +103011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 678.18 471.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e30f30e1-ed56-4cec-8200-41f89d95ed29")
-		(property "Reference" "#PWR0348"
-			(at 678.18 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 678.942 476.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 678.18 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 678.18 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 678.18 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "254bae4f-1a71-4ff9-a34b-fec10b2bb03d")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR0348")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 483.87 194.31 90)
 		(unit 1)
@@ -107824,72 +107362,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 659.13 471.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f12c6faa-74e8-490d-8c9a-978105a84edf")
-		(property "Reference" "#PWR0345"
-			(at 659.13 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 658.622 476.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 659.13 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 659.13 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 659.13 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b9cae08-45d8-428f-aaf5-fba5bab4b299")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR0345")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
 		(at 636.27 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -108508,72 +107980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 664.21 471.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2d2f9a1-5896-4524-9893-05fcd7270906")
-		(property "Reference" "#PWR0346"
-			(at 664.21 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 664.972 476.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 664.21 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 664.21 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 664.21 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8bfacb0-66b2-4d08-99d4-86c7566b8c52")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR0346")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 614.68 127 90)
 		(unit 1)
@@ -108636,72 +108042,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 673.1 471.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3a4f84c-88b0-4d46-beda-4ef004f3cdd4")
-		(property "Reference" "#PWR0347"
-			(at 673.1 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 672.338 476.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 673.1 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 673.1 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 673.1 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d9d9e0e-830c-46b2-bd54-5bd591142f13")
-		)
-		(instances
-			(project "Output"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
