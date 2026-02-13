@@ -8,4 +8,5 @@
   (lib (name "Common_Mode_Choke")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/Common_Mode_Choke.kicad_sym")(options "")(descr ""))
   (lib (name "conn_01x05_bridged")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/conn_01x05_bridged.kicad_sym")(options "")(descr ""))
   (lib (name "sw_spdt_2")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/sw_spdt_2.kicad_sym")(options "")(descr ""))
+  (lib (name "conn_02x07")(type "KiCad")(uri "${KIPRJMOD}/Components/symbols/conn_02x07.kicad_sym")(options "")(descr ""))
 )
