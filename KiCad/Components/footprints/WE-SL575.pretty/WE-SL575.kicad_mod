@@ -6,7 +6,7 @@
 	(descr "WE-SL575")
 	(tags "Inductor")
 	(property "Reference" "L**"
-		(at -5.08 -5.08 0)
+		(at -9.425 -6.035 0)
 		(layer "F.SilkS")
 		(uuid "23c32c59-1ede-4846-a3e7-0f7ea6e6b24f")
 		(effects
@@ -154,7 +154,7 @@
 		(uuid "5e135207-6c75-4f75-8a34-cd6263b443cd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -5.08 -5.08 0)
+		(at 0 -6.35 0)
 		(layer "F.Fab")
 		(uuid "8d7e2a77-eb74-465c-878f-2233fbe09b50")
 		(effects
@@ -164,17 +164,35 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at 3.81 -3.11 90)
-		(size 2.7 2.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "18c46763-4568-4a09-8b5f-dc848e7af62b")
+	(pad "1" thru_hole rect
+		(at 3.81 -3.175)
+		(size 3 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13156eac-2ed4-4352-94ad-8c15e76e3b55")
+	)
+	(pad "2" thru_hole oval
+		(at -6.19 -3.175)
+		(size 2 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1081497-4cbb-4675-a371-904ed976c754")
 	)
 	(pad "2" smd rect
 		(at -3.81 -3.11 90)
 		(size 2.7 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71f8212e-83e3-4c94-ae89-6d42da9bdc5e")
+	)
+	(pad "3" thru_hole oval
+		(at -6.19 9.325)
+		(size 2 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e0d725b-8e91-4d63-922a-244687b8423b")
 	)
 	(pad "3" smd rect
 		(at -3.81 3.11 90)
@@ -187,6 +205,14 @@
 		(size 2.7 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fc7a6d36-c3d4-4c71-a2d5-844b5278c3ca")
+	)
+	(pad "4" thru_hole oval
+		(at 3.81 9.325)
+		(size 2 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a16eb50-2289-482b-98da-1fb5efa821a2")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Components/3dmodels/744272471.3dshapes/744272471.stp"
