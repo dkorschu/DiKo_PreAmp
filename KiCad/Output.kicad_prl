@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
@@ -123,15 +123,15 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": true,
-      "images": true,
-      "labels": true,
+      "graphics": false,
+      "images": false,
+      "labels": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
+      "otherItems": false,
+      "pins": false,
       "symbols": true,
-      "text": true,
-      "wires": true
+      "text": false,
+      "wires": false
     }
   }
 }
