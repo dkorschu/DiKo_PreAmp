@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/Output_PCB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
