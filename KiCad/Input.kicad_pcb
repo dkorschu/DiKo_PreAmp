@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 2.003)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -47,56 +47,48 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(thickness 0.03)
+				(thickness 0.0069)
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.07)
+				(thickness 0.035)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.107)
-				(material "3313*1")
-				(epsilon_r 4.1)
-				(loss_tangent 0) addsublayer
-				(thickness 0.0535)
-				(material "1080*1")
-				(epsilon_r 3.91)
+				(thickness 0.2104)
+				(material "7628*1")
+				(epsilon_r 4.4)
 				(loss_tangent 0)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.061)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
 				(type "prepreg")
-				(thickness 1.36)
+				(thickness 1.065)
 				(material "Core")
 				(epsilon_r 4.6)
 				(loss_tangent 0)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.061)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.0535)
-				(material "1080*1")
-				(epsilon_r 3.91)
-				(loss_tangent 0) addsublayer
-				(thickness 0.107)
-				(material "3313*1")
-				(epsilon_r 4.1)
+				(thickness 0.2104)
+				(material "7628*1")
+				(epsilon_r 4.4)
 				(loss_tangent 0)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.07)
+				(thickness 0.035)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.03)
+				(thickness 0.0069)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
