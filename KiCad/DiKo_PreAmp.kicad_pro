@@ -547,7 +547,7 @@
           "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -559,7 +559,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -655,7 +655,7 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -686,6 +686,18 @@
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser-Teilenr.",
+          "name": "Mouser-Teilenr.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Gegenstück Mouser Teilenr.",
+          "name": "Gegenstück Mouser Teilenr.",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -693,7 +705,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${DNP}"
+      "sort_field": "Mouser Part Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {
