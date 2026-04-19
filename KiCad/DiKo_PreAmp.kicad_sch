@@ -6120,9 +6120,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Phono Vorverstärkung 30dB"
+	(text "Phono Vorverstärkung 50dB"
 		(exclude_from_sim no)
-		(at 85.09 35.814 0)
+		(at 127.508 33.782 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -68973,7 +68973,7 @@
 		(dnp no)
 		(uuid "5101d186-dd06-49d8-be15-252b672e2daf")
 		(property "Reference" "Z16"
-			(at 141.478 63.5 90)
+			(at 143.002 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68982,9 +68982,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 142.24 63.5 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 143.002 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69084,7 +69083,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "4u7"
 			(at 45.72 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73190,7 +73189,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "4u7"
 			(at 45.72 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -117873,7 +117872,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "10k"
 			(at 115.57 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -119256,7 +119255,7 @@
 				)
 			)
 		)
-		(property "Value" "36k"
+		(property "Value" "33k"
 			(at 161.29 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
