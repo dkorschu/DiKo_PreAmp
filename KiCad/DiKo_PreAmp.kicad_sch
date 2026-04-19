@@ -6156,6 +6156,30 @@
 		)
 		(uuid "5185810b-f356-4906-b14f-7e1094c5fbe9")
 	)
+	(text "Parametrische EQ Stufe +-10dB / 5kHz-20Khz\n"
+		(exclude_from_sim no)
+		(at 183.388 179.324 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "51db4ae8-5f69-45c9-bba3-a35782537fa5")
+	)
+	(text "Parametrische EQ Stufe +-10dB / 50Hz-5kHz\n"
+		(exclude_from_sim no)
+		(at 100.838 261.874 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "c792792a-28db-49c1-9883-ada68c508d69")
+	)
 	(junction
 		(at 670.56 172.72)
 		(diameter 0)
@@ -9844,7 +9868,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 166.37) (xy 204.47 171.45)
+			(xy 245.11 142.24) (xy 245.11 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11454,7 +11478,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 171.45) (xy 194.31 171.45)
+			(xy 245.11 168.91) (xy 260.35 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11734,7 +11758,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 161.29) (xy 175.26 173.99)
+			(xy 241.3 158.75) (xy 241.3 171.45)
 		)
 		(stroke
 			(width 0)
@@ -12094,7 +12118,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 161.29) (xy 199.39 173.99)
+			(xy 240.03 137.16) (xy 240.03 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13424,7 +13448,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 161.29) (xy 199.39 161.29)
+			(xy 245.11 137.16) (xy 240.03 137.16)
 		)
 		(stroke
 			(width 0)
@@ -14084,7 +14108,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 166.37) (xy 156.21 171.45)
+			(xy 245.11 185.42) (xy 245.11 190.5)
 		)
 		(stroke
 			(width 0)
@@ -14244,7 +14268,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 171.45) (xy 194.31 163.83)
+			(xy 260.35 168.91) (xy 260.35 161.29)
 		)
 		(stroke
 			(width 0)
@@ -15174,7 +15198,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 171.45) (xy 219.71 171.45)
+			(xy 245.11 147.32) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -15974,7 +15998,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 166.37) (xy 179.07 171.45)
+			(xy 245.11 163.83) (xy 245.11 168.91)
 		)
 		(stroke
 			(width 0)
@@ -19084,7 +19108,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 161.29) (xy 152.4 161.29)
+			(xy 245.11 180.34) (xy 241.3 180.34)
 		)
 		(stroke
 			(width 0)
@@ -20364,7 +20388,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 171.45) (xy 171.45 171.45)
+			(xy 245.11 190.5) (xy 260.35 190.5)
 		)
 		(stroke
 			(width 0)
@@ -21074,7 +21098,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 171.45) (xy 219.71 163.83)
+			(xy 260.35 147.32) (xy 260.35 139.7)
 		)
 		(stroke
 			(width 0)
@@ -21914,7 +21938,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 161.29) (xy 175.26 161.29)
+			(xy 245.11 158.75) (xy 241.3 158.75)
 		)
 		(stroke
 			(width 0)
@@ -22394,7 +22418,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 161.29) (xy 152.4 173.99)
+			(xy 241.3 180.34) (xy 241.3 193.04)
 		)
 		(stroke
 			(width 0)
@@ -23464,7 +23488,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 171.45) (xy 171.45 163.83)
+			(xy 260.35 190.5) (xy 260.35 182.88)
 		)
 		(stroke
 			(width 0)
@@ -41718,7 +41742,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "1k"
 			(at 83.82 314.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52530,7 +52554,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 212.09 163.83 0)
+		(at 252.73 139.7 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52541,7 +52565,7 @@
 		(fields_autoplaced yes)
 		(uuid "3002be92-5dfa-43e4-924d-bc2ebe98a74f")
 		(property "Reference" "U9"
-			(at 212.09 153.67 0)
+			(at 252.73 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52551,7 +52575,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 212.09 156.21 0)
+			(at 252.73 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52561,7 +52585,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 210.82 161.29 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52572,7 +52596,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 213.36 158.75 0)
+			(at 254 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52583,7 +52607,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 212.09 163.83 0)
+			(at 252.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52594,7 +52618,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 212.09 163.83 0)
+			(at 252.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52605,7 +52629,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 212.09 163.83 0)
+			(at 252.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60636,7 +60660,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 186.69 163.83 0)
+		(at 252.73 161.29 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -60647,7 +60671,7 @@
 		(fields_autoplaced yes)
 		(uuid "400add80-bc31-43d6-a16f-56deb84c9e79")
 		(property "Reference" "U8"
-			(at 186.69 153.67 0)
+			(at 252.73 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60657,7 +60681,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 186.69 156.21 0)
+			(at 252.73 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60667,7 +60691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 161.29 0)
+			(at 251.46 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60678,7 +60702,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 187.96 158.75 0)
+			(at 254 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60689,7 +60713,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 186.69 163.83 0)
+			(at 252.73 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60700,7 +60724,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 186.69 163.83 0)
+			(at 252.73 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60711,7 +60735,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 186.69 163.83 0)
+			(at 252.73 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -65025,7 +65049,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "2k2"
 			(at 182.88 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67821,7 +67845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "3n3"
 			(at 193.04 228.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67924,7 +67948,7 @@
 				)
 			)
 		)
-		(property "Value" "3n"
+		(property "Value" "33n"
 			(at 60.9536 317.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75692,7 +75716,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 152.4 173.99 0)
+		(at 241.3 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -75703,7 +75727,7 @@
 		(fields_autoplaced yes)
 		(uuid "61b50653-4a32-4408-871b-0722941d5d75")
 		(property "Reference" "#PWR064"
-			(at 152.4 180.34 0)
+			(at 241.3 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75714,7 +75738,7 @@
 			)
 		)
 		(property "Value" "GND_I"
-			(at 152.4 179.07 0)
+			(at 241.3 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75724,7 +75748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 173.99 0)
+			(at 241.3 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75735,7 +75759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 173.99 0)
+			(at 241.3 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75746,7 +75770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 152.4 173.99 0)
+			(at 241.3 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75849,7 +75873,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 199.39 173.99 0)
+		(at 240.03 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -75860,7 +75884,7 @@
 		(fields_autoplaced yes)
 		(uuid "61dd8e50-12a0-4dd3-8ae1-db2aa7f7ba32")
 		(property "Reference" "#PWR066"
-			(at 199.39 180.34 0)
+			(at 240.03 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75871,7 +75895,7 @@
 			)
 		)
 		(property "Value" "GND_I"
-			(at 199.39 179.07 0)
+			(at 240.03 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75881,7 +75905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 173.99 0)
+			(at 240.03 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75892,7 +75916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 173.99 0)
+			(at 240.03 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75903,7 +75927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 199.39 173.99 0)
+			(at 240.03 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79854,7 +79878,7 @@
 				)
 			)
 		)
-		(property "Value" "220k log"
+		(property "Value" "100k log"
 			(at 73.66 309.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98016,7 +98040,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 163.83 163.83 0)
+		(at 252.73 182.88 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -98027,7 +98051,7 @@
 		(fields_autoplaced yes)
 		(uuid "906daa9d-c912-43f7-b5c0-d86c8d14b1e8")
 		(property "Reference" "U11"
-			(at 163.83 153.67 0)
+			(at 252.73 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98037,7 +98061,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 163.83 156.21 0)
+			(at 252.73 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98047,7 +98071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 161.29 0)
+			(at 251.46 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98058,7 +98082,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 165.1 158.75 0)
+			(at 254 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98069,7 +98093,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 163.83 163.83 0)
+			(at 252.73 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98080,7 +98104,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 163.83 163.83 0)
+			(at 252.73 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98091,7 +98115,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 163.83 163.83 0)
+			(at 252.73 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110539,7 +110563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "1k"
 			(at 68.58 314.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -124825,7 +124849,7 @@
 				)
 			)
 		)
-		(property "Value" "3n"
+		(property "Value" "3n3"
 			(at 160.0136 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131537,7 +131561,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 175.26 173.99 0)
+		(at 241.3 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -131548,7 +131572,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9f6afbe-6c04-44bc-bc7f-5712629470ab")
 		(property "Reference" "#PWR065"
-			(at 175.26 180.34 0)
+			(at 241.3 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131559,7 +131583,7 @@
 			)
 		)
 		(property "Value" "GND_I"
-			(at 175.26 179.07 0)
+			(at 241.3 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131569,7 +131593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 173.99 0)
+			(at 241.3 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131580,7 +131604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 173.99 0)
+			(at 241.3 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131591,7 +131615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 175.26 173.99 0)
+			(at 241.3 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -138046,7 +138070,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "2k2"
 			(at 167.64 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140607,7 +140631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "33n"
 			(at 93.98 314.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148976,7 +149000,7 @@
 				)
 			)
 		)
-		(property "Value" "220k log"
+		(property "Value" "10k log"
 			(at 172.72 222.758 0)
 			(show_name no)
 			(do_not_autoplace no)
