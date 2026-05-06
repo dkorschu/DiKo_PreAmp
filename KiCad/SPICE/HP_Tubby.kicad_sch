@@ -2811,7 +2811,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=100k pos=0"
+		(property "Sim.Params" "r=100k pos=1"
 			(at 99.06 111.76 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2917,10 +2917,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4dc7cdff-1ba3-4e7a-a01c-15bac72782ea")
+			(uuid "4dc7cdff-1ba3-4e7a-a01c-15bac72782eb")
 		)
 		(pin "2"
-			(uuid "c2a19b8a-6e62-40d4-97cd-8d9017b0d1be")
+			(uuid "c2a19b8a-6e62-40d4-97cd-8d9017b0d1bf")
 		)
 		(instances
 			(project "HP_Tubby"
@@ -3343,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=100k pos=0"
+		(property "Sim.Params" "r=100k pos=1"
 			(at 116.84 111.76 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3366,13 +3366,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "349ce1f5-97f6-4ce9-9c52-41e24e70c040")
+			(uuid "349ce1f5-97f6-4ce9-9c52-41e24e70c041")
 		)
 		(pin "2"
-			(uuid "38a40c1f-eb23-413e-a770-5d89458e8395")
+			(uuid "38a40c1f-eb23-413e-a770-5d89458e8396")
 		)
 		(pin "3"
-			(uuid "7e1ac606-de71-48a9-9e4c-429313bb12ab")
+			(uuid "7e1ac606-de71-48a9-9e4c-429313bb12ac")
 		)
 		(instances
 			(project "HP_Tubby"
@@ -3644,7 +3644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "600R"
 			(at 116.84 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +3804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "600R"
 			(at 104.14 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,10 +3849,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e56d5a6-7f2a-4888-8a17-32657eaa0be0")
+			(uuid "8e56d5a6-7f2a-4888-8a17-32657eaa0be1")
 		)
 		(pin "1"
-			(uuid "b947b33e-a92f-42d7-b9a0-035b4979f3ae")
+			(uuid "b947b33e-a92f-42d7-b9a0-035b4979f3af")
 		)
 		(instances
 			(project "HP_Tubby"

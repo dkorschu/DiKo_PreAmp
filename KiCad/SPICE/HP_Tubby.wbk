@@ -5,7 +5,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 10 10 1Meg",
+        ".ac dec 10 10 100k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",

@@ -6132,6 +6132,18 @@
 		)
 		(uuid "0a71b092-96de-4eea-bb97-26bcb14f9227")
 	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 376.174 22.098 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "12474c05-ff61-40e3-91d5-ce9af02bb9ad")
+	)
 	(text "Parametrische EQ Stufe\n+-15dB / 2kHz-16kHz"
 		(exclude_from_sim no)
 		(at 566.42 256.286 0)
@@ -6192,6 +6204,42 @@
 		)
 		(uuid "51db4ae8-5f69-45c9-bba3-a35782537fa5")
 	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 649.224 375.92 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "59ea9d02-05b4-420f-b05c-b9c8f07122c7")
+	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 650.24 320.548 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "5de288d3-d829-4dc4-9bf7-2598c5949261")
+	)
+	(text "Semiparametrisches Hochpass\n2kHz-16kHz 70 HZ - 6 kHz"
+		(exclude_from_sim no)
+		(at 575.31 319.024 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "6d4a1df3-b719-4677-843d-a7cfe2a8037f")
+	)
 	(text "Parametrische EQ Stufe\n+-15dB / 550Hz-4.5kHz"
 		(exclude_from_sim no)
 		(at 566.166 189.992 0)
@@ -6203,6 +6251,18 @@
 			)
 		)
 		(uuid "6dd34abd-a3a8-41a3-92b3-9add6a7fd6b2")
+	)
+	(text "Kill Switch -2dB "
+		(exclude_from_sim no)
+		(at 382.524 352.044 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "7e946446-b132-4355-b51f-40b6d25e04fd")
 	)
 	(text "Parametrische EQ Stufe\n+-15dB / 38Hz-326hz"
 		(exclude_from_sim no)
@@ -6216,6 +6276,18 @@
 		)
 		(uuid "8f59a737-8207-4b21-be88-d236d3c0987c")
 	)
+	(text "Kill Switch -2dB "
+		(exclude_from_sim no)
+		(at 385.318 300.482 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "9d331aa0-128e-4237-8f21-c67cb801d085")
+	)
 	(text "Parametrische EQ Stufe +-15dB / 50Hz-5kHz\n"
 		(exclude_from_sim no)
 		(at 100.838 261.874 0)
@@ -6227,6 +6299,54 @@
 			)
 		)
 		(uuid "c792792a-28db-49c1-9883-ada68c508d69")
+	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 386.334 213.868 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "c7c2a849-08a4-41ec-af75-398eac2ed1e2")
+	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 524.256 374.904 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "e9de94b2-6598-4ea0-9a5e-35ccb9ff3360")
+	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 379.73 89.916 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "eb6e1b15-9e28-451f-a9cd-a7d638cbd4ac")
+	)
+	(text "Verstärker -inf bis +30dB"
+		(exclude_from_sim no)
+		(at 381.762 144.78 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "f700e273-2eb3-4b38-8907-37c6455725e4")
 	)
 	(junction
 		(at 670.56 172.72)
@@ -7205,6 +7325,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "545c0e06-e7bd-42e8-bf53-10ee6da3dd13")
+	)
+	(junction
+		(at 623.57 379.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54b06f6b-b606-435f-81fa-107b78202c8d")
 	)
 	(junction
 		(at 440.69 130.81)
@@ -8779,12 +8905,6 @@
 		(uuid "c62dd474-69f4-4a49-b28a-33a0d9993b81")
 	)
 	(junction
-		(at 623.57 375.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c67bc063-061d-490c-9b73-d5c0be22f19f")
-	)
-	(junction
 		(at 770.89 287.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10164,16 +10284,6 @@
 	)
 	(wire
 		(pts
-			(xy 623.57 335.28) (xy 623.57 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e7c0e7-f64b-41da-94af-41afbbebf0e2")
-	)
-	(wire
-		(pts
 			(xy 581.66 146.05) (xy 585.47 146.05)
 		)
 		(stroke
@@ -10654,7 +10764,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 389.89) (xy 501.65 375.92)
+			(xy 501.65 389.89) (xy 501.65 379.73)
 		)
 		(stroke
 			(width 0)
@@ -11784,7 +11894,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 375.92) (xy 623.57 375.92)
+			(xy 501.65 379.73) (xy 623.57 379.73)
 		)
 		(stroke
 			(width 0)
@@ -15044,7 +15154,7 @@
 	)
 	(wire
 		(pts
-			(xy 623.57 375.92) (xy 623.57 389.89)
+			(xy 623.57 335.28) (xy 623.57 379.73)
 		)
 		(stroke
 			(width 0)
@@ -15771,6 +15881,16 @@
 			(type default)
 		)
 		(uuid "4fda2608-d6db-4327-8324-d201a78b9ef8")
+	)
+	(wire
+		(pts
+			(xy 623.57 379.73) (xy 623.57 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5031f507-981e-402a-9f20-89e5b15b5bcc")
 	)
 	(wire
 		(pts
@@ -30273,7 +30393,7 @@
 				)
 			)
 		)
-		(property "Value" "6n8"
+		(property "Value" "33n"
 			(at 562.6036 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55899,7 +56019,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "1k"
 			(at 675.64 415.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57794,7 +57914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 684.53 372.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59076,7 +59196,7 @@
 		(dnp no)
 		(uuid "3e06b2c3-186b-40d3-90f1-935572189006")
 		(property "Reference" "Z167"
-			(at 608.33 332.232 90)
+			(at 608.33 330.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59085,9 +59205,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 608.33 331.47 90)
-			(hide yes)
+		(property "Value" "1u"
+			(at 608.33 332.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60141,7 +60260,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 694.69 334.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61091,7 +61210,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k"
 			(at 675.64 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61193,7 +61312,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 694.69 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67115,7 +67234,7 @@
 		(dnp no)
 		(uuid "4e2ebe0d-de98-44b5-89b0-93f361d562db")
 		(property "Reference" "Z171"
-			(at 616.458 341.63 90)
+			(at 617.982 340.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -67124,9 +67243,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 617.22 341.63 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 617.982 342.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78694,7 +78812,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "1k"
 			(at 675.64 360.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84777,7 +84895,7 @@
 				)
 			)
 		)
-		(property "Value" "220k log"
+		(property "Value" "100k log"
 			(at 561.34 357.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92765,7 +92883,7 @@
 		(dnp no)
 		(uuid "850e9227-2a45-4d90-9bbe-eab824bf220a")
 		(property "Reference" "Z168"
-			(at 618.49 332.232 90)
+			(at 618.49 330.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -92774,9 +92892,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 618.49 331.47 90)
-			(hide yes)
+		(property "Value" "0R"
+			(at 618.49 332.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -101229,7 +101346,7 @@
 				)
 			)
 		)
-		(property "Value" "6n8"
+		(property "Value" "33n"
 			(at 547.3636 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -109481,7 +109598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 684.53 426.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110083,7 +110200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 557.53 426.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110652,7 +110769,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k"
 			(at 675.64 334.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126564,7 +126681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "600R"
 			(at 556.26 341.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130632,7 +130749,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 567.69 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -135936,7 +136053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "600R"
 			(at 571.5 341.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -136243,7 +136360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 596.9 351.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141838,7 +141955,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "1k"
 			(at 548.64 415.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -145666,7 +145783,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k"
 			(at 548.64 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
