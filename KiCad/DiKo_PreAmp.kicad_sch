@@ -6144,6 +6144,19 @@
 		)
 		(uuid "12474c05-ff61-40e3-91d5-ce9af02bb9ad")
 	)
+	(text "+++ Änderung +++\nMic + Effect_In gehen\ndoch auf die Kick.\nDeswegen lose dazu \nR159 und R160.\n+++ Änderung +++"
+		(exclude_from_sim no)
+		(at 508 165.862 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "1a1d35b5-683a-4e1f-9b9d-f2e48db929ef")
+	)
 	(text "Parametrische EQ Stufe\n+-15dB / 2kHz-16kHz"
 		(exclude_from_sim no)
 		(at 566.42 256.286 0)
@@ -6509,6 +6522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b0eb91f-8358-4db8-86ad-8528ca6fcf82")
+	)
+	(junction
+		(at 488.95 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd3763e-27cb-4760-8cd9-f3ca67333c7a")
 	)
 	(junction
 		(at 731.52 184.15)
@@ -7477,6 +7496,12 @@
 		(uuid "5e68a86b-78aa-4c63-b9c3-4b7835fa4e0a")
 	)
 	(junction
+		(at 472.44 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e78af6d-227c-4616-b7b2-fb5c533c65e6")
+	)
+	(junction
 		(at 72.39 411.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8221,6 +8246,12 @@
 		(uuid "8d425546-8dea-4bd7-aa5d-655258fcd072")
 	)
 	(junction
+		(at 741.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d716daf-0ebc-4d95-83c2-700dcafde058")
+	)
+	(junction
 		(at 215.9 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8681,12 +8712,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3445179-b622-4b25-8c87-0734a9d392cc")
-	)
-	(junction
-		(at 741.68 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b410fd04-b71e-41d0-bff3-a51a689a9a43")
 	)
 	(junction
 		(at 153.67 52.07)
@@ -9355,6 +9380,12 @@
 		(uuid "ed8e7b7f-9dd9-40ce-b459-f4ad33bb4475")
 	)
 	(junction
+		(at 488.95 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee60e088-cc9a-43ca-81ca-029fdfc4d3e9")
+	)
+	(junction
 		(at 130.81 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9395,6 +9426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e7ffac-cfda-47f0-be87-6486dfc25750")
+	)
+	(junction
+		(at 462.28 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f20900b0-d751-4c6c-869f-93cb4d367a6f")
 	)
 	(junction
 		(at 398.78 66.04)
@@ -11614,7 +11651,7 @@
 	)
 	(wire
 		(pts
-			(xy 731.52 83.82) (xy 732.79 83.82)
+			(xy 731.52 83.82) (xy 734.06 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11961,16 +11998,6 @@
 			(type default)
 		)
 		(uuid "1b43201a-4e77-43c2-823a-a989ea5de665")
-	)
-	(wire
-		(pts
-			(xy 741.68 95.25) (xy 741.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9a2f73-3e6e-460f-81b7-7a3e749d2add")
 	)
 	(wire
 		(pts
@@ -13794,6 +13821,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 153.67) (xy 488.95 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344906e4-f0ff-4d2f-9515-70bb45f10c63")
+	)
+	(wire
+		(pts
 			(xy 685.8 207.01) (xy 685.8 218.44)
 		)
 		(stroke
@@ -14954,16 +14991,6 @@
 	)
 	(wire
 		(pts
-			(xy 740.41 83.82) (xy 741.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42723add-fb50-4a16-b869-239f5c534358")
-	)
-	(wire
-		(pts
 			(xy 142.24 292.1) (xy 146.05 292.1)
 		)
 		(stroke
@@ -15504,6 +15531,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 142.24) (xy 488.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2cb8b7-c2fe-4f1d-80b9-8e81424d6341")
+	)
+	(wire
+		(pts
 			(xy 668.02 229.87) (xy 668.02 231.14)
 		)
 		(stroke
@@ -15684,6 +15721,16 @@
 	)
 	(wire
 		(pts
+			(xy 742.95 83.82) (xy 741.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cffa80b-1fd8-4e18-b9d9-8f8f18cd610f")
+	)
+	(wire
+		(pts
 			(xy 36.83 350.52) (xy 38.1 350.52)
 		)
 		(stroke
@@ -15811,16 +15858,6 @@
 			(type default)
 		)
 		(uuid "4eec0eb7-e2ce-4304-96f9-484607512446")
-	)
-	(wire
-		(pts
-			(xy 741.68 86.36) (xy 741.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f07566c-2c36-44d1-b77b-55a78fadd4fa")
 	)
 	(wire
 		(pts
@@ -16351,6 +16388,16 @@
 			(type default)
 		)
 		(uuid "5502ed39-4927-4d12-a1a7-cfda84ec4f22")
+	)
+	(wire
+		(pts
+			(xy 488.95 142.24) (xy 488.95 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550d4d02-a1b8-45b2-9794-b531b5a05482")
 	)
 	(wire
 		(pts
@@ -17384,6 +17431,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 130.81) (xy 495.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6231755f-85e8-47ea-b402-f21a51351220")
+	)
+	(wire
+		(pts
 			(xy 110.49 59.69) (xy 107.95 59.69)
 		)
 		(stroke
@@ -18131,6 +18188,16 @@
 			(type default)
 		)
 		(uuid "6d33abfe-ccec-4487-8fdd-9dfe135c3a9e")
+	)
+	(wire
+		(pts
+			(xy 462.28 142.24) (xy 478.79 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de0b392-030d-4f78-a460-c712066e0471")
 	)
 	(wire
 		(pts
@@ -20434,6 +20501,16 @@
 	)
 	(wire
 		(pts
+			(xy 462.28 198.12) (xy 462.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c94bc12-11cb-4f33-8ce2-ac61147228e2")
+	)
+	(wire
+		(pts
 			(xy 792.48 420.37) (xy 792.48 422.91)
 		)
 		(stroke
@@ -21384,6 +21461,16 @@
 	)
 	(wire
 		(pts
+			(xy 478.79 153.67) (xy 472.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c88001-4da8-4616-80ed-ea204ddbe719")
+	)
+	(wire
+		(pts
 			(xy 334.01 415.29) (xy 334.01 419.1)
 		)
 		(stroke
@@ -21794,6 +21881,16 @@
 	)
 	(wire
 		(pts
+			(xy 741.68 95.25) (xy 741.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8d82a7-0ad7-4089-a78f-8c7bb771c8f4")
+	)
+	(wire
+		(pts
 			(xy 229.87 119.38) (xy 231.14 119.38)
 		)
 		(stroke
@@ -22011,6 +22108,16 @@
 			(type default)
 		)
 		(uuid "a38f367d-7747-4036-b0b0-cfafd93bd0c5")
+	)
+	(wire
+		(pts
+			(xy 488.95 130.81) (xy 488.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39fd583-1b36-4df6-98ce-2a39bb92ab5e")
 	)
 	(wire
 		(pts
@@ -22441,6 +22548,16 @@
 			(type default)
 		)
 		(uuid "a94d306d-0c18-4813-b9b6-131140ab3573")
+	)
+	(wire
+		(pts
+			(xy 472.44 153.67) (xy 472.44 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9712fbd-3870-4566-8212-82e509d2fe8a")
 	)
 	(wire
 		(pts
@@ -23534,7 +23651,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 130.81) (xy 495.3 130.81)
+			(xy 486.41 130.81) (xy 488.95 130.81)
 		)
 		(stroke
 			(width 0)
@@ -24061,16 +24178,6 @@
 			(type default)
 		)
 		(uuid "bf735349-c4d6-46a9-ae32-1de02bf50144")
-	)
-	(wire
-		(pts
-			(xy 742.95 83.82) (xy 741.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf822521-d1a9-4ca3-922e-ddb28238eaef")
 	)
 	(wire
 		(pts
@@ -27704,6 +27811,16 @@
 	)
 	(wire
 		(pts
+			(xy 741.68 86.36) (xy 741.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee27204c-b54a-4419-b08c-7e6c5f20cb32")
+	)
+	(wire
+		(pts
 			(xy 750.57 151.13) (xy 751.84 151.13)
 		)
 		(stroke
@@ -29242,6 +29359,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 741.68 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00717285-fb15-41c0-905a-6843c6c02a08")
+		(property "Reference" "Z34"
+			(at 746.252 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "820k"
+			(at 746.252 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 739.902 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 741.68 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 741.68 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser-Teilenr." ""
+			(at 741.68 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gegenstück Mouser Teilenr." ""
+			(at 741.68 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d5720602-247e-419b-931d-032917662b54")
+		)
+		(pin "1"
+			(uuid "f9219894-18a7-4201-b92b-a909057b7aa8")
+		)
+		(instances
+			(project "DiKo_PreAmp"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "Z34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 304.8 392.43 270)
 		(unit 1)
@@ -29726,7 +29944,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "50k"
 			(at 655.32 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42091,7 +42309,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "90k"
 			(at 716.28 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50615,7 +50833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "60k"
 			(at 670.56 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51353,7 +51571,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "7k5"
 			(at 708.66 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64294,7 +64512,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "7k5"
 			(at 692.15 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64549,108 +64767,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 746.76 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46425fd7-b08d-4a51-b41f-4419d639426d")
-		(property "Reference" "Z25"
-			(at 746.76 80.772 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 746.76 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 746.76 85.598 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 746.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 746.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser-Teilenr." ""
-			(at 746.76 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gegenstück Mouser Teilenr." ""
-			(at 746.76 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b9813cd-4785-42d5-9d32-608712b26419")
-		)
-		(pin "1"
-			(uuid "2967f5f6-3e66-4262-b4ca-79f5c8334a55")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z25")
 					(unit 1)
 				)
 			)
@@ -67346,7 +67462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "200n"
 			(at 655.32 81.2735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69799,7 +69915,7 @@
 				)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "100n"
 			(at 646.4363 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -71329,7 +71445,7 @@
 		(dnp no)
 		(uuid "576260b0-6f97-4fa3-9ff5-3b24487dddd1")
 		(property "Reference" "Z28"
-			(at 631.19 83.312 90)
+			(at 631.19 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -71338,9 +71454,8 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "0R"
 			(at 631.19 82.55 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72310,84 +72425,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 741.68 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a267ca1-4f6d-4ddf-bd40-03e9b1261096")
-		(property "Reference" "#PWR025"
-			(at 741.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_O"
-			(at 741.68 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 741.68 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 741.68 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 741.68 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ee4428c-f94d-4991-b51a-870cb5b72da0")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -82167,7 +82204,7 @@
 				)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "100n"
 			(at 661.6763 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82361,7 +82398,7 @@
 		(dnp no)
 		(uuid "6f8efba4-240a-40a4-bd7d-dc220718c7f6")
 		(property "Reference" "Z36"
-			(at 638.048 92.71 90)
+			(at 640.08 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -82370,9 +82407,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 638.81 92.71 90)
-			(hide yes)
+		(property "Value" "820k"
+			(at 640.08 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -83757,108 +83793,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 736.6 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72044dcb-495c-4150-9df0-dd16c9b3bcdc")
-		(property "Reference" "Z24"
-			(at 736.6 80.772 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 736.6 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 736.6 85.598 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 736.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 736.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser-Teilenr." ""
-			(at 736.6 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gegenstück Mouser Teilenr." ""
-			(at 736.6 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c7247bed-f74f-402d-9b16-d7f9fc3df231")
-		)
-		(pin "1"
-			(uuid "487e9caf-de3c-4639-9333-da7e63edc25b")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z24")
 					(unit 1)
 				)
 			)
@@ -85794,6 +85728,107 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 746.76 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "760e3d39-0521-4561-b767-f137daec2df3")
+		(property "Reference" "Z25"
+			(at 746.76 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 746.76 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 746.76 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 746.76 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 746.76 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser-Teilenr." ""
+			(at 746.76 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gegenstück Mouser Teilenr." ""
+			(at 746.76 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f33523e9-55f2-4d2f-aabb-7aabc577dfa5")
+		)
+		(pin "1"
+			(uuid "eee68a92-1919-4fa5-a0d7-7a4e8d708107")
+		)
+		(instances
+			(project "DiKo_PreAmp"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "Z25")
 					(unit 1)
 				)
 			)
@@ -90155,7 +90190,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "100n"
 			(at 670.56 93.9735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -90742,7 +90777,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "7k5"
 			(at 647.7 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93489,7 +93524,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "7k5"
 			(at 662.94 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -96596,6 +96631,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 741.68 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2b1b5b-7699-4060-afe1-8673278c0f7f")
+		(property "Reference" "#PWR0367"
+			(at 741.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_O"
+			(at 741.68 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 741.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 741.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 741.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55f7277b-b2a4-4b60-b4a8-dfbce471184a")
+		)
+		(instances
+			(project "DiKo_PreAmp"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "#PWR0367")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 723.9 250.19 0)
 		(mirror x)
@@ -99223,7 +99336,7 @@
 				)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "150n"
 			(at 708.6663 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -102346,7 +102459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "100n"
 			(at 716.28 93.9735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -106161,7 +106274,7 @@
 		(dnp no)
 		(uuid "a3b6c268-1db0-4279-a8d2-2a34d06c063c")
 		(property "Reference" "Z29"
-			(at 640.08 83.312 90)
+			(at 640.08 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -106170,9 +106283,8 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "0R"
 			(at 640.08 82.55 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -109035,108 +109147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 741.68 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa05705f-a0f6-42a8-85f9-e6709dfe7bcd")
-		(property "Reference" "Z34"
-			(at 744.728 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 745.49 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 739.902 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 741.68 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 741.68 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser-Teilenr." ""
-			(at 741.68 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gegenstück Mouser Teilenr." ""
-			(at 741.68 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "35a6e8e8-679b-463d-a894-431a1bcf7378")
-		)
-		(pin "1"
-			(uuid "7ec021e0-c94d-451d-96e7-9de19f2ec9f1")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "Z34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 782.32 459.74 0)
 		(unit 1)
@@ -111000,6 +111010,86 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR0362")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 482.6 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acf15c8e-ac31-4483-a21b-05c973fa28f8")
+		(property "Reference" "R160"
+			(at 482.6 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 482.6 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 482.6 155.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 482.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b44eb29d-497d-4808-8197-a5699d78653e")
+		)
+		(pin "1"
+			(uuid "d1af27b7-54a4-4aaa-836d-3cc3c6934047")
+		)
+		(instances
+			(project "DiKo_PreAmp"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -129197,7 +129287,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "15k"
 			(at 701.04 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130412,7 +130502,7 @@
 				)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "150n"
 			(at 692.1563 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131720,6 +131810,107 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 737.87 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da010bbc-8834-4048-935b-e90eb7f82d22")
+		(property "Reference" "Z24"
+			(at 737.87 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 737.87 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 737.87 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 737.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 737.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser-Teilenr." ""
+			(at 737.87 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gegenstück Mouser Teilenr." ""
+			(at 737.87 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59f5c926-b0c0-4449-a8eb-542478eac309")
+		)
+		(pin "1"
+			(uuid "96abd3c7-1bd7-44f3-8a45-95de73069656")
+		)
+		(instances
+			(project "DiKo_PreAmp"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "Z24")
 					(unit 1)
 				)
 			)
@@ -140792,6 +140983,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 482.6 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea9dc23c-0c9d-4023-a2f2-052d6b463697")
+		(property "Reference" "R159"
+			(at 482.6 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 482.6 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 482.6 144.018 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 482.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4eb7f0ff-bdb0-4f49-88ce-451a20ecc7e2")
+		)
+		(pin "1"
+			(uuid "5c1030cd-078c-4233-aac8-e5e0c720dd3c")
+		)
+		(instances
+			(project "DiKo_PreAmp"
+				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
+					(reference "R159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 312.42 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -148638,7 +148909,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130n"
+		(property "Value" "200n"
 			(at 701.04 81.2735 0)
 			(show_name no)
 			(do_not_autoplace no)
