@@ -6144,9 +6144,9 @@
 		)
 		(uuid "12474c05-ff61-40e3-91d5-ce9af02bb9ad")
 	)
-	(text "+++ Änderung +++\nMic + Effect_In gehen\ndoch auf die Kick.\nDeswegen lose dazu \nR159 und R160.\n+++ Änderung +++"
+	(text "+++ Änderung +++\nDie Markierten Bauelemente\nsind nicht als SMD Bauteil\nauf der Platine implementiert\nsondern müssen mit bedrahteten\nBauelementenan an die Pins\nGelötet werden.\n+++ Änderung +++"
 		(exclude_from_sim no)
-		(at 508 165.862 0)
+		(at 795.274 528.828 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6168,6 +6168,18 @@
 			)
 		)
 		(uuid "1c70c4e7-6cc1-4c8d-b8e3-d41c63a61db2")
+	)
+	(text "BP4 Bass\n150Hz/-6dB\n800Hz/-6dB"
+		(exclude_from_sim no)
+		(at 689.102 129.286 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "28626dc8-f00e-4780-b98e-b7c35450465b")
 	)
 	(text "Parametrische EQ Stufe\n+-15dB / 15Hz-150hz"
 		(exclude_from_sim no)
@@ -6192,6 +6204,18 @@
 			)
 		)
 		(uuid "3ec8dbe6-7c2c-4f33-bb0a-d1e2477ecd46")
+	)
+	(text "BP4 Sub\n30Hz/-3dB\n150Hz/-6dB"
+		(exclude_from_sim no)
+		(at 689.356 61.976 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "42c6a5af-9d55-4895-88e2-727fc248a8c9")
 	)
 	(text "Line Vorverstärkung 0dB"
 		(exclude_from_sim no)
@@ -6300,6 +6324,30 @@
 			)
 		)
 		(uuid "9d331aa0-128e-4237-8f21-c67cb801d085")
+	)
+	(text "BP4 Höhen\n4.9kHz/-6dB\n17kHz/-3dB"
+		(exclude_from_sim no)
+		(at 691.388 263.652 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "a9fea67b-6f35-4845-8aa1-00e6ad410ab1")
+	)
+	(text "BP4 Mitten\n800Hz/-6dB\n4.9kHz/-6dB"
+		(exclude_from_sim no)
+		(at 689.864 196.85 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "b6836a9b-7baf-4b53-b1ca-2a0abb9a9c62")
 	)
 	(text "Parametrische EQ Stufe +-15dB / 50Hz-5kHz\n"
 		(exclude_from_sim no)
@@ -37606,7 +37654,7 @@
 		(dnp no)
 		(uuid "1073e223-efc2-4bdd-a105-23e1e354d730")
 		(property "Reference" "Z8"
-			(at 789.178 55.88 90)
+			(at 790.956 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37615,9 +37663,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 789.94 55.88 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 790.956 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85461,7 +85508,7 @@
 		(dnp no)
 		(uuid "7568cc6a-cfff-4fc8-a4ae-ad6298b39dec")
 		(property "Reference" "Z1"
-			(at 781.05 46.482 90)
+			(at 781.05 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85470,9 +85517,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 781.05 45.72 90)
-			(hide yes)
+		(property "Value" "1u"
+			(at 781.05 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
