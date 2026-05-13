@@ -39494,7 +39494,7 @@
 				)
 			)
 		)
-		(property "Value" "13n6"
+		(property "Value" "1n5"
 			(at 692.1563 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48430,7 +48430,7 @@
 				)
 			)
 		)
-		(property "Value" "13n6"
+		(property "Value" "1n5"
 			(at 661.6763 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59731,7 +59731,7 @@
 				)
 			)
 		)
-		(property "Value" "13n6"
+		(property "Value" "1n5"
 			(at 708.6663 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64797,7 +64797,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "180k"
 			(at 716.28 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66663,7 +66663,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "180k"
 			(at 670.56 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93973,7 +93973,7 @@
 				)
 			)
 		)
-		(property "Value" "13n6"
+		(property "Value" "1n5"
 			(at 646.4363 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -127951,7 +127951,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "90k"
 			(at 655.32 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141620,7 +141620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "90k"
 			(at 701.04 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
