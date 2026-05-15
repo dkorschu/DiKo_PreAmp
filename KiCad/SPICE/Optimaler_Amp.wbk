@@ -23,11 +23,6 @@
       "traces": [
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/out) (Phase)",
-          "trace_type": 5
-        },
-        {
-          "color": "rgb(228, 26, 28)",
           "signal": "V(/out) (Verstärkung)",
           "trace_type": 9
         }
