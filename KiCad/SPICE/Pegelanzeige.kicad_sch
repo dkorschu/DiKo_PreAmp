@@ -2476,7 +2476,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "16k5"
 			(at 151.13 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,10 +2600,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309aae")
+			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309aaf")
 		)
 		(pin "2"
-			(uuid "3dea071a-755a-44ed-995e-1749dcefd6ba")
+			(uuid "3dea071a-755a-44ed-995e-1749dcefd6bb")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -3882,10 +3882,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5124ea0a-3204-4f5d-865b-9541fa6a1912")
+			(uuid "5124ea0a-3204-4f5d-865b-9541fa6a1913")
 		)
 		(pin "1"
-			(uuid "cf1899d5-6884-4c99-9e8a-3c1b64c67f96")
+			(uuid "cf1899d5-6884-4c99-9e8a-3c1b64c67f97")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -4266,10 +4266,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309aae")
+			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309ab0")
 		)
 		(pin "2"
-			(uuid "3dea071a-755a-44ed-995e-1749dcefd6ba")
+			(uuid "3dea071a-755a-44ed-995e-1749dcefd6bc")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -4731,7 +4731,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "33k"
 			(at 151.13 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,10 +4775,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309aae")
+			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309ab1")
 		)
 		(pin "2"
-			(uuid "3dea071a-755a-44ed-995e-1749dcefd6ba")
+			(uuid "3dea071a-755a-44ed-995e-1749dcefd6bd")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -5373,7 +5373,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8"
+		(property "Value" "2k2"
 			(at 251.46 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,10 +5418,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b6")
+			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b7")
 		)
 		(pin "2"
-			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad64")
+			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad65")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -5454,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Value" "1k8"
+		(property "Value" "2k2"
 			(at 223.52 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,10 +5498,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b6")
+			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b8")
 		)
 		(pin "2"
-			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad64")
+			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad66")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -5716,7 +5716,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "33k"
 			(at 172.72 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5760,10 +5760,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309aae")
+			(uuid "945c436b-0e52-4da3-8ca3-a1acf4309ab2")
 		)
 		(pin "2"
-			(uuid "3dea071a-755a-44ed-995e-1749dcefd6ba")
+			(uuid "3dea071a-755a-44ed-995e-1749dcefd6be")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -5919,10 +5919,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b6")
+			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b9")
 		)
 		(pin "2"
-			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad64")
+			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad67")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -6021,10 +6021,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "eed7f0e7-0ea8-4a00-bc82-b850194ff6fd")
+			(uuid "eed7f0e7-0ea8-4a00-bc82-b850194ff6fe")
 		)
 		(pin "1"
-			(uuid "527e798a-6489-48dc-9c52-e21fbdd4fced")
+			(uuid "527e798a-6489-48dc-9c52-e21fbdd4fcee")
 		)
 		(instances
 			(project "Pegelanzeige"

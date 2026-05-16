@@ -7720,12 +7720,6 @@
 		(uuid "648b3afd-d747-4704-8c11-f8d3bb09feef")
 	)
 	(junction
-		(at 372.11 487.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64ac46c6-342c-4aeb-b940-97d79675e67f")
-	)
-	(junction
 		(at 633.73 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8966,6 +8960,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be178415-da9f-4215-806c-3bcfd545c877")
+	)
+	(junction
+		(at 372.11 487.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be30b3c1-d391-404b-92f4-8638a8b85296")
 	)
 	(junction
 		(at 36.83 350.52)
@@ -27087,7 +27087,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 487.68) (xy 372.11 487.68)
+			(xy 358.14 487.68) (xy 372.11 487.68)
 		)
 		(stroke
 			(width 0)
@@ -54740,7 +54740,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "33k"
 			(at 504.19 499.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54979,7 +54979,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 361.95 497.84 0)
+		(at 358.14 497.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54990,7 +54990,7 @@
 		(fields_autoplaced yes)
 		(uuid "335d888d-ccd0-4c84-87d6-eec39ae5ef43")
 		(property "Reference" "#PWR0273"
-			(at 361.95 504.19 0)
+			(at 358.14 504.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55001,7 +55001,7 @@
 			)
 		)
 		(property "Value" "GND_M"
-			(at 361.95 502.92 0)
+			(at 358.14 502.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55011,7 +55011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 497.84 0)
+			(at 358.14 497.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55022,7 +55022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 497.84 0)
+			(at 358.14 497.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55033,7 +55033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 361.95 497.84 0)
+			(at 358.14 497.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57884,7 +57884,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 361.95 494.03 0)
+		(at 358.14 494.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57894,7 +57894,7 @@
 		(dnp no)
 		(uuid "3a0c65be-3274-49c9-a3f7-ba446452bb72")
 		(property "Reference" "Z238"
-			(at 364.998 494.03 90)
+			(at 363.22 492.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57903,9 +57903,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 365.76 494.03 90)
-			(hide yes)
+		(property "Value" "0R"
+			(at 363.22 495.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57915,7 +57914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 360.172 494.03 90)
+			(at 356.362 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57926,7 +57925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 494.03 0)
+			(at 358.14 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57937,7 +57936,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 361.95 494.03 0)
+			(at 358.14 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57948,7 +57947,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57959,7 +57958,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57970,7 +57969,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57981,7 +57980,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57992,7 +57991,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58003,7 +58002,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58014,7 +58013,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 361.95 494.03 90)
+			(at 358.14 494.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63190,7 +63189,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8"
+		(property "Value" "2k2"
 			(at 580.39 513.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93169,7 +93168,7 @@
 		(dnp no)
 		(uuid "867f245c-c58a-43f2-8905-d09fa31d5d97")
 		(property "Reference" "Z242"
-			(at 538.48 502.412 90)
+			(at 538.48 499.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93178,9 +93177,8 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "0R"
 			(at 538.48 501.65 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -101996,7 +101994,7 @@
 		(dnp no)
 		(uuid "9a9e11c4-e076-4775-9e07-70526bb9b92c")
 		(property "Reference" "Z243"
-			(at 548.64 502.412 90)
+			(at 548.64 499.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -102005,9 +102003,8 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "0R"
 			(at 548.64 501.65 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -118078,7 +118075,7 @@
 		(dnp no)
 		(uuid "bbabc9b3-a249-4224-a661-9df37603d039")
 		(property "Reference" "J35"
-			(at 356.87 502.92 0)
+			(at 350.266 505.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -126912,7 +126909,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 356.87 487.68 0)
+		(at 353.06 487.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -126922,7 +126919,7 @@
 		(dnp no)
 		(uuid "cf457733-1a26-497b-8335-02e7eb0479b0")
 		(property "Reference" "J33"
-			(at 356.87 481.33 0)
+			(at 350.52 483.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -126942,7 +126939,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm_LongPads:PinHeader_1x02_P2.54mm_Vertical_LongPads"
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126953,7 +126950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126964,7 +126961,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126975,7 +126972,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126986,7 +126983,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126997,7 +126994,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -127008,7 +127005,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -127019,7 +127016,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -127030,7 +127027,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -127041,7 +127038,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 356.87 487.68 0)
+			(at 353.06 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133706,7 +133703,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "33k"
 			(at 486.41 499.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -136053,7 +136050,7 @@
 				)
 			)
 		)
-		(property "Value" "1k8"
+		(property "Value" "2k2"
 			(at 558.8 501.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -138807,7 +138804,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "16k5"
 			(at 486.41 510.54 90)
 			(show_name no)
 			(do_not_autoplace no)
