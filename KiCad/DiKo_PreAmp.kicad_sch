@@ -8194,12 +8194,6 @@
 		(uuid "8073640c-fb83-4871-be9c-a65689508955")
 	)
 	(junction
-		(at 511.81 537.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "808ff85b-90e3-4957-8585-2ad0ab8b6f20")
-	)
-	(junction
 		(at 652.78 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8582,6 +8576,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a059528-51e5-44f5-b5de-49776a901337")
+	)
+	(junction
+		(at 511.81 537.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6dbe03-a0a6-4729-b54f-695d68fa71e1")
 	)
 	(junction
 		(at 786.13 250.19)
@@ -16027,7 +16027,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 537.21) (xy 511.81 537.21)
+			(xy 492.76 537.21) (xy 511.81 537.21)
 		)
 		(stroke
 			(width 0)
@@ -19057,7 +19057,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 539.75) (xy 505.46 537.21)
+			(xy 492.76 539.75) (xy 492.76 537.21)
 		)
 		(stroke
 			(width 0)
@@ -21847,7 +21847,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 549.91) (xy 505.46 547.37)
+			(xy 492.76 549.91) (xy 492.76 547.37)
 		)
 		(stroke
 			(width 0)
@@ -29829,7 +29829,7 @@
 		(dnp no)
 		(uuid "00e501a5-38ee-4947-b3c6-2f3f04242099")
 		(property "Reference" "Z244"
-			(at 377.19 506.222 90)
+			(at 377.19 504.952 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29838,9 +29838,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 377.19 505.46 90)
-			(hide yes)
+		(property "Value" "2u2"
+			(at 377.19 506.984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33750,7 +33749,7 @@
 		(dnp no)
 		(uuid "07858549-71eb-4833-bda0-e4f30ae76f34")
 		(property "Reference" "Z259"
-			(at 377.19 549.402 90)
+			(at 377.19 548.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33759,9 +33758,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 377.19 548.64 90)
-			(hide yes)
+		(property "Value" "2u2"
+			(at 377.19 550.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36046,7 +36044,7 @@
 		(dnp no)
 		(uuid "0c3cd1ac-97fc-4e1b-b20b-98965ebb5636")
 		(property "Reference" "Z262"
-			(at 385.318 558.8 90)
+			(at 386.588 557.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36055,9 +36053,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 386.08 558.8 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 386.588 560.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44784,7 +44781,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 505.46 543.56 180)
+		(at 492.76 543.56 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44792,10 +44790,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1cd178cf-5166-4e2d-9527-648e8ace5daa")
 		(property "Reference" "R150"
-			(at 502.92 544.8301 0)
+			(at 495.808 542.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44805,8 +44802,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
-			(at 502.92 542.2901 0)
+		(property "Value" "100R"
+			(at 495.554 544.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44817,7 +44814,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 507.238 543.56 90)
+			(at 490.982 543.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44828,7 +44825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44839,7 +44836,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44850,7 +44847,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44861,7 +44858,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44872,7 +44869,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44883,7 +44880,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44894,7 +44891,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44905,7 +44902,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44916,7 +44913,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 505.46 543.56 0)
+			(at 492.76 543.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48311,7 +48308,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 543.56 511.81 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48321,7 +48318,7 @@
 		(dnp no)
 		(uuid "24998252-b3e6-4940-8268-4a3a368a853b")
 		(property "Reference" "Z245"
-			(at 540.512 511.81 90)
+			(at 546.608 511.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48331,7 +48328,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 539.75 511.81 90)
+			(at 547.37 511.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48342,7 +48339,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 545.338 511.81 90)
+			(at 541.782 511.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54743,7 +54740,7 @@
 				)
 			)
 		)
-		(property "Value" "80k"
+		(property "Value" "20k"
 			(at 504.19 499.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56130,7 +56127,7 @@
 		(dnp no)
 		(uuid "36bd1d91-8ffa-4f17-b98f-ac0d11857a36")
 		(property "Reference" "Z250"
-			(at 538.48 531.622 90)
+			(at 538.48 528.574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56139,9 +56136,8 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "0R"
 			(at 538.48 530.86 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59156,7 +59152,7 @@
 		(dnp no)
 		(uuid "3c6f1794-8d5d-4d5d-9ee4-df4f82e0c8a1")
 		(property "Reference" "Z251"
-			(at 548.64 531.622 90)
+			(at 548.64 528.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59165,9 +59161,8 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "0R"
 			(at 548.64 530.86 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63910,7 +63905,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3k3"
 			(at 514.35 544.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73803,7 +73798,7 @@
 		(dnp no)
 		(uuid "5d638552-7b2f-4b79-81bd-38a49e601e5b")
 		(property "Reference" "Z248"
-			(at 385.318 515.62 90)
+			(at 386.334 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73812,9 +73807,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 386.08 515.62 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 386.334 516.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79073,7 +79067,7 @@
 		(dnp no)
 		(uuid "66c847c2-cb99-4347-9294-db511c928976")
 		(property "Reference" "Z249"
-			(at 377.19 527.812 90)
+			(at 377.19 526.542 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79082,9 +79076,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 377.19 527.05 90)
-			(hide yes)
+		(property "Value" "2u2"
+			(at 377.19 528.574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -95094,7 +95087,7 @@
 		(dnp no)
 		(uuid "89323c03-8dee-45c0-9cb8-b36036924518")
 		(property "Reference" "Z240"
-			(at 385.318 494.03 90)
+			(at 386.334 492.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -95103,9 +95096,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 386.08 494.03 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 386.334 495.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -97074,7 +97066,7 @@
 		(dnp no)
 		(uuid "8e57ad67-8a4a-42a2-addc-46feaf3f4260")
 		(property "Reference" "Z257"
-			(at 580.898 543.56 90)
+			(at 583.184 542.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -97083,9 +97075,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 581.66 543.56 90)
-			(hide yes)
+		(property "Value" "0R"
+			(at 583.184 545.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -104951,7 +104942,7 @@
 		(dnp no)
 		(uuid "a0e41986-d8ad-43b9-9f22-50cae8dabdc2")
 		(property "Reference" "Z254"
-			(at 385.318 537.21 90)
+			(at 386.334 535.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -104960,9 +104951,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 386.08 537.21 90)
-			(hide yes)
+		(property "Value" "100k"
+			(at 386.334 538.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -108588,7 +108578,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 505.46 549.91 180)
+		(at 492.76 549.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -108598,7 +108588,7 @@
 		(dnp no)
 		(uuid "a906d6d0-7509-4959-9454-e6cbcc0d2227")
 		(property "Reference" "#PWR0350"
-			(at 505.46 546.1 0)
+			(at 492.76 546.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -108609,7 +108599,7 @@
 			)
 		)
 		(property "Value" "+15V_M"
-			(at 504.444 554.99 0)
+			(at 491.744 554.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -108619,7 +108609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 505.46 549.91 0)
+			(at 492.76 549.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -108630,7 +108620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 505.46 549.91 0)
+			(at 492.76 549.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -108641,7 +108631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 505.46 549.91 0)
+			(at 492.76 549.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -135897,7 +135887,7 @@
 		(dnp no)
 		(uuid "e06fac63-68d9-4daa-aedb-ad4532833f51")
 		(property "Reference" "Z237"
-			(at 377.19 484.632 90)
+			(at 377.19 483.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135906,9 +135896,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 377.19 483.87 90)
-			(hide yes)
+		(property "Value" "2u2"
+			(at 377.19 485.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
