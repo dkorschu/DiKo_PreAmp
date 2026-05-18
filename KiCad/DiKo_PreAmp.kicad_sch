@@ -6147,8 +6147,21 @@
 		(uuid "3806353c-1220-481f-b3f5-2c23fd94bfca")
 	)
 	(rectangle
-		(start 751.84 518.16)
-		(end 765.81 541.02)
+		(start 561.34 539.75)
+		(end 575.31 547.37)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 194 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "66979af2-689c-453e-9c1e-de5af4920609")
+	)
+	(rectangle
+		(start 743.966 517.652)
+		(end 757.936 540.512)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6184,6 +6197,19 @@
 			(type none)
 		)
 		(uuid "96202870-4526-4300-9c8f-14211d8a3945")
+	)
+	(rectangle
+		(start 743.966 483.362)
+		(end 757.936 506.222)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 194 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9edec701-fea3-44c5-b8a0-ece66cfa9891")
 	)
 	(rectangle
 		(start 476.25 133.35)
@@ -6261,9 +6287,9 @@
 		)
 		(uuid "12474c05-ff61-40e3-91d5-ce9af02bb9ad")
 	)
-	(text "+++ Änderung +++\nDie Markierten Bauelemente\nsind nicht als SMD Bauteil\nauf der Platine implementiert\nsondern müssen mit bedrahteten\nBauelementenan an die Pins\nGelötet werden.\n+++ Änderung +++"
+	(text "+++ Änderung +++\nDie Rot Markierten Bauelemente\nsind nicht als SMD Bauteil\nauf der Platine implementiert\nsondern müssen mit bedrahteten\nBauelementenan an die Pins\nGelötet werden.\n+++ Änderung +++"
 		(exclude_from_sim no)
-		(at 795.274 528.828 0)
+		(at 787.4 528.32 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6430,7 +6456,20 @@
 		)
 		(uuid "8f59a737-8207-4b21-be88-d236d3c0987c")
 	)
-	(text "Verstärker -inf bis +30dB"
+	(text "+++ Änderung +++\nDie Grün Markierten Bauelemente\nsollen ncht Bestücktwerden!\n+++ Änderung +++"
+		(exclude_from_sim no)
+		(at 787.4 494.03 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "908e1d35-8375-4ddd-ba47-a060fe595dfc")
+	)
+	(text "Verstärker 0dB bis +30dB"
 		(exclude_from_sim no)
 		(at 210.82 91.44 0)
 		(effects
@@ -7301,12 +7340,6 @@
 		(uuid "3de87454-56a5-4bc4-986b-f28040270337")
 	)
 	(junction
-		(at 543.56 534.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ed34998-0c51-4dba-b45d-3f06837c7093")
-	)
-	(junction
 		(at 633.73 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7329,6 +7362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4022fc50-e51d-4c9e-9c73-d9a904878f47")
+	)
+	(junction
+		(at 543.56 534.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d1fdb0-077a-4465-a6a3-8af6a6e1dc6e")
 	)
 	(junction
 		(at 450.85 63.5)
@@ -8117,6 +8156,12 @@
 		(uuid "7aba3608-4593-404f-9be7-5200aaa5f561")
 	)
 	(junction
+		(at 565.15 534.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bdce3db-9119-462c-95a9-bcf8ea5c56ee")
+	)
+	(junction
 		(at 775.97 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8439,12 +8484,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ed3d5e4-fe99-4783-bdf7-100ace9bc063")
-	)
-	(junction
-		(at 565.15 534.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8eeeb6fa-5cd6-4224-af90-208903ca888b")
 	)
 	(junction
 		(at 31.75 289.56)
@@ -11972,6 +12011,16 @@
 	)
 	(wire
 		(pts
+			(xy 565.15 534.67) (xy 565.15 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179403f8-9c83-4368-95b3-ee9532746790")
+	)
+	(wire
+		(pts
 			(xy 695.96 86.36) (xy 698.5 86.36)
 		)
 		(stroke
@@ -12479,16 +12528,6 @@
 			(type default)
 		)
 		(uuid "20687264-e2f5-461e-9904-c4982250940b")
-	)
-	(wire
-		(pts
-			(xy 562.61 534.67) (xy 565.15 534.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a94a27-d561-4435-9c46-ac2fa72514ad")
 	)
 	(wire
 		(pts
@@ -13279,16 +13318,6 @@
 			(type default)
 		)
 		(uuid "2bd3350a-9eac-4ca8-af34-cdcb37b1c248")
-	)
-	(wire
-		(pts
-			(xy 565.15 539.75) (xy 565.15 534.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c42686b-3921-4e15-97dd-2a4c7682b99c")
 	)
 	(wire
 		(pts
@@ -16512,7 +16541,7 @@
 	)
 	(wire
 		(pts
-			(xy 565.15 534.67) (xy 567.69 534.67)
+			(xy 562.61 534.67) (xy 565.15 534.67)
 		)
 		(stroke
 			(width 0)
@@ -28769,6 +28798,16 @@
 			(type default)
 		)
 		(uuid "f7aa5fd2-52e4-4a06-9192-cad1b42e114b")
+	)
+	(wire
+		(pts
+			(xy 565.15 534.67) (xy 567.69 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7be6b58-2fa6-4147-9467-8dcd54cddb50")
 	)
 	(wire
 		(pts
@@ -68724,7 +68763,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50053fb2-8a88-4203-9fd0-64a3e27c9704")
 		(property "Reference" "C86"
 			(at 168.91 488.9562 0)
@@ -68738,7 +68776,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 168.91 491.4962 0)
+			(at 169.672 490.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -70383,7 +70421,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "500R"
 			(at 571.5 530.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -75286,7 +75324,7 @@
 		(dnp no)
 		(uuid "5fbe30c4-050d-4cce-ac0f-c367ce80c822")
 		(property "Reference" "Z255"
-			(at 171.45 537.972 90)
+			(at 171.45 537.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75295,9 +75333,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 171.45 537.21 90)
-			(hide yes)
+		(property "Value" "0R"
+			(at 171.45 538.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84485,7 +84522,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0R"
 			(at 558.8 530.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -129569,7 +129606,7 @@
 		(dnp no)
 		(uuid "d3ddb990-a141-4f16-b9b8-feba5c8403a6")
 		(property "Reference" "Z241"
-			(at 171.45 494.792 90)
+			(at 171.45 493.522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -129578,9 +129615,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 171.45 494.03 90)
-			(hide yes)
+		(property "Value" "0R"
+			(at 171.45 495.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131438,7 +131474,7 @@
 		(dnp no)
 		(uuid "d7c3df26-1971-4adb-8188-cb23a31a04ba")
 		(property "Reference" "Z258"
-			(at 171.45 548.132 90)
+			(at 171.45 547.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131447,9 +131483,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 171.45 547.37 90)
-			(hide yes)
+		(property "Value" "0R"
+			(at 171.45 549.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

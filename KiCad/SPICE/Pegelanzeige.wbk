@@ -23,19 +23,9 @@
       "traces": [
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/LED)",
-          "trace_type": 257
+          "signal": "I(R10)",
+          "trace_type": 258
         }
-      ]
-    },
-    {
-      "analysis": "OP",
-      "commands": [
-        ".op",
-        ".kicad adjustpaths",
-        ".save all",
-        ".probe alli",
-        ".probe allp"
       ]
     }
   ],

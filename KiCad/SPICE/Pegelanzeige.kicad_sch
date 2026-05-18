@@ -1549,12 +1549,6 @@
 		(uuid "794896ed-5fb1-4388-ad56-a547b4e0848d")
 	)
 	(junction
-		(at 240.03 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7afc2865-a341-4412-96ac-5e2a206849f4")
-	)
-	(junction
 		(at 107.95 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1585,12 +1579,6 @@
 		(uuid "bf06a3a7-cc34-4484-962d-4f11e8d03c71")
 	)
 	(junction
-		(at 231.14 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0a096da-1fff-4f8d-b3a3-752c2febb566")
-	)
-	(junction
 		(at 120.65 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1601,12 +1589,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db90b077-4f34-4785-9791-fb303e671728")
-	)
-	(junction
-		(at 231.14 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0ac4b5e-4a7b-4b4f-bdd9-38067ffc01dd")
 	)
 	(junction
 		(at 213.36 69.85)
@@ -1673,16 +1655,6 @@
 			(type default)
 		)
 		(uuid "0cc30a2a-4064-405e-bc39-1db8b2cd0214")
-	)
-	(wire
-		(pts
-			(xy 231.14 134.62) (xy 240.03 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1393addb-f117-475d-b2a6-68f435125208")
 	)
 	(wire
 		(pts
@@ -1766,26 +1738,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 121.92) (xy 240.03 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c214327-287d-43fa-babb-d073a815916c")
-	)
-	(wire
-		(pts
-			(xy 240.03 121.92) (xy 240.03 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420d1f56-9389-45ac-944a-84b60470c354")
-	)
-	(wire
-		(pts
 			(xy 120.65 100.33) (xy 120.65 81.28)
 		)
 		(stroke
@@ -1846,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 121.92) (xy 227.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600952bb-dab8-48f0-b808-c6216a5a5442")
+	)
+	(wire
+		(pts
 			(xy 118.11 81.28) (xy 120.65 81.28)
 		)
 		(stroke
@@ -1896,26 +1858,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 121.92) (xy 231.14 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6804336b-d353-4a27-bf3b-a15f061e06b2")
-	)
-	(wire
-		(pts
-			(xy 231.14 137.16) (xy 231.14 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce13763-cec9-4b1b-b887-4eda517064ef")
-	)
-	(wire
-		(pts
 			(xy 191.77 86.36) (xy 213.36 86.36)
 		)
 		(stroke
@@ -1926,13 +1868,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 121.92) (xy 218.44 121.92)
+			(xy 248.92 129.54) (xy 248.92 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ec9c845-308b-42a3-8e77-8f33281f2149")
+		(uuid "6fa73fc5-96b9-4003-bce3-da6090bd3c7b")
 	)
 	(wire
 		(pts
@@ -1986,16 +1928,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 121.92) (xy 257.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aad7dc7-ea9e-47b4-80e7-801c0c234606")
-	)
-	(wire
-		(pts
 			(xy 120.65 114.3) (xy 120.65 100.33)
 		)
 		(stroke
@@ -2003,16 +1935,6 @@
 			(type default)
 		)
 		(uuid "8fab7cbb-551f-417d-b3d3-0440ce8d39ff")
-	)
-	(wire
-		(pts
-			(xy 257.81 124.46) (xy 257.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad437f2-d64a-4f81-b063-a11950595eaf")
 	)
 	(wire
 		(pts
@@ -2063,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "abc6c51d-8205-49aa-8b19-d122038e84ed")
+	)
+	(wire
+		(pts
+			(xy 209.55 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b060085b-c565-4f27-b9e3-9d008355baa5")
 	)
 	(wire
 		(pts
@@ -2136,13 +2068,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 135.89) (xy 257.81 132.08)
+			(xy 223.52 121.92) (xy 227.33 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce2e5eca-8e0b-49e7-a981-b496797b6e69")
+		(uuid "cf07494a-ffb8-42cc-82e0-226f3442070f")
 	)
 	(wire
 		(pts
@@ -2196,6 +2128,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 121.92) (xy 242.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e333373b-046b-4d35-aefb-da96c3357dd7")
+	)
+	(wire
+		(pts
 			(xy 238.76 69.85) (xy 241.3 69.85)
 		)
 		(stroke
@@ -2226,16 +2168,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 121.92) (xy 231.14 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f45c554b-2060-4697-98cc-45cd8eeea49d")
-	)
-	(wire
-		(pts
 			(xy 173.99 124.46) (xy 173.99 128.27)
 		)
 		(stroke
@@ -2253,16 +2185,6 @@
 			(type default)
 		)
 		(uuid "f4908a39-d316-49cd-838a-8ad6efb629d3")
-	)
-	(wire
-		(pts
-			(xy 231.14 134.62) (xy 231.14 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c91bdf-b17d-40b1-97fc-b5c0b3ca937f")
 	)
 	(wire
 		(pts
@@ -2293,16 +2215,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3955804-7372-444e-95db-ac3fc1c69c05")
-	)
-	(label "LED"
-		(at 250.19 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e67134df-c119-4fae-88fb-65efce081bb9")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3002,86 +2914,6 @@
 			(project "Pegelanzeige"
 				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 121.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21166cea-ca28-49e9-962b-41d612fb0032")
-		(property "Reference" "R10"
-			(at 222.25 115.57 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 222.25 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 120.142 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b6")
-		)
-		(pin "2"
-			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad64")
-		)
-		(instances
-			(project "Pegelanzeige"
-				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3829,7 +3661,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=15 f=1k ac=1"
+		(property "Sim.Params" "dc=0 ampl=10 f=1k ac=1"
 			(at 90.17 91.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,6 +3783,84 @@
 			(project "Pegelanzeige"
 				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758fc855-20a5-494b-a94b-f1f11cc30bff")
+		(property "Reference" "#PWR026"
+			(at 248.92 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51e3da8f-2b48-4937-b99c-e87e7873e4b4")
+		)
+		(instances
+			(project "Pegelanzeige"
+				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4137,6 +4047,110 @@
 			(project "Pegelanzeige"
 				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 227.33 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cf660d0-5c15-4d5c-8528-953d4a7298bf")
+		(property "Reference" "D3"
+			(at 229.87 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N914"
+			(at 229.87 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 231.775 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 227.33 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 227.33 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 227.33 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6551eda-ae46-4d06-856a-98c8fec8df95")
+		)
+		(pin "1"
+			(uuid "3efc8068-851e-4a8e-99ed-363180e56091")
+		)
+		(instances
+			(project "Pegelanzeige"
+				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4527,6 +4541,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 238.76 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a991f08-2c2b-47d4-9ea0-bd21083fd5cc")
+		(property "Reference" "R11"
+			(at 238.76 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 238.76 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 123.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b8c54bd-91e5-436c-b374-b4e83c25edc4")
+		)
+		(pin "1"
+			(uuid "dab8d8e5-a899-45cc-a0f0-0b85161141e4")
+		)
+		(instances
+			(project "Pegelanzeige"
+				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 127 0)
 		(unit 1)
@@ -4606,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 135.89 0)
+		(at 227.33 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4615,9 +4709,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91ff348c-ff8a-4889-9ced-b4875830b634")
-		(property "Reference" "#PWR022"
-			(at 257.81 142.24 0)
+		(uuid "8f3e9de8-8af9-4b91-b209-dcc71f936650")
+		(property "Reference" "#PWR027"
+			(at 227.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +4722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 140.97 0)
+			(at 227.33 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4638,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 135.89 0)
+			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4649,7 +4743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 135.89 0)
+			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,7 +4754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 135.89 0)
+			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4671,12 +4765,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "edc58d94-9e1c-4cc2-97ed-6f5f084fe739")
+			(uuid "487f879d-5fc8-4b15-bddd-8bb6b1a44337")
 		)
 		(instances
 			(project "Pegelanzeige"
 				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5115,7 +5209,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 267.97 128.27 90)
+		(at 248.92 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5124,31 +5218,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5f7b541-c2a0-4e83-bf2f-ccb0b67c02c3")
+		(uuid "a559a2f7-dd35-48b4-beb8-eba8ab0a4d97")
 		(property "Reference" "D4"
-			(at 270.51 126.9999 90)
+			(at 251.46 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N914"
-			(at 270.51 129.5399 90)
+			(at 251.46 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 272.415 128.27 0)
+			(at 244.475 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 267.97 128.27 0)
+			(at 248.92 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +5264,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 267.97 128.27 0)
+			(at 248.92 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5181,7 +5275,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 267.97 128.27 0)
+			(at 248.92 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5192,7 +5286,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 128.27 0)
+			(at 248.92 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5202,11 +5296,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "21589595-4904-4854-8a93-185479c23bb8")
-		)
 		(pin "2"
-			(uuid "cc3fb878-cb81-4a15-a41e-cfe7b909bf52")
+			(uuid "e48375a9-59c9-48cf-ab5a-88b3979ceaed")
+		)
+		(pin "1"
+			(uuid "77f88ec4-ac6e-4fad-b51b-7d64900f810c")
 		)
 		(instances
 			(project "Pegelanzeige"
@@ -5218,8 +5312,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 137.16 0)
+		(lib_id "Device:R")
+		(at 219.71 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5228,10 +5322,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a8d9e809-fa5f-4a40-8285-42a76348ea1e")
-		(property "Reference" "#PWR021"
-			(at 231.14 143.51 0)
-			(hide yes)
+		(uuid "b52f4554-c66f-495b-b858-ce0d5669c498")
+		(property "Reference" "R10"
+			(at 219.71 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5240,8 +5333,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 231.14 142.24 0)
+		(property "Value" "100R"
+			(at 219.71 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5251,7 +5344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 137.16 0)
+			(at 219.71 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 137.16 0)
+			(at 219.71 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,8 +5365,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 137.16 0)
+		(property "Description" "Resistor"
+			(at 219.71 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,14 +5375,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "409394cd-c2ad-4ded-a92d-3a23ead7f917")
 		)
 		(pin "1"
-			(uuid "f69a7a47-48dd-4e37-a4be-e6926e9f6617")
+			(uuid "6a5b5672-05b9-4a74-be82-b88cffd71ba1")
 		)
 		(instances
 			(project "Pegelanzeige"
 				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
-					(reference "#PWR021")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5837,110 +5933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N914")
-		(at 240.03 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6283a19-0f72-4f20-9e18-70c2b802c5f5")
-		(property "Reference" "D3"
-			(at 242.57 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N914"
-			(at 242.57 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 235.585 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 240.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 240.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 240.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 240.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a73b4f91-99ba-4c1f-8cb3-f9dbd1a9802b")
-		)
-		(pin "1"
-			(uuid "6b98a8dc-d306-4378-a6c1-4c07cbe796a2")
-		)
-		(instances
-			(project "Pegelanzeige"
-				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 172.72 67.31 90)
 		(unit 1)
@@ -6176,88 +6168,6 @@
 			(project "Pegelanzeige"
 				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee9f7f9c-bf57-413e-b91b-3a085c07579b")
-		(property "Reference" "R11"
-			(at 233.68 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 233.68 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.362 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 231.14 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3501a9e-61a5-4a2e-936c-105623d5d2b9")
-		)
-		(pin "2"
-			(uuid "f4941a05-598f-4fa7-aa94-386a3a54ad67")
-		)
-		(instances
-			(project "Pegelanzeige"
-				(path "/b170eba6-7377-41f6-88d5-70034b9b0dbf"
-					(reference "R11")
 					(unit 1)
 				)
 			)
