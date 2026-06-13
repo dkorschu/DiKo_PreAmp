@@ -6466,19 +6466,6 @@
 		(uuid "b6fb1a38-674b-4463-b3c9-883b29d38da8")
 	)
 	(rectangle
-		(start 184.15 114.3)
-		(end 198.12 121.92)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d13f3ba4-61ae-4d0d-ad18-5441d9fbf5fa")
-	)
-	(rectangle
 		(start 477.52 66.04)
 		(end 491.49 88.9)
 		(stroke
@@ -6710,7 +6697,7 @@
 		)
 		(uuid "908e1d35-8375-4ddd-ba47-a060fe595dfc")
 	)
-	(text "Verstärker 0dB bis +30dB"
+	(text "Verstärker +24dB"
 		(exclude_from_sim no)
 		(at 210.82 91.44 0)
 		(effects
@@ -7761,12 +7748,6 @@
 		(uuid "4eea0732-166d-4463-98c2-0a54dd6db7fd")
 	)
 	(junction
-		(at 187.96 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fa355b6-977d-456a-af9b-813a8a20f7e4")
-	)
-	(junction
 		(at 458.47 514.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8067,6 +8048,12 @@
 		(uuid "662e28e5-e985-4639-9e51-882984e3536e")
 	)
 	(junction
+		(at 187.96 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f4dcc5-bbe4-4f6f-b832-45f125224ed4")
+	)
+	(junction
 		(at 421.64 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8113,12 +8100,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abe0f21-95ea-4219-b5de-573c54d73b2b")
-	)
-	(junction
-		(at 187.96 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad21298-7ba9-43d7-8813-3161ff620b35")
 	)
 	(junction
 		(at 181.61 292.1)
@@ -9205,6 +9186,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8024765-5fc6-4e64-b3f4-e839e0744cb1")
+	)
+	(junction
+		(at 187.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87bc539-eb3f-4708-afd2-6ea14609f8d1")
 	)
 	(junction
 		(at 585.47 269.24)
@@ -16346,7 +16333,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 113.03) (xy 187.96 114.3)
+			(xy 187.96 116.84) (xy 187.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -18306,7 +18293,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 109.22) (xy 181.61 109.22)
+			(xy 184.15 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -22596,7 +22583,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 109.22) (xy 181.61 123.19)
+			(xy 181.61 113.03) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -26796,16 +26783,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 121.92) (xy 187.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76a19c7-28fe-4104-8a89-7e3d77dfabd5")
-	)
-	(wire
-		(pts
 			(xy 652.78 72.39) (xy 652.78 77.47)
 		)
 		(stroke
@@ -28946,7 +28923,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 105.41) (xy 187.96 104.14)
+			(xy 187.96 109.22) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -44235,7 +44212,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 101.6 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63455,7 +63432,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "15k"
 			(at 207.01 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63538,7 +63515,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 187.96 109.22 0)
+		(at 187.96 113.03 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -63550,7 +63527,7 @@
 		(fields_autoplaced yes)
 		(uuid "436052a7-3844-4c79-bb90-ff8738c6f297")
 		(property "Reference" "RV4"
-			(at 190.5 107.9499 0)
+			(at 190.5 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63561,7 +63538,7 @@
 			)
 		)
 		(property "Value" "50k log"
-			(at 190.5 110.4899 0)
+			(at 190.5 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63572,7 +63549,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm_LongPads:PinSocket_1x03_P2.54mm_Vertical_LongPads"
-			(at 187.96 109.22 0)
+			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63583,7 +63560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 109.22 0)
+			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63594,7 +63571,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 187.96 109.22 0)
+			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63605,7 +63582,7 @@
 			)
 		)
 		(property "Mouser-Teilenr." ""
-			(at 187.96 109.22 0)
+			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63616,7 +63593,7 @@
 			)
 		)
 		(property "Gegenstück Mouser Teilenr." ""
-			(at 187.96 109.22 0)
+			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70984,7 +70961,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 110.49 246.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98146,7 +98123,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 115.57 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -108965,7 +108942,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "15k"
 			(at 102.616 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -109622,7 +109599,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "15k"
 			(at 99.06 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -121506,8 +121483,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200R"
-			(at 103.886 215.9 0)
+		(property "Value" "1k"
+			(at 102.362 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -124605,110 +124582,6 @@
 			(project "DiKo_PreAmp"
 				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 187.96 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c828bf6e-47d4-4b84-a290-1474101f25ee")
-		(property "Reference" "R167"
-			(at 190.5 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 190.5 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 189.738 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 187.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser-Teilenr." ""
-			(at 187.96 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gegenstück Mouser Teilenr." ""
-			(at 187.96 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "80dfa7e6-568c-4e62-ac1b-1592d4981e20")
-		)
-		(pin "1"
-			(uuid "f889a32f-932b-4379-aa07-611e09777373")
-		)
-		(instances
-			(project "DiKo_PreAmp"
-				(path "/81a92cd6-862a-4567-ad33-f8a3bc120591"
-					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -130380,7 +130253,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 220.98 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130928,7 +130801,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 201.93 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133367,7 +133240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "4u7"
 			(at 568.198 513.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -135867,7 +135740,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 101.6 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -136808,7 +136681,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "15k"
 			(at 558.8 501.65 90)
 			(show_name no)
 			(do_not_autoplace no)

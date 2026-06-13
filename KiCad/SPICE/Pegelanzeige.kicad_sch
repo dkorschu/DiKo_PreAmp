@@ -3993,7 +3993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "10k"
 			(at 176.53 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,7 +5715,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "10k"
 			(at 257.81 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5796,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "15k"
 			(at 234.95 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)

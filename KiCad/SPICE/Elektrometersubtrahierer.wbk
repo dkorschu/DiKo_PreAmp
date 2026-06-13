@@ -3,9 +3,9 @@
   "last_sch_text_sim_command": "",
   "tabs": [
     {
-      "analysis": "TRAN",
+      "analysis": "AC",
       "commands": [
-        ".tran 10u 8m",
+        ".ac dec 10 10 100k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -23,8 +23,8 @@
       "traces": [
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/out)",
-          "trace_type": 257
+          "signal": "V(/out) (Verstärkung)",
+          "trace_type": 9
         }
       ]
     }

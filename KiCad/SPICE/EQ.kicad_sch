@@ -2981,7 +2981,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=47k pos=1"
+		(property "Sim.Params" "r=50k pos=1"
 			(at 106.68 111.76 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3226,7 +3226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 n"
+		(property "Value" "1n5"
 			(at 179.07 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
