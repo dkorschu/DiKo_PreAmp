@@ -22,14 +22,24 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/out) (Phase)",
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/out_ges) (Verstärkung)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/out_kick) (Phase)",
           "trace_type": 517
         },
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/out) (Verstärkung)",
-          "trace_type": 521
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/out_mid) (Phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/out_sub) (Phase)",
+          "trace_type": 517
         }
       ]
     }
