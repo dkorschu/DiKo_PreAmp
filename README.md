@@ -1,4 +1,4 @@
-# -DIKO-\sqrt{REGGAE}-PREAMP-
+# $\text{-DIKO-}\sqrt{\text{REGGAE}}\text{-PREAMP-}$
 
 Dieses Repository zeigt die Entwicklung des DIKO ELEKTROTECHNIK Vorverstärkers, vom ersten Prototyp bis zum aktuellen Stand.
 
