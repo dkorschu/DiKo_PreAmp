@@ -1,50 +1,30 @@
-# DiKo\_PreAmp
+# DIKO ELEKTROTECHNIK Vorverstärker
 
-This repository contains all resources related to the design, development and documentation of an audio preamplifier that was created as part of a bachelor’s thesis. The preamplifier includes a crossover network whose transmission characteristics can be adjusted using digital potentiometers.
+In diesem Repo lade ich den Fortschritt vom DIKO ELEKTROTECHNIK Vorverstärker hoch.
 
-## Repository Structure
+## Ordnerstruktur
 
-* **3D\_Print/**  
+- Blockschaltbilder
+- Ältere Versionen
+- KiCad Dateien
+- Bilder
+- Datenblätter
+- 3D Druck
 
-&nbsp;	Contains 3D print files for the PCB mounting bracket.
+## Version 1
 
-* **Altium/**  
+Version 1 ist meine Bachelorarbeit, in der ich den ersten Prototyp entwickelt habe. Deshalb wurden die Schaltpläne und Platinen-Fertigungsdateien mit Altium Designer erstellt. Der Prototyp beinhaltet Digitalpotentiometer zur digitalen Einstellung der analogen Frequenzweiche.
 
-&nbsp;	Altium Designer project of the preamplifier, including schematics and Gerber files.  
-	Note: The current design contains electrical errors. These will be documented and fixed in an upcoming update.
+**Version 1 ist fehlerhaft!**
 
-* **Bachelor\_Thesis/**  
+## Version 2
 
-&nbsp;	Includes the bachelor’s thesis in which the preamplifier was developed.
+In Version 2 wurden mit den Erkenntnissen aus Version 1 neue Platinen entwickelt. Die Digitalpotentiometer sind entfallen, weil der Vorverstärker einfacher werden sollte und ich mich zuerst um die analoge Schaltungstechnik kümmern wollte.
 
-* **Blockdiagram/**  
+Version 2 ist soweit getestet und schaltungstechnisch wurden keine Fehler gefunden. Wegen Fehlern im Platinenlayout und weil ich mit dem Design nicht zufrieden war, gibt es jetzt Version 3. Außerdem ist der Mikrofonvorverstärker schlecht entwickelt und kann das Signal nicht zufriedenstellend verstärken.
 
-&nbsp;	Contains the block diagram of the preamplifier.
+## Version 3
 
-* **Pictures/**  
+Version 3 ist der Versuch, die einzelnen Komponenten des Vorverstärkers so aufzuteilen, dass sie miteinander verbunden werden können. Dafür wird als Erstes die Frequenzweiche aufgebaut, um sie mit einem externen Mischpult zu nutzen. So können die einzelnen Komponenten besser getestet werden.
 
-&nbsp;	Photos of the preamplifier prototype.
-
-* **Software/**  
-
-&nbsp;	Source code for both the microcontroller firmware and the desktop application used to control the digital potentiometers.
-	The microcontroller was programmed using the Arduino IDE and the desktop application was developed in C# with Microsoft Visual Studio.
-
-* **KiCad/**
-
-&nbsp;	KiCad project of the preamplifier, including schematics and Gerber files.  
-
-&nbsp;	Note: The current data set is incomplete and will be completed in an upcoming update.
-
-
-
-* **Datasheed/**
-
-	Contains data sheets and related reference information for the project components.
-
-
-
-## Status
-
-* Initial release of design files and documentation.
-* Known circuit errors in the **Altium/** project (to be listed in detail soon).
+Außerdem kommen die Potentiometer in dieser Version auf eine eigene Platine, damit man besser mit Steckverbindern arbeiten kann.

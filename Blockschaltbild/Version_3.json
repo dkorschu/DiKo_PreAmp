@@ -1,0 +1,512 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "rect",
+            "label": {
+                "value": "INPUTAMP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 215.433,
+                "y": -362.835
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "BASS-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 215.433,
+                "y": -136.063
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "KICK-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 215.433,
+                "y": -181.417
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "MID-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 215.433,
+                "y": -226.771
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "HIGH-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 215.433,
+                "y": -272.126
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "VU-AMP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 215.433,
+                "y": -317.48
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "BASS-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 56.693,
+                "y": -362.835
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "KICK-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 56.693,
+                "y": -317.48
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "MID-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 56.693,
+                "y": -272.126
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "HIGH-BP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 56.693,
+                "y": -226.772
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "INPUTAMP",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 56.693,
+                "y": -136.063
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "VU METER",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 56.693,
+                "y": -181.417
+            },
+            "size": {
+                "x": 113.386,
+                "y": 30.236
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 113.386,
+                    "y": -136.063
+                },
+                {
+                    "x": 143.622,
+                    "y": -136.063
+                },
+                {
+                    "x": 143.622,
+                    "y": -272.126
+                },
+                {
+                    "x": 158.74,
+                    "y": -272.126
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--",
+                "--",
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 158.74,
+                    "y": -362.834
+                },
+                {
+                    "x": 128.504,
+                    "y": -362.835
+                },
+                {
+                    "x": 128.504,
+                    "y": -226.772
+                },
+                {
+                    "x": 113.386,
+                    "y": -226.772
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--",
+                "--",
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 128.504,
+                    "y": -362.835
+                },
+                {
+                    "x": 113.386,
+                    "y": -362.835
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 128.504,
+                    "y": -317.48
+                },
+                {
+                    "x": 113.386,
+                    "y": -317.48
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 128.504,
+                    "y": -272.126
+                },
+                {
+                    "x": 113.386,
+                    "y": -272.126
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 143.622,
+                    "y": -136.063
+                },
+                {
+                    "x": 158.74,
+                    "y": -136.063
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 143.622,
+                    "y": -181.417
+                },
+                {
+                    "x": 158.74,
+                    "y": -181.417
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 143.622,
+                    "y": -226.772
+                },
+                {
+                    "x": 158.74,
+                    "y": -226.772
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 128.504,
+                    "y": -226.772
+                },
+                {
+                    "x": 128.504,
+                    "y": -181.417
+                },
+                {
+                    "x": 113.386,
+                    "y": -181.417
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--",
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 143.622,
+                    "y": -272.126
+                },
+                {
+                    "x": 143.622,
+                    "y": -317.48
+                },
+                {
+                    "x": 158.74,
+                    "y": -317.48
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "--",
+                "--"
+            ],
+            "endArrow": "latex"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 128.504,
+                "y": -362.835
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 128.504,
+                "y": -317.48
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 128.504,
+                "y": -272.126
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 128.504,
+                "y": -226.772
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 143.622,
+                "y": -226.772
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 143.622,
+                "y": -272.126
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 143.622,
+                "y": -181.417
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 143.622,
+                "y": -136.063
+            },
+            "id": "circ"
+        },
+        {
+            "type": "rect",
+            "label": {
+                "value": "-DIKO-\\sqrt{REGGAE}-PREAMP-",
+                "anchor": "default",
+                "position": "default"
+            },
+            "position": {
+                "x": 136.063,
+                "y": -396.85
+            },
+            "rotation": -180,
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 272.126,
+                "y": 37.795
+            }
+        }
+    ]
+}
