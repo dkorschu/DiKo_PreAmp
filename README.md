@@ -15,7 +15,7 @@ Dieses Repository zeigt die Entwicklung des DIKO ELEKTROTECHNIK Vorverstärkers,
 
 ## Version 1
 
-Version 1 entstand im Rahmen meiner Bachelorarbeit. Schaltpläne und Fertigungsdateien der Platinen wurden mit Altium Designer erstellt. Das Besondere an dieser Version: Die analoge Frequenzweiche lässt sich über Digitalpotentiometer digital einstellen.
+Version 1 entstand im Rahmen meiner Bachelorarbeit. Schaltpläne und Fertigungsdateien der Platinen wurden mit Altium Designer erstellt. Das Besondere an dieser Version: Die analoge Frequenzweiche lässt sich über Digitalpotentiometer einstellen.
 
 **Hinweis: Version 1 ist fehlerhaft!**
 
@@ -52,7 +52,7 @@ This repository documents the development of the DIKO ELEKTROTECHNIK preamplifie
 - 3D Druck (3D printing)
 
 ## Version 1
-Version 1 was developed as part of my bachelor's thesis. The schematics and PCB manufacturing files were created with Altium Designer. What makes this version special: the analog crossover can be adjusted digitally using digital potentiometers.
+Version 1 was developed as part of my bachelor's thesis. The schematics and PCB manufacturing files were created with Altium Designer. What makes this version special: the analog crossover can be adjusted using digital potentiometers.
 
 **Note: Version 1 is faulty!**
 
