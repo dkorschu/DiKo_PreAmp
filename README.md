@@ -1,6 +1,6 @@
 # DIKO ELEKTROTECHNIK Vorverstärker
 
-In diesem Repo lade ich den Fortschritt vom DIKO ELEKTROTECHNIK Vorverstärker hoch.
+Dieses Repository zeigt die Entwicklung des DIKO ELEKTROTECHNIK Vorverstärkers, vom ersten Prototyp bis zum aktuellen Stand.
 
 ## Ordnerstruktur
 
@@ -11,20 +11,25 @@ In diesem Repo lade ich den Fortschritt vom DIKO ELEKTROTECHNIK Vorverstärker h
 - Datenblätter
 - 3D Druck
 
-## Version 1
+## Version 1 – Erster Prototyp
 
-Version 1 ist meine Bachelorarbeit, in der ich den ersten Prototyp entwickelt habe. Deshalb wurden die Schaltpläne und Platinen-Fertigungsdateien mit Altium Designer erstellt. Der Prototyp beinhaltet Digitalpotentiometer zur digitalen Einstellung der analogen Frequenzweiche.
+Version 1 entstand im Rahmen meiner Bachelorarbeit. Schaltpläne und Fertigungsdateien der Platinen wurden mit Altium Designer erstellt. Das Besondere an dieser Version: Die analoge Frequenzweiche lässt sich über Digitalpotentiometer digital einstellen.
 
-**Version 1 ist fehlerhaft!**
+**Hinweis: Version 1 ist fehlerhaft!**
 
-## Version 2
+## Version 2 – Rein analoger Aufbau
 
-In Version 2 wurden mit den Erkenntnissen aus Version 1 neue Platinen entwickelt. Die Digitalpotentiometer sind entfallen, weil der Vorverstärker einfacher werden sollte und ich mich zuerst um die analoge Schaltungstechnik kümmern wollte.
+Version 2 baut auf den Erkenntnissen aus Version 1 auf und bringt komplett neue Platinen mit. Die Digitalpotentiometer sind entfallen, da der Vorverstärker einfacher werden und der Fokus zunächst auf der analogen Schaltungstechnik liegen sollte.
 
-Version 2 ist soweit getestet und schaltungstechnisch wurden keine Fehler gefunden. Wegen Fehlern im Platinenlayout und weil ich mit dem Design nicht zufrieden war, gibt es jetzt Version 3. Außerdem ist der Mikrofonvorverstärker schlecht entwickelt und kann das Signal nicht zufriedenstellend verstärken.
+Bei den bisherigen Tests wurden schaltungstechnisch keine Fehler gefunden. Trotzdem gibt es zwei Schwachstellen:
 
-## Version 3
+- Das Platinenlayout ist nicht zufriedenstellend.
+- Der Mikrofonvorverstärker verstärkt das Signal nicht ausreichend.
 
-Version 3 ist der Versuch, die einzelnen Komponenten des Vorverstärkers so aufzuteilen, dass sie miteinander verbunden werden können. Dafür wird als Erstes die Frequenzweiche aufgebaut, um sie mit einem externen Mischpult zu nutzen. So können die einzelnen Komponenten besser getestet werden.
+Aus diesen Gründen wird nun an Version 3 gearbeitet.
 
-Außerdem kommen die Potentiometer in dieser Version auf eine eigene Platine, damit man besser mit Steckverbindern arbeiten kann.
+## Version 3 – Modularer Aufbau (aktueller Stand)
+
+Version 3 teilt den Vorverstärker in einzelne Komponenten auf, die sich miteinander verbinden lassen.
+
+2026_10_05 Den Anfang macht die Frequenzweiche, die sich auch eigenständig mit einem externen Mischpult nutzen lässt.
