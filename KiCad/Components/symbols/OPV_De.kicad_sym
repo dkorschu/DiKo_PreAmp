@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -1.524 7.112 0)
+			(at 6.731 5.207 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at -3.302 4.572 0)
+			(at 4.953 2.667 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 1.27 5.08 0)
+			(at 9.525 3.175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 0 0 0)
+			(at 8.255 -1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -368,7 +368,7 @@
 		)
 		(symbol "TL074_5_1"
 			(pin power_in line
-				(at -8.255 1.905 0)
+				(at 0 0 0)
 				(length 3.81)
 				(name "V+"
 					(effects
@@ -386,7 +386,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.985 1.905 180)
+				(at 15.24 0 180)
 				(length 3.81)
 				(name "V-"
 					(effects
