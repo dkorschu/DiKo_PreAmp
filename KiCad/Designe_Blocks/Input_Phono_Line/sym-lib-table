@@ -13,4 +13,6 @@
 	(lib (name "SW_Rotary_1x4") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/SW_Rotary_1x4.kicad_sym") (options "") (descr ""))
 	(lib (name "R_Potentiometer_Dual") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/R_Potentiometer_Dual.kicad_sym") (options "") (descr ""))
 	(lib (name "INA128U") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/INA128U.kicad_sym") (options "") (descr ""))
+	(lib (name "Stecker_4In") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/Stecker_4In.kicad_sym") (options "") (descr ""))
+	(lib (name "Stecker_1Out_Switch") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/Stecker_1Out_Switch.kicad_sym") (options "") (descr ""))
 )

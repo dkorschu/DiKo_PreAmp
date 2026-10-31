@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "Stecker_In_Out_Switch"
+	(symbol "Stecker_4In_1Out_Switch"
 		(pin_names
 			(offset 0.127)
 			(hide yes)
@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Stecker_In_Out_Switch"
+		(property "Value" "Stecker_4In_1Out_Switch"
 			(at -5.588 11.938 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -101,7 +101,7 @@
 				)
 			)
 		)
-		(symbol "Stecker_In_Out_Switch_1_1"
+		(symbol "Stecker_4In_1Out_Switch_1_1"
 			(polyline
 				(pts
 					(xy 3.81 2.54) (xy 4.572 2.54)
@@ -225,7 +225,7 @@
 				)
 			)
 		)
-		(symbol "Stecker_In_Out_Switch_2_1"
+		(symbol "Stecker_4In_1Out_Switch_2_1"
 			(polyline
 				(pts
 					(xy 3.81 2.54) (xy 4.572 2.54)
@@ -349,7 +349,7 @@
 				)
 			)
 		)
-		(symbol "Stecker_In_Out_Switch_3_1"
+		(symbol "Stecker_4In_1Out_Switch_3_1"
 			(polyline
 				(pts
 					(xy 3.81 2.54) (xy 4.572 2.54)
@@ -473,7 +473,7 @@
 				)
 			)
 		)
-		(symbol "Stecker_In_Out_Switch_4_1"
+		(symbol "Stecker_4In_1Out_Switch_4_1"
 			(polyline
 				(pts
 					(xy 3.81 2.54) (xy 4.572 2.54)
@@ -597,7 +597,7 @@
 				)
 			)
 		)
-		(symbol "Stecker_In_Out_Switch_5_1"
+		(symbol "Stecker_4In_1Out_Switch_5_1"
 			(rectangle
 				(start 1.905 3.81)
 				(end 8.255 -3.81)
@@ -766,7 +766,7 @@
 				)
 			)
 		)
-		(symbol "Stecker_In_Out_Switch_6_1"
+		(symbol "Stecker_4In_1Out_Switch_6_1"
 			(polyline
 				(pts
 					(xy 3.81 2.54) (xy 4.572 2.54)
