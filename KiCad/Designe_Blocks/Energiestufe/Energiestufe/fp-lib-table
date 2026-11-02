@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PinHeader") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/PinHeader.pretty") (options "") (descr ""))
+	(lib (name "TL074CN") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/TL074CN.pretty") (options "") (descr ""))
+	(lib (name "TL074HIDR") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/TL074HIDR .pretty") (options "") (descr ""))
+	(lib (name "WE-SL575") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/WE-SL575.pretty") (options "") (descr ""))
+	(lib (name "REC10K-2415DAW_H2") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/REC10K-2415DAW_H2.pretty") (options "") (descr ""))
+	(lib (name "REC10K-2409SAW_H2") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/REC10K-2409SAW_H2.pretty") (options "") (descr ""))
+	(lib (name "INA128U") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/INA128U.pretty") (options "") (descr ""))
+	(lib (name "Connector_PinSocket_2.54mm_LongPads") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/Connector_PinSocket_2.54mm_LongPads") (options "") (descr ""))
+	(lib (name "Connector_PinHeader_2.54mm_LongPads") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/Connector_PinHeader_2.54mm_LongPads") (options "") (descr ""))
+	(lib (name "Connector_Bridged_2.54mm_LongPads") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/footprints/Connector_Bridged_2.54mm_LongPads") (options "") (descr ""))
+)

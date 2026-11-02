@@ -376,187 +376,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2095,6 +1914,500 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Stecker_1In_2Switch:Stecker_1In_2Switch"
+			(pin_names
+				(offset 0.127)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.524 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Stecker_1In_2Switch"
+				(at -8.636 11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 9.525 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Stecker für In und Output sowie Switch"
+				(at 2.286 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Stecker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stecker_1In_2Switch_1_1"
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 4.572 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 4.572 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 2.032)
+					(mid 4.5742 2.54)
+					(end 5.08 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -0.508)
+					(mid 4.5742 0)
+					(end 5.08 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 3.81)
+					(name "VCC_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 3.81)
+					(hide yes)
+					(name "VCC_In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(name "VCC_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "VCC_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "VCC_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "VCC_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Stecker_1In_2Switch_2_1"
+				(rectangle
+					(start 1.905 5.08)
+					(end 8.255 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.048 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 2.794) (xy 6.35 4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0.254) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SW_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "SW_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "SW_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "SW_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "SW_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "SW_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "SW_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2579,309 +2892,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sw_dpst_2:SW_DPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPST"
-				(at 0 11.176 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Double Pole Single Throw (DPST) Switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch dual double-pole single-throw OFF-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DPST_0_0"
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 5.334) (xy 1.27 6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy 1.27 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPST_1_1"
-				(rectangle
-					(start -3.175 7.62)
-					(end 3.175 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 101.6 119.38)
@@ -2924,12 +2934,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cfc9ca6-1b8c-464d-8e80-1eefa53a04f3")
-	)
-	(junction
-		(at 105.41 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70470271-fe17-43a5-9194-1b85c54b4387")
 	)
 	(junction
 		(at 170.18 93.98)
@@ -2984,12 +2988,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5955dda-b44c-4485-ada3-d417865e68d8")
-	)
-	(junction
-		(at 107.95 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb66a64b-4bbe-4069-9540-e6c1fdafe241")
 	)
 	(junction
 		(at 162.56 104.14)
@@ -3083,23 +3081,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 58.42) (xy 109.22 58.42)
+			(xy 104.14 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2243fc2b-469e-4bd5-bef2-a2145acf5d30")
-	)
-	(wire
-		(pts
-			(xy 105.41 66.04) (xy 109.22 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f5c7b5-2d7a-46de-8e16-f114472744a4")
 	)
 	(wire
 		(pts
@@ -3120,16 +3108,6 @@
 			(type default)
 		)
 		(uuid "2b7f965b-f15f-402d-9536-bb0484c4fd09")
-	)
-	(wire
-		(pts
-			(xy 96.52 63.5) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bc3900a-eaa8-479e-8580-93857265d962")
 	)
 	(wire
 		(pts
@@ -3223,16 +3201,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 105.41 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6703ba6e-d2e5-4333-87fa-8b88e4e30f5a")
-	)
-	(wire
-		(pts
 			(xy 127 66.04) (xy 119.38 66.04)
 		)
 		(stroke
@@ -3293,16 +3261,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d18a5df-69d8-4fbc-b510-18a5a85079a8")
-	)
-	(wire
-		(pts
 			(xy 130.81 119.38) (xy 135.89 119.38)
 		)
 		(stroke
@@ -3323,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 105.41 60.96)
+			(xy 104.14 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3340,16 +3298,6 @@
 			(type default)
 		)
 		(uuid "9877ed0c-7fcc-4d88-b880-cf7735dcdd4a")
-	)
-	(wire
-		(pts
-			(xy 105.41 60.96) (xy 105.41 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99097542-257c-4c11-bdfd-781bf3b7fdf9")
 	)
 	(wire
 		(pts
@@ -3383,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 119.38 58.42)
+			(xy 135.89 63.5) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3413,7 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 135.89 58.42)
+			(xy 135.89 82.55) (xy 135.89 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3710,92 +3658,6 @@
 			(type default)
 		)
 		(uuid "ffeebd59-f0fc-40f5-831b-1de36f561577")
-	)
-	(symbol
-		(lib_id "sw_dpst_2:SW_DPST")
-		(at 114.3 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "025573ae-9cc3-4fff-80d0-948429cec6d4")
-		(property "Reference" "SW1"
-			(at 114.3 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPST"
-			(at 114.3 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 114.3 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "04969d89-0a6a-4ff5-9d0f-d8cc4c7f3d9e")
-		)
-		(pin "4"
-			(uuid "177157d7-3e0e-4324-a599-03ae5458bac9")
-		)
-		(pin "1"
-			(uuid "0eb11d9f-9885-44e2-828f-88a2f21ad339")
-		)
-		(pin "2"
-			(uuid "0c1e1d0a-c60f-4abf-8de6-2217d039d7ba")
-		)
-		(instances
-			(project "Energiestufe"
-				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -4225,85 +4087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 99.06 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2969435b-a7bf-4326-8f0b-3a7713ec38c5")
-		(property "Reference" "J1"
-			(at 99.06 52.832 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_IN"
-			(at 99.06 54.864 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 99.06 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11047670-375a-4957-a704-190001dc7374")
-		)
-		(pin "2"
-			(uuid "5ca8a535-d955-4ba1-b808-3d583859c779")
-		)
-		(instances
-			(project "Energiestufe"
-				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 179.07 59.69 270)
 		(mirror x)
@@ -4539,6 +4322,124 @@
 				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
 					(reference "C1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stecker_1In_2Switch:Stecker_1In_2Switch")
+		(at 109.22 66.04 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "483f209c-7e92-49f7-ad7a-ac93c6838524")
+		(property "Reference" "J1"
+			(at 112.776 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stecker_1In_2Switch"
+			(at 100.584 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.745 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Stecker für In und Output sowie Switch"
+			(at 111.506 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cfc620ab-725b-4b72-abf2-98e9459bbbfb")
+		)
+		(pin "5"
+			(uuid "1061cf3e-3060-4d8a-b360-0a24d11e6cf6")
+		)
+		(pin "6"
+			(uuid "fc1227e8-be6a-4772-a9b4-a2c5b7e27c00")
+		)
+		(pin "1"
+			(uuid "ed9c1fb2-897f-4c94-9d90-ccec4ca1b845")
+		)
+		(pin "4"
+			(uuid "56f160f7-8692-4354-9038-6a1df38f5921")
+		)
+		(pin "3"
+			(uuid "6e7bebb6-7c70-4c16-b82c-7f11eb30e6b5")
+		)
+		(pin "9"
+			(uuid "d2a01484-5473-46ef-b158-b2b869c0c34e")
+		)
+		(pin "10"
+			(uuid "935ae99c-4d0b-4c1f-a8a8-ac47ca0a76e1")
+		)
+		(pin "13"
+			(uuid "5471976d-f8d2-45f3-a4c1-e7b78c7984d4")
+		)
+		(pin "8"
+			(uuid "6fb8cc5a-65de-4c95-900a-3412c425366e")
+		)
+		(pin "14"
+			(uuid "e88ce11e-9c93-4f8d-a508-20707c1ee53e")
+		)
+		(pin "11"
+			(uuid "14baa518-7e75-4f99-a062-7b3ffc5a724a")
+		)
+		(pin "7"
+			(uuid "d5afa8d3-9a98-47c3-9134-031db4486155")
+		)
+		(pin "12"
+			(uuid "e4319a14-e7f1-434d-9a10-7f236f62084f")
+		)
+		(instances
+			(project "Energiestufe"
+				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
+					(reference "J1")
+					(unit 2)
 				)
 			)
 		)
@@ -4864,8 +4765,7 @@
 	)
 	(symbol
 		(lib_id "Common_Mode_Choke:Common_Mode_Choke")
-		(at 114.3 80.01 0)
-		(mirror y)
+		(at 114.3 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4875,7 +4775,7 @@
 		(dnp no)
 		(uuid "55f54799-70ab-4677-a404-30e0f9f238a0")
 		(property "Reference" "L1"
-			(at 114.3 71.628 0)
+			(at 114.3 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4885,7 +4785,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 114.681 74.93 0)
+			(at 114.681 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4796,7 @@
 			)
 		)
 		(property "Footprint" "WE-SL575:WE-SL575"
-			(at 114.3 90.17 0)
+			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 87.63 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 80.01 0)
+			(at 114.3 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,85 +5312,6 @@
 			(project "Energiestufe"
 				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 91.44 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73ab6ef5-3a45-4863-9d4c-1d55a98384ac")
-		(property "Reference" "J2"
-			(at 91.44 57.404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_OUT"
-			(at 91.44 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40b464ad-2cb4-4a79-884f-54d31652e622")
-		)
-		(pin "2"
-			(uuid "74346a9e-895c-4d6d-a55c-e1c7298f8d17")
-		)
-		(instances
-			(project "Energiestufe"
-				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6741,6 +6562,125 @@
 			(project "Energiestufe"
 				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stecker_1In_2Switch:Stecker_1In_2Switch")
+		(at 104.14 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0981a0c-e3b8-456c-8547-e80fa1b705ad")
+		(property "Reference" "J1"
+			(at 99.695 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Stecker_1In_2Switch"
+			(at 112.776 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Stecker für In und Output sowie Switch"
+			(at 101.854 57.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cfc620ab-725b-4b72-abf2-98e9459bbbfc")
+		)
+		(pin "5"
+			(uuid "1061cf3e-3060-4d8a-b360-0a24d11e6cf7")
+		)
+		(pin "6"
+			(uuid "fc1227e8-be6a-4772-a9b4-a2c5b7e27c01")
+		)
+		(pin "1"
+			(uuid "ed9c1fb2-897f-4c94-9d90-ccec4ca1b846")
+		)
+		(pin "4"
+			(uuid "56f160f7-8692-4354-9038-6a1df38f5922")
+		)
+		(pin "3"
+			(uuid "6e7bebb6-7c70-4c16-b82c-7f11eb30e6b6")
+		)
+		(pin "9"
+			(uuid "d2a01484-5473-46ef-b158-b2b869c0c34f")
+		)
+		(pin "10"
+			(uuid "935ae99c-4d0b-4c1f-a8a8-ac47ca0a76e2")
+		)
+		(pin "13"
+			(uuid "5471976d-f8d2-45f3-a4c1-e7b78c7984d5")
+		)
+		(pin "8"
+			(uuid "6fb8cc5a-65de-4c95-900a-3412c425366f")
+		)
+		(pin "14"
+			(uuid "e88ce11e-9c93-4f8d-a508-20707c1ee53f")
+		)
+		(pin "11"
+			(uuid "14baa518-7e75-4f99-a062-7b3ffc5a724b")
+		)
+		(pin "7"
+			(uuid "d5afa8d3-9a98-47c3-9134-031db4486156")
+		)
+		(pin "12"
+			(uuid "e4319a14-e7f1-434d-9a10-7f236f620850")
+		)
+		(instances
+			(project "Energiestufe"
+				(path "/c7613f70-0d9e-4076-b6af-09d43580aaa4"
+					(reference "J1")
 					(unit 1)
 				)
 			)
