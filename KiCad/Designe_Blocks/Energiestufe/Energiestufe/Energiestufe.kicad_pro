@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -683,7 +683,7 @@
         "uuid": "c7613f70-0d9e-4076-b6af-09d43580aaa4"
       }
     ],
-    "used_designators": "#FLG1-4,#FLG10-13,#PWR1-17,#PWR93-98,#PWR277,#PWR284-286,#PWR288-292,#PWR331,#PWR354,C1-12,C601-612,J1-3,J601-603,L1-3,L601-603,SW1,SW601,U1,U601,Z1-2,Z601-602",
+    "used_designators": "#FLG1-4,#FLG10-13,#PWR1-17,#PWR93-98,#PWR277,#PWR284-286,#PWR288-292,#PWR331,#PWR354,C1-12,C601-612,J1-4,J601-603,L1-3,L601-603,SW1,SW601,U1,U601,Z1-2,Z601-602",
     "variants": []
   },
   "sheets": [
