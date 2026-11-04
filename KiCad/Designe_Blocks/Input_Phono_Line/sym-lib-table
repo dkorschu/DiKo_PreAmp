@@ -15,4 +15,6 @@
 	(lib (name "INA128U") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/INA128U.kicad_sym") (options "") (descr ""))
 	(lib (name "Stecker_4In") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/Stecker_4In.kicad_sym") (options "") (descr ""))
 	(lib (name "Stecker_1Out_Switch") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/Stecker_1Out_Switch.kicad_sym") (options "") (descr ""))
+	(lib (name "Stecker_VCC_pm15_GND") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/Stecker_VCC_pm15_GND.kicad_sym") (options "") (descr ""))
+	(lib (name "Stecker_1In_2Switch") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Components/symbols/Stecker_1In_2Switch.kicad_sym") (options "") (descr ""))
 )

@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Aktives_Filter") (type "KiCad") (uri "${KIPRJMOD}/Designe_Blocks/Aktives_Filter.kicad_blocks") (options "") (descr ""))
 	(lib (name "Vorstufen") (type "KiCad") (uri "${KIPRJMOD}/Designe_Blocks/Vorstufen.kicad_blocks") (options "") (descr ""))
+	(lib (name "Energiestufe") (type "KiCad") (uri "${KIPRJMOD}/Designe_Blocks/Energiestufe.kicad_blocks") (options "") (descr ""))
 )

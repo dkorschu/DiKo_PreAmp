@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_0000000a_aaaaaaff",
     "zone_display_mode": 0
   },
   "git": {
@@ -61,11 +61,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "DiKo_PreAmp.kicad_prl",
+    "filename": "Pre_Amp.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -87,7 +89,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       0,

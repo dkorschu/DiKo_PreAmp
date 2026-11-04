@@ -4668,7 +4668,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 179.07 59.69 270)
+		(at 168.91 80.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4679,7 +4679,7 @@
 		(dnp no)
 		(uuid "2a98a263-6281-4abf-a60f-14e5b9f140c0")
 		(property "Reference" "#PWR01"
-			(at 175.26 59.69 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4690,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 185.834 59.69 90)
+			(at 175.674 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4700,7 +4700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 59.69 0)
+			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 59.69 0)
+			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 179.07 59.69 0)
+			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +5026,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 179.07 67.31 90)
+		(at 168.91 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5036,7 +5036,7 @@
 		(dnp no)
 		(uuid "4c7d106b-0eef-4ea3-929d-87bdd596086f")
 		(property "Reference" "#FLG04"
-			(at 177.165 67.31 0)
+			(at 167.005 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5047,7 +5047,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.201 67.31 90)
+			(at 161.041 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5057,7 +5057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 67.31 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +5068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 67.31 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5079,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 179.07 67.31 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5353,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 179.07 59.69 90)
+		(at 168.91 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5363,7 +5363,7 @@
 		(dnp no)
 		(uuid "5a2054d0-a5de-415a-9591-0800c6fdeb2b")
 		(property "Reference" "#FLG01"
-			(at 177.165 59.69 0)
+			(at 167.005 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +5374,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.201 59.69 90)
+			(at 161.041 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5384,7 +5384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 59.69 0)
+			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 59.69 0)
+			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5406,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 179.07 59.69 0)
+			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5510,7 +5510,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 179.07 62.23 90)
+		(at 168.91 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5520,7 +5520,7 @@
 		(dnp no)
 		(uuid "5c115bc2-4600-416f-b625-6c0724b8be5b")
 		(property "Reference" "#FLG02"
-			(at 177.165 62.23 0)
+			(at 167.005 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +5531,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.201 62.23 90)
+			(at 161.041 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5541,7 +5541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 62.23 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5552,7 +5552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 62.23 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,7 +5563,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 179.07 62.23 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,46 +6048,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "10dc57ea-d2b0-441f-9796-c52d6dc4ac66")
+			(uuid "10dc57ea-d2b0-441f-9796-c52d6dc4ac67")
 		)
 		(pin "8"
-			(uuid "4ec3d723-3256-4cfc-9213-ebf612d43401")
+			(uuid "4ec3d723-3256-4cfc-9213-ebf612d43402")
 		)
 		(pin "1"
-			(uuid "e0829a5b-cdd6-4af8-8e8f-9360fadd0e98")
+			(uuid "e0829a5b-cdd6-4af8-8e8f-9360fadd0e99")
 		)
 		(pin "7"
-			(uuid "c537bee8-dd22-49a7-9e6e-560cc8c568c3")
+			(uuid "c537bee8-dd22-49a7-9e6e-560cc8c568c4")
 		)
 		(pin "10"
-			(uuid "e699daa8-831c-41db-83d7-2e4ce74acb3b")
+			(uuid "e699daa8-831c-41db-83d7-2e4ce74acb3c")
 		)
 		(pin "14"
-			(uuid "309dcfa2-87ec-4f17-b3a6-e8582365fdd7")
+			(uuid "309dcfa2-87ec-4f17-b3a6-e8582365fdd8")
 		)
 		(pin "5"
-			(uuid "84bf4856-38dd-4f32-95ca-df6375594e55")
+			(uuid "84bf4856-38dd-4f32-95ca-df6375594e56")
 		)
 		(pin "12"
-			(uuid "df7ce4ef-71f7-40b5-8313-cf277a324626")
+			(uuid "df7ce4ef-71f7-40b5-8313-cf277a324627")
 		)
 		(pin "11"
-			(uuid "319d7ae9-80e1-403e-8d7b-89069d1a15ef")
+			(uuid "319d7ae9-80e1-403e-8d7b-89069d1a15f0")
 		)
 		(pin "2"
-			(uuid "3985998d-f372-47be-b411-bb8576c9abd3")
+			(uuid "3985998d-f372-47be-b411-bb8576c9abd4")
 		)
 		(pin "13"
-			(uuid "a3ba1576-0f77-4335-b6ba-e41b69b5f2d7")
+			(uuid "a3ba1576-0f77-4335-b6ba-e41b69b5f2d8")
 		)
 		(pin "6"
-			(uuid "90ea080a-123c-44eb-bd7f-0b6895254fbd")
+			(uuid "90ea080a-123c-44eb-bd7f-0b6895254fbe")
 		)
 		(pin "9"
-			(uuid "948edc81-20f4-4584-915a-f5107c998c23")
+			(uuid "948edc81-20f4-4584-915a-f5107c998c24")
 		)
 		(pin "4"
-			(uuid "13931708-8d12-429a-9222-5151226263bc")
+			(uuid "13931708-8d12-429a-9222-5151226263bd")
 		)
 		(instances
 			(project "Energiestufe"
@@ -6252,46 +6252,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "10dc57ea-d2b0-441f-9796-c52d6dc4ac66")
+			(uuid "10dc57ea-d2b0-441f-9796-c52d6dc4ac68")
 		)
 		(pin "8"
-			(uuid "4ec3d723-3256-4cfc-9213-ebf612d43401")
+			(uuid "4ec3d723-3256-4cfc-9213-ebf612d43403")
 		)
 		(pin "1"
-			(uuid "e0829a5b-cdd6-4af8-8e8f-9360fadd0e98")
+			(uuid "e0829a5b-cdd6-4af8-8e8f-9360fadd0e9a")
 		)
 		(pin "7"
-			(uuid "c537bee8-dd22-49a7-9e6e-560cc8c568c3")
+			(uuid "c537bee8-dd22-49a7-9e6e-560cc8c568c5")
 		)
 		(pin "10"
-			(uuid "e699daa8-831c-41db-83d7-2e4ce74acb3b")
+			(uuid "e699daa8-831c-41db-83d7-2e4ce74acb3d")
 		)
 		(pin "14"
-			(uuid "309dcfa2-87ec-4f17-b3a6-e8582365fdd7")
+			(uuid "309dcfa2-87ec-4f17-b3a6-e8582365fdd9")
 		)
 		(pin "5"
-			(uuid "84bf4856-38dd-4f32-95ca-df6375594e55")
+			(uuid "84bf4856-38dd-4f32-95ca-df6375594e57")
 		)
 		(pin "12"
-			(uuid "df7ce4ef-71f7-40b5-8313-cf277a324626")
+			(uuid "df7ce4ef-71f7-40b5-8313-cf277a324628")
 		)
 		(pin "11"
-			(uuid "319d7ae9-80e1-403e-8d7b-89069d1a15ef")
+			(uuid "319d7ae9-80e1-403e-8d7b-89069d1a15f1")
 		)
 		(pin "2"
-			(uuid "3985998d-f372-47be-b411-bb8576c9abd3")
+			(uuid "3985998d-f372-47be-b411-bb8576c9abd5")
 		)
 		(pin "13"
-			(uuid "a3ba1576-0f77-4335-b6ba-e41b69b5f2d7")
+			(uuid "a3ba1576-0f77-4335-b6ba-e41b69b5f2d9")
 		)
 		(pin "6"
-			(uuid "90ea080a-123c-44eb-bd7f-0b6895254fbd")
+			(uuid "90ea080a-123c-44eb-bd7f-0b6895254fbf")
 		)
 		(pin "9"
-			(uuid "948edc81-20f4-4584-915a-f5107c998c23")
+			(uuid "948edc81-20f4-4584-915a-f5107c998c25")
 		)
 		(pin "4"
-			(uuid "13931708-8d12-429a-9222-5151226263bc")
+			(uuid "13931708-8d12-429a-9222-5151226263be")
 		)
 		(instances
 			(project "Energiestufe"
@@ -6381,7 +6381,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 67.31 90)
+		(at 168.91 87.63 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6392,7 +6392,7 @@
 		(dnp no)
 		(uuid "afcc0cf8-321e-4b12-a1d2-a7431e8b9294")
 		(property "Reference" "#PWR04"
-			(at 185.42 67.31 0)
+			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6403,7 @@
 			)
 		)
 		(property "Value" "GND_FILT"
-			(at 187.706 67.31 90)
+			(at 177.546 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6413,7 +6413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 67.31 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +6424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 67.31 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +6435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 67.31 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6780,7 +6780,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 179.07 64.77 90)
+		(at 168.91 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6790,7 +6790,7 @@
 		(dnp no)
 		(uuid "da4184ae-e055-4765-8d62-81fdc3a86f14")
 		(property "Reference" "#FLG03"
-			(at 177.165 64.77 0)
+			(at 167.005 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +6801,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.201 64.77 90)
+			(at 161.041 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6811,7 +6811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 64.77 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,7 +6822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 64.77 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6833,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 179.07 64.77 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +7278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 64.77 90)
+		(at 168.91 85.09 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7289,7 +7289,7 @@
 		(dnp no)
 		(uuid "ec9b08ae-ef6e-4725-b753-b22c2d1ed08f")
 		(property "Reference" "#PWR03"
-			(at 185.42 64.77 0)
+			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,7 +7300,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.282 64.77 90)
+			(at 175.122 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7310,7 +7310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 64.77 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7321,7 +7321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 64.77 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7332,7 +7332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 64.77 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7356,7 +7356,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 179.07 62.23 270)
+		(at 168.91 82.55 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7367,7 +7367,7 @@
 		(dnp no)
 		(uuid "ee8b98e2-b971-4ccd-a1dd-ec30033fd338")
 		(property "Reference" "#PWR02"
-			(at 175.26 62.23 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,7 +7378,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 185.834 62.23 90)
+			(at 175.674 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 62.23 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7399,7 +7399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 62.23 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 179.07 62.23 0)
+			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,6 +7509,65 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "+- 15V Recom"
+		(uuid "cb9fce56-76fd-49fa-af24-77f2155e0cf1")
+		(lib_id "Energiestufe:+- 15V Recom")
+		(members "00cbe645-d961-4138-b009-2d87a54f678b" "01a0b5ab-ecb7-4fcf-a1a3-7e9116b8ce83"
+			"055564e7-1bd5-406f-976d-f62ac3f00061" "09a8b6a7-2f98-4a59-8c11-74620e15d178"
+			"0acd1724-be88-4521-9477-8892fa58d9d3" "0e148e88-cb6a-4b0c-9c21-9aaa4f496d6e"
+			"1041de4d-6068-40d3-aaa2-04f9efa4d2c1" "13e3c75e-2888-496b-bd4a-f212e3fb445f"
+			"1a3d11c3-c360-410a-ac6b-74287f26a569" "2243fc2b-469e-4bd5-bef2-a2145acf5d30"
+			"27cadbd6-bc3a-421b-8d7f-cc6f7073d435" "2a98a263-6281-4abf-a60f-14e5b9f140c0"
+			"2b7f965b-f15f-402d-9536-bb0484c4fd09" "2eb989f6-e677-46d2-9390-96c2962f3b18"
+			"31ee296e-9746-4f1e-897a-6abb9824a862" "32c8d194-243e-45bd-a948-8a2a80d9ec36"
+			"331def81-0596-4921-bfc9-1074854d556d" "332ed104-ecbf-4141-b72d-0d6d1eebc6f4"
+			"39b82b57-b9db-4003-b32a-34638a5605f5" "3a9108bf-5506-46a4-87e2-fa40c7799f78"
+			"3b374584-a00c-4be2-b8e6-fba46ee909d6" "40204859-3ae8-4f5a-a755-277265354210"
+			"44fba4ec-1495-4e43-adf3-de79f953936b" "483f209c-7e92-49f7-ad7a-ac93c6838524"
+			"4c7d106b-0eef-4ea3-929d-87bdd596086f" "4f13c78c-0248-41f2-81b5-9ea0186aaa42"
+			"55daf69f-daaf-4f9e-b4d4-bafdd72cc0b1" "55f54799-70ab-4677-a404-30e0f9f238a0"
+			"5a1a5903-0f5d-4239-9894-04e361cd38ef" "5a2054d0-a5de-415a-9591-0800c6fdeb2b"
+			"5a4a9a5b-9972-460f-b1b3-6ab58e152b44" "5b0e5c7f-fb42-427f-a25e-c4f3fe69e134"
+			"5c115bc2-4600-416f-b625-6c0724b8be5b" "5ee17562-43b6-4e46-9d22-5f441b0eba26"
+			"6015ecef-aa13-417d-95c1-64eebb4f883b" "6042cb45-7f55-4e9f-9d06-214d01bd0b80"
+			"66edf39c-d312-4998-9bfc-db31dce262a5" "68da2cb3-a39b-405a-b552-88e14ef80321"
+			"6a0f8407-f343-4d2b-b914-638292016b61" "6fccf921-5a1b-4a6c-8abf-4dce9c82d856"
+			"70efc5c7-c033-4b58-aa85-1712d5ab673c" "746d40c1-7d48-46d5-9be0-7cccc955550f"
+			"7dcd0be8-6cc6-4b25-9859-e0bd8493ac30" "878c8000-298a-4c04-a6c7-04b6f6ad44fb"
+			"896aab3a-fe9b-4877-982e-8a54a92d466c" "8e13e31b-2315-403a-b884-e04604dda80a"
+			"8f1b2514-4a4e-4e8e-9b98-588e7f833dde" "90b3f8a1-6ec5-4a33-9fba-42c62e0fe44a"
+			"91d42a4b-8ad0-4ec9-80d5-6015803d5daa" "932ad2ca-0e12-4716-beab-86c2123bcd85"
+			"96385f7b-fa31-4541-b6f5-d34fd37f91ec" "9877ed0c-7fcc-4d88-b880-cf7735dcdd4a"
+			"9a12e72d-3a2d-4536-b5be-6200ad5835cb" "9f1b4104-e2f1-4724-8b2a-e1cb4a498df5"
+			"a03974f3-2cb5-4a63-9952-fb9c3a500ebd" "a361c687-892e-41dd-8e15-f591b02ffecd"
+			"a52527ef-bafd-4fb7-91d2-22ed11bd80bf" "a55c96c6-fab2-41f3-b505-7e87e663ff44"
+			"a58ccd28-aa22-438f-a8fb-935b00e8bccd" "a6ae907d-306f-456a-9879-fab11ad8b3b4"
+			"a7eb48f9-7fb6-45ba-8508-33422aee7d5e" "a8ec94f8-cfe1-4e70-90e8-9ab7e5137855"
+			"a8ecebde-cc50-455e-983c-86adbedc7f06" "a991cbf8-0988-4cda-b9ae-598f9df6cfe3"
+			"ad7d6f6b-36d5-4a6e-88b0-c5de1e9c984b" "ae5faa04-eff1-40ff-844f-881b029d37a9"
+			"afcc0cf8-321e-4b12-a1d2-a7431e8b9294" "b13a02b0-71b6-4080-a3e3-b98dfaf35c7d"
+			"b2023908-77a9-4030-a440-9194b123a2b7" "b327bf6c-fa48-493b-a92a-b64a9d23efd7"
+			"b7c06365-d4cc-4f40-8c8f-10b23c48bf4c" "bbc9dead-408e-4180-b6c2-92a79e22a572"
+			"be133c36-5330-4dfc-bd5a-9df4923590bd" "bee01d94-97d7-4f5e-bd49-a9c1959b7f80"
+			"c398e667-9467-4be8-b05a-7eb3419c0150" "c48779a7-3fce-4014-be66-4b696b18e1a1"
+			"c653c554-f41c-4b34-9011-f9f95b97e2b0" "ca42944f-b595-423d-8956-81842c1423bc"
+			"cb721f8d-c28c-452f-9b98-1071f98d667c" "cc74a868-d895-4ac4-906a-9230f41451f6"
+			"cdd3c27c-9eac-4291-9833-1ae98d825d34" "d23ecb6f-becc-46ad-8fd8-54cccaf44f7b"
+			"d374c487-dfae-4512-b16f-3c14e7f0a460" "d3fcfd45-a3c8-44be-a3b5-f7d9fc1df3d8"
+			"d5a1dfb6-7d60-4430-87b9-f7659b31a752" "d76d1e7f-d13f-4dff-a32a-ed376000b75b"
+			"d793218c-6dae-488f-a3ab-252d4a1e1868" "d7d1febc-37f6-45ed-8d58-43c3658b1057"
+			"d85b37fa-b376-41c2-8d3e-fb712886ead6" "d99c6020-5a1e-4871-9f1e-f94d643f2e9c"
+			"da4184ae-e055-4765-8d62-81fdc3a86f14" "dbcd0af2-bed6-4b92-94ad-500d2f49a205"
+			"dc1d14f5-4343-4c49-908b-060ec004430e" "df54f14c-1537-4259-9536-2394a3808148"
+			"df6eee20-f8e5-4567-b4f1-8d62cb9ba1b7" "e0981a0c-e3b8-456c-8547-e80fa1b705ad"
+			"e330de99-a47a-429a-bb4e-be25ff93e77a" "e501f08c-2eec-4ef1-9340-f7d091057084"
+			"e62efff8-571e-4ed1-a811-b642b5305877" "ec9b08ae-ef6e-4725-b753-b22c2d1ed08f"
+			"ee8b98e2-b971-4ccd-a1dd-ec30033fd338" "f1f4ed3a-b753-4643-8b62-3cbf90a79f99"
+			"f5706f15-52d6-4e9a-bdb1-80efc34ef5fc" "f6833b51-d5e6-4f91-bbaa-54c54d3df3bf"
+			"f6895632-5a8b-4694-8a2e-3d7f5c30ebc7" "f94f4ad8-23b1-4c15-8442-b160d61fc42d"
+			"fb7e4d94-dc25-43a4-b13e-38d6dde49df9"
 		)
 	)
 	(sheet_instances

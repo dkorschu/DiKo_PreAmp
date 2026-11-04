@@ -1,3 +1,6 @@
 (design_block_lib_table
 	(version 7)
+	(lib (name "Energiestufe") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Designe_Blocks/Energiestufe.kicad_blocks") (options "") (descr ""))
+	(lib (name "Vorstufen") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Designe_Blocks/Vorstufen.kicad_blocks") (options "") (descr ""))
+	(lib (name "Aktives_Filter") (type "KiCad") (uri "/home/diko/Dinge/Projekte/DiKo_PreAmp/KiCad/Designe_Blocks/Aktives_Filter.kicad_blocks") (options "") (descr ""))
 )

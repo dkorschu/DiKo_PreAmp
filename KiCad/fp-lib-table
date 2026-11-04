@@ -7,4 +7,7 @@
 	(lib (name "Connector_PinSocket_2.54mm_LongPads") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints/Connector_PinSocket_2.54mm_LongPads") (options "") (descr ""))
 	(lib (name "Connector_PinHeader_2.54mm_LongPads") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints/Connector_PinHeader_2.54mm_LongPads") (options "") (descr ""))
 	(lib (name "Connector_Bridged_2.54mm_LongPads") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints/Connector_Bridged_2.54mm_LongPads") (options "") (descr ""))
+	(lib (name "PinHeader") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints/PinHeader.pretty") (options "") (descr ""))
+	(lib (name "TL074CN") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints/TL074CN.pretty") (options "") (descr ""))
+	(lib (name "TL074HIDR") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints/TL074HIDR .pretty") (options "") (descr ""))
 )
