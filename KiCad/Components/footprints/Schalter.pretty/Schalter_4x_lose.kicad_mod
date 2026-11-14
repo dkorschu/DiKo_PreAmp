@@ -1,0 +1,245 @@
+(footprint "Schalter_4x_lose"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "6.35mm (1/4 in) Vertical Jack, Non-switching stereo jack (T/R/S), https://www.neutrik.com/en/product/nj3fd-v")
+	(tags "neutrik jack vertical")
+	(property "Reference" "REF**"
+		(at 5.08 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "5ccc8554-053b-4692-b552-bb734133b4d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Chinch_lose"
+		(at 5.08 -6.35 0)
+		(layer "F.Fab")
+		(uuid "283686ca-284f-41dd-858f-c866c2a8533b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38d558b3-49f7-43f0-8836-4c533501d3d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bde69b9-40b6-4fa2-8c53-31f18ff2d964")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1d3691db-27d0-440c-b697-dadbd445185a")
+	)
+	(fp_circle
+		(center 0 10)
+		(end 2.839806 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "718024f9-e0ed-4023-8611-17ef641dd828")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 12.54 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1a8233f5-ddc1-439e-855e-c08c6067d3a2")
+	)
+	(fp_circle
+		(center 10 10)
+		(end 12.839806 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48fdc9c1-6cdd-496d-9824-4e90b6765bf6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "90c9fd54-1699-4d52-90a5-e0d49863201b")
+	)
+	(fp_circle
+		(center 0 10)
+		(end 3 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dfb00963-b265-49db-a86a-a38a423fd211")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "543435f6-d312-4c0c-bd48-55d30a3ff811")
+	)
+	(fp_circle
+		(center 10 10)
+		(end 13 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7d2f1a6b-6a22-442a-ad1d-236a3836dd23")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5f77f601-1be1-4b88-842d-4fbf5e258ffe")
+	)
+	(fp_circle
+		(center 0 10)
+		(end 2.7 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "57911413-7d57-4554-a23c-dcff54726aa7")
+	)
+	(fp_circle
+		(center 10 0)
+		(end 12.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "09f8b6ba-ac5e-4009-a0ef-51b9f364d77f")
+	)
+	(fp_circle
+		(center 10 10)
+		(end 12.7 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c7814358-4dd0-49a6-ab77-950f8aba5969")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 3.81 0)
+		(layer "F.Fab")
+		(uuid "d5a6de1b-5e09-4e48-bab7-35babbf655b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97dcb57b-39ec-4d19-a1d4-9eafcda748e8")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0 180)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30b7b215-fcd8-425b-82b9-2ddb88f407eb")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10 180)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b51fc90-622e-4203-8920-1cbed8b883a7")
+	)
+	(pad "4" thru_hole circle
+		(at 10 10 180)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e49e45e4-64df-429c-9833-576ee6fb77c9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_6.35mm_Neutrik_NJ3FD-V_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

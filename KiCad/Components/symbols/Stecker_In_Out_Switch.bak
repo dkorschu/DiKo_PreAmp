@@ -188,8 +188,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(length 3.81)
+				(hide yes)
 				(name "Pin_3"
 					(effects
 						(font
@@ -206,7 +207,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(length 3.81)
 				(hide yes)
 				(name "Pin_4"
@@ -227,7 +228,6 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 3.81)
-				(hide yes)
 				(name "Pin_5"
 					(effects
 						(font

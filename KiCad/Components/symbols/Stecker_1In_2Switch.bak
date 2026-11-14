@@ -420,9 +420,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(length 2.54)
-				(name "SW_3"
+				(name "SW_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -438,10 +438,10 @@
 				)
 			)
 			(pin passive line
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(length 2.54)
 				(hide yes)
-				(name "SW_3"
+				(name "SW_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -457,9 +457,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(length 2.54)
-				(name "SW_1"
+				(name "SW_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -475,10 +475,10 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(length 2.54)
 				(hide yes)
-				(name "SW_1"
+				(name "SW_3"
 					(effects
 						(font
 							(size 1.27 1.27)

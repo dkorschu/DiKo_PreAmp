@@ -4,8 +4,7 @@
 	(generator_version "10.0")
 	(symbol "Stecker_4In"
 		(pin_names
-			(offset 0.127)
-			(hide yes)
+			(offset 2.54)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -417,25 +416,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 3.81)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 0)
 				(length 3.81)
 				(name "Line_L"
@@ -532,7 +512,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
