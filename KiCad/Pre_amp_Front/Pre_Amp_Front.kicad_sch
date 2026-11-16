@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "e77a467f-fd1c-4119-9e61-a448a0d707dd")
 	(paper "A4")
+	(title_block
+		(title "Front Platine")
+		(date "2026-11-16")
+		(rev "1")
+		(company "DiKo Elektrotechnik")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names

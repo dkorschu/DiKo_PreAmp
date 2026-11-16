@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "cfde456e-75a2-4dbc-bc4d-2dbf1bf2312a")
 	(paper "A3")
+	(title_block
+		(title "Line / Phono Input ")
+		(date "2026-11-16")
+		(rev "2")
+		(company "DiKo Elektrotechnik")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names

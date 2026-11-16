@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "63e91d58-dff4-4646-a468-6ee0951ad0c3")
 	(paper "A3" portrait)
+	(title_block
+		(title "Bandpass Killswitch")
+		(date "2026-11-16")
+		(rev "1")
+		(company "DiKo Elektrotechnik")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
