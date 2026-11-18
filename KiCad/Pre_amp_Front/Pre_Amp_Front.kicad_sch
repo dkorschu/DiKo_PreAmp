@@ -705,6 +705,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Stecker_1Out_Switch:Stecker_1Out_Switch"
 			(pin_names
 				(offset 0.127)
@@ -3386,22 +3485,10 @@
 		(uuid "3c053d2b-ad37-4070-b3b9-e0c0e1f192b9")
 	)
 	(junction
-		(at 80.01 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f7e3cf8-09f3-42bd-8f56-c85ac645083a")
-	)
-	(junction
 		(at 46.99 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45d8a0e8-971a-4fbd-bff3-62037e4fd228")
-	)
-	(junction
-		(at 46.99 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e014ca5-4555-4379-89d8-01509ee2934d")
 	)
 	(junction
 		(at 52.07 69.85)
@@ -3416,22 +3503,10 @@
 		(uuid "6416a65f-19e2-4ecd-882c-6f87bc78cad1")
 	)
 	(junction
-		(at 46.99 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c53caab-f23c-47af-b423-e15d527a0d50")
-	)
-	(junction
 		(at 115.57 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "719d347f-6c20-4192-9554-6367185d2e78")
-	)
-	(junction
-		(at 80.01 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85478ac3-348d-4c82-b4e8-1ccf690ae688")
 	)
 	(junction
 		(at 80.01 50.8)
@@ -3458,22 +3533,10 @@
 		(uuid "b18481c0-027e-43af-b148-8e6162fe77c4")
 	)
 	(junction
-		(at 146.05 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5a2da1a-1fc6-4c2c-86f7-de7cf14ab444")
-	)
-	(junction
 		(at 49.53 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf4110a-876d-415d-8aa4-8bc1a8ae4a0c")
-	)
-	(junction
-		(at 113.03 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c39e78e1-eef0-400c-9ca0-81a941d70b4d")
 	)
 	(junction
 		(at 85.09 69.85)
@@ -3494,32 +3557,10 @@
 		(uuid "d5444ddd-597e-49c7-b4e8-d0a318ae0575")
 	)
 	(junction
-		(at 113.03 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7aaa287-34c6-4c6e-8e4d-1e39fe96f06f")
-	)
-	(junction
-		(at 146.05 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db9d333c-2886-46a1-a250-5218c82c36ea")
-	)
-	(junction
 		(at 118.11 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e091a050-d1f6-4b7e-b8a8-53de87110a16")
-	)
-	(wire
-		(pts
-			(xy 80.01 45.72) (xy 80.01 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010e3b1a-e297-4133-8002-d5fabd93bca8")
 	)
 	(wire
 		(pts
@@ -3540,16 +3581,6 @@
 			(type default)
 		)
 		(uuid "02176360-6fe9-4863-9c07-5e84678bc4b3")
-	)
-	(wire
-		(pts
-			(xy 46.99 45.72) (xy 46.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062823be-88c3-4239-afe7-dc61e36c026d")
 	)
 	(wire
 		(pts
@@ -3853,16 +3884,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 45.72) (xy 113.03 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f2f26b8-7a3e-4a64-90ac-698669391594")
-	)
-	(wire
-		(pts
 			(xy 85.09 69.85) (xy 85.09 64.77)
 		)
 		(stroke
@@ -3943,13 +3964,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 45.72) (xy 146.05 48.26)
+			(xy 46.99 50.8) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87cafc03-a663-4e45-b2a2-081e77476c60")
+		(uuid "78c73407-7d1f-4df5-a05f-fb210256f5f3")
 	)
 	(wire
 		(pts
@@ -3990,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "90049271-21e8-4226-b95e-68acdab50586")
+	)
+	(wire
+		(pts
+			(xy 146.05 50.8) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bf1878-f902-4efa-bea8-112823b25a78")
 	)
 	(wire
 		(pts
@@ -4333,6 +4364,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 50.8) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4598f3f-203c-4ca9-ab7c-b3f7002b3fda")
+	)
+	(wire
+		(pts
 			(xy 151.13 64.77) (xy 153.67 64.77)
 		)
 		(stroke
@@ -4440,6 +4481,16 @@
 			(type default)
 		)
 		(uuid "fbd0cdba-27ce-48bd-8d5e-3da45870d0d3")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf56f91-9efc-4568-a95a-7a74f9fc5bbe")
 	)
 	(wire
 		(pts
@@ -4770,7 +4821,8 @@
 	)
 	(symbol
 		(lib_id "Stecker_2x7_VDC_:Stecker_2x7_VDC")
-		(at 49.53 114.3 0)
+		(at 49.53 111.76 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4778,10 +4830,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "097dd966-f360-4d47-b414-70f9306f5efc")
 		(property "Reference" "J8"
-			(at 55.88 113.0299 0)
+			(at 55.88 113.0301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4792,7 +4843,7 @@
 			)
 		)
 		(property "Value" "Stecker_2x7_VDC"
-			(at 40.894 102.616 0)
+			(at 40.894 123.444 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4855,7 @@
 			)
 		)
 		(property "Footprint" "PinHeader:PinHeader_2x07_P2.54mm_Vertical"
-			(at 48.26 111.76 0)
+			(at 48.26 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.055 111.125 0)
+			(at 59.055 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +4877,7 @@
 			)
 		)
 		(property "Description" "Stecker für In und Output sowie Switch"
-			(at 51.816 105.664 0)
+			(at 51.816 120.396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,6 +5057,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cab0f75-c3cf-4a05-9d27-630bfef3b269")
+		(property "Reference" "H1"
+			(at 99.06 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 99.06 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Pre_Amp_Front"
+				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Stecker_4In:Stecker_4In")
 		(at 49.53 156.21 0)
 		(unit 3)
@@ -5119,6 +5246,82 @@
 				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
 					(reference "J9")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234e4b8e-70cf-4dc4-88c3-b6504cd42d35")
+		(property "Reference" "H6"
+			(at 99.06 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 99.06 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Pre_Amp_Front"
+				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
+					(reference "H6")
+					(unit 1)
 				)
 			)
 		)
@@ -5281,6 +5484,82 @@
 			(project "Pre_Amp_Front"
 				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d99ad2-6543-4702-b3d0-55575996a959")
+		(property "Reference" "H2"
+			(at 99.06 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 99.06 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Pre_Amp_Front"
+				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5604,6 +5883,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f1a3811-a116-4e3a-af69-d3e112c9b664")
+		(property "Reference" "H3"
+			(at 99.06 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 99.06 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Pre_Amp_Front"
+				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Stecker_In_Out_Switch:Stecker_In_Out_Switch")
 		(at 85.09 34.29 0)
 		(unit 3)
@@ -5835,6 +6190,82 @@
 				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
 					(reference "J9")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7df310-b410-4906-b6d4-b7151ddd0f64")
+		(property "Reference" "H5"
+			(at 99.06 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 99.06 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Pre_Amp_Front"
+				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
+					(reference "H5")
+					(unit 1)
 				)
 			)
 		)
@@ -7679,6 +8110,82 @@
 				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
 					(reference "J10")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 96.52 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d04ceaf5-bea0-4887-8ad0-126e9bcc9a77")
+		(property "Reference" "H4"
+			(at 99.06 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 99.06 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Pre_Amp_Front"
+				(path "/e77a467f-fd1c-4119-9e61-a448a0d707dd"
+					(reference "H4")
+					(unit 1)
 				)
 			)
 		)
